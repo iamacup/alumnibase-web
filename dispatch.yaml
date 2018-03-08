@@ -1,4 +1,3 @@
-
 dispatch:
   - url: "beta-web.alumnibaseapp.com/*"
     service: web-dev
