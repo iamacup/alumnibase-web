@@ -89,13 +89,13 @@ nav {
   }
 
   .card-header {
-    background-color: #f7786b;
+    background-color: $color-peach;
     text-align: center;
     min-height: 10vh;
   }
 
   .card-header2 {
-    background-color: #91a8d0;
+    background-color: $color-lilac;
     padding-top: 2vh;
     text-align: center;
     min-height: 10vh;
@@ -105,14 +105,14 @@ nav {
     min-height: 10vh;
     padding-top: 2vh;
     text-align: center;
-    background-color: #034f84;
+    background-color: $color-blue;
   }
 
   .card-header4 {
     min-height: 10vh;
     padding-top: 2vh;
     text-align: center;
-    background-color: #f7cac9;
+    background-color: $color-pink;
   }
 
   .card {
@@ -176,14 +176,42 @@ nav {
   }
 }
 
-#virtuousCircle {
+.survey {
+  height: $secondary-page-height;
+  padding-top: 20px;
   background-color: #91a8d0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  #heading {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+  }
+
+  #image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 420px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  #textBox {
+    padding-top: 50px;
+  }
+}
+
+#virtuousCircle {
+  background-color: $color-peach;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #fff;
   padding: 5vh;
   height: 600px;
   margin-bottom: 10vh;
   text-align: center;
+
+  #heading {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+  }
 }
 
 #doItNow {
@@ -239,24 +267,6 @@ nav {
       border-style: solid;
       border-width: medium;
     }
-  }
-}
-
-.survey {
-  height: $secondary-page-height;
-  padding-top: 20px;
-  background-color: #91a8d0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  #image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 420px;
-    margin-top: 20px;
-    margin-left: 40px;
-  }
-
-  #textBox {
-    padding-top: 50px;
   }
 }
 
@@ -319,7 +329,7 @@ nav {
 }
 
 #bouncePoint {
-  background-color: #f7cac9;
+  background-color: $color-blue;
   border-radius: 25px;
   height: 60vh;
   width: 50vw;
@@ -363,12 +373,6 @@ nav {
 
 #aboutPage {
   padding-top: 10vh;
-  background-color: $secondary-grey;
-
-  #title {
-    font-weight: 600;
-    padding-bottom: 40px;
-  }
 }
 
 #benefitPage {
@@ -410,7 +414,7 @@ nav {
   }
 
   #meaningfulMarketing {
-    padding: 20px;
+    padding-bottom: 80px;
 
     #image {
       height: 50vh;
@@ -419,19 +423,81 @@ nav {
   }
 
   #alumniRelations {
+    background-color: $secondary-grey;
     padding: 20px;
+
+    #card {
+      margin-bottom: 20px;
+    }
+
+    #list {
+      width: 1000px;
+      margin-left: 60px;
+    }
+  }
+
+  #wideningAccess {
+    #textBox {
+      padding-bottom: 50px;
+      color: $secondary-blue;
+
+      #heading {
+        padding-bottom: 20px;
+        color: $secondary-blue;
+      }
+    }
   }
 }
 
 #dqPage {
   padding-top: 10vh;
+
+  #title {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    padding-left: 10vw;
+    padding-bottom: 40px;
+    color: #a3a3a3;
+  }
+
+  #student {
+    padding: 40px;
+
+    #card {
+      width: 1000px;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  #firstBox {
+    padding-top: 10px;
+    background-color: #f7786b;
+    height: 400px;
+  }
+
+  #analytics {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+    #card {
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
 }
 
 #legalPage {
   padding-top: 5vh;
+  display: flex;
+  justify-content: center;
 
   #wrapper {
     margin-top: 8vh;
     margin-bottom: 12vh;
+  }
+
+  #linkCard {
+    width: 850px;
   }
 }

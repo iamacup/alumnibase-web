@@ -15,15 +15,15 @@ class Survey extends React.Component {
           </div>
           <div className="col-4" id="textBox">
             <div style={{ color: '#fff', marginBottom: '30px' }}>
-              <h5>21st Century Surveying</h5>
+              <h5 id="heading">21st Century Surveying</h5>
               <h6>means surveys look good, results are returned immediately to respondents and the survey is customisable.</h6>
             </div>
             <div style={{ color: '#fff', marginBottom: '30px' }}>
-              <h5>Seed Survey with HE Data</h5>
+              <h5 id="heading">Seed Survey with HE Data</h5>
               <h6>Sharing some of your data with us can help optimise the survey or allow us to conduct the outreach for survey completion for you.</h6>
             </div>
             <div style={{ color: '#fff' }}>
-              <h5>Survey Only</h5>
+              <h5 id="heading">Survey Only</h5>
               <h6>It is possible to run the survey without increasing your GDPR responsibilities, as we form individual consenting relationships with survey respondents and pass the anonymised aggregate data back to you.</h6>
             </div>
           </div>

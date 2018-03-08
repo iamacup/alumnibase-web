@@ -8,13 +8,13 @@ class About extends React.Component {
   }
 
   render() {
-    // <img alt="logo" src={require('../../content/theme/custom/images/aboutPrinciples.png')} style={{ height: '20vh', width: '40vw' }} /><br />
     return (
       <div>
         <Navbar />
         <div className="container" id="aboutPage">
-          <h3 id="title">About Us</h3>
-          <h5>We have 3 core principles that guide our product and service</h5>
+          <h3 style={{ fontWeight: '600' }}>AlumniBase</h3>
+          <h4 style={{ fontWeight: '600', paddingBottom: '40px' }}>About Us</h4>
+          <h5>We have 3 core principles that guide our product and service.</h5>
           <div className="row justify-content-center">
             <div id="principles" className="card border-info mb-3" style={{ maxWidth: '18rem', marginRight: '15px' }}>
               <div className="card-header">1.</div>
