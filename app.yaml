@@ -1,0 +1,8 @@
+
+# [START app_yaml]
+runtime: nodejs
+env: flex
+service: web-prod
+manual_scaling:
+  instances: 1
+# [END app_yaml]

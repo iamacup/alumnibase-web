@@ -1,0 +1,7 @@
+dispatch:
+  - url: "beta-web.alumnibaseapp.com/*"
+    service: web-dev
+  - url: "alumnibaseapp.com/*"
+    service: web-prod
+  - url: "www.alumnibaseapp.com/*"
+    service: web-prod
