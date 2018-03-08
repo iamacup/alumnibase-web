@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"global",
+				"globalID"
+			],
+			[
+				"downlo",
+				"downloadLink"
+			],
+			[
+				"graph",
+				"graphTarget1"
+			],
+			[
+				"prefinal",
+				"preFinalSet2"
+			],
+			[
+				"preFinal",
+				"preFinalSet1"
+			],
+			[
+				"finalS",
+				"finalSet2"
+			],
+			[
+				"set1",
+				"set1Name"
+			],
+			[
+				"destination",
+				"Destinations"
+			],
+			[
+				"result",
+				"resultsArr"
+			],
+			[
+				"companyQuest",
+				"companyQuestionDB"
+			],
+			[
+				"religion",
+				"religionQuestion"
+			],
+			[
+				"disabiliti",
+				"dissabilities"
+			],
+			[
+				"nationality",
+				"nationality1"
+			],
+			[
+				"dataTAr",
+				"dataTargetfriendlyName"
+			],
+			[
+				"resul",
+				"resultsArr"
+			],
+			[
+				"pgOb",
+				"pgobj2"
+			],
+			[
+				"businessSubUnitQue",
+				"businessSubUnitQuestionsPreDelete"
+			],
+			[
+				"oldOptionIDM",
+				"oldOptionIDMappingPaygrade"
+			],
+			[
+				"paygradeQuestion",
+				"paygradeQuestionsPreDelete"
+			],
+			[
+				"paygradeQue",
+				"paygradeQuestionsPreDelete"
+			],
+			[
+				"paygradeq",
+				"paygradeQuestionsPreDelete"
+			],
+			[
+				"genderQ",
+				"genderQuestion"
+			],
+			[
+				"companyQue",
+				"companyQuestionPreDelete"
+			],
+			[
+				"startCele",
+				"startCeleryTask"
+			],
+			[
+				"start",
+				"stats_rand_ranf"
+			],
+			[
+				"oupt",
+				"outputAnswerStats"
+			],
+			[
+				"oldOptionID",
+				"oldOptionIDMapping"
+			],
+			[
+				"genderQues",
+				"genderQuestionPreDelete"
+			],
+			[
+				"genderQue",
+				"genderQuestionPreDelete"
+			],
+			[
+				"answerOpti",
+				"answerOptionValue"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 80 files for \"api.sl\"\n\n/Users/iamacup/Desktop/repos/alumnibase-web/src/content/scripts/custom/utilities/index.js:\n   14  \n   15    if (env === 'live') {\n   16:     return 'https://api.sliips.com/';\n   17    } else if (env === 'dev') {\n   18      return 'https://beta.sliips.com:5544/';\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 315,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/content/scripts/custom/utilities/index.js",
+			"settings":
+			{
+				"buffer_size": 12558,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/iamacup/Desktop/json/mj-alumnibase.json.base64",
+		"/Users/iamacup/Desktop/repos/default-app/app.yaml",
+		"/Users/iamacup/Desktop/repos/alumnibase-data/tools/webpack/config.babel.js",
+		"/Users/iamacup/Desktop/sliips-web/shippable.yml",
+		"/Users/iamacup/Desktop/repos/default-app/README.md",
+		"/Users/iamacup/Desktop/repos/default-app/package.json",
+		"/Users/iamacup/Desktop/repos/alumnibase-data/dispatch.yaml",
+		"/Users/iamacup/Desktop/repos/default-app/app.js",
+		"/Users/iamacup/Downloads/mj-alumnibase-c4c8502178f7.json",
+		"/Users/iamacup/Desktop/googleapp/nodejs-docs-samples/appengine/hello-world/app.yaml",
+		"/Users/iamacup/Desktop/repos/alumnibase-data/.circleci/config.yml",
+		"/Users/iamacup/Desktop/googleapp/nodejs-docs-samples/logging/README.md",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/scripts/custom/echarts/generators.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/23/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Fragments/Template/sidebar.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/bootstrap/AppGlobals/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/tools/webpack/config.babel.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/server.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/client.js",
+		"/Users/iamacup/Desktop/unnamed-ui/package.json",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/master/configuration/ui-deployment.yaml",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/dev/configuration/uni-ui-deployment.yaml",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/dev/configuration/ui-deployment.yaml",
+		"/Users/iamacup/Desktop/unnamed-ui/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/utils/utilityFunctions.js",
+		"/Users/iamacup/Desktop/sliips-ui/shippable.yml",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/environments/uni-ui/containers/ui/Dockerfile",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/scripts/build-and-deploy-scripts/rebuild-and-deploy-uni-ui.sh",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/environments/uni-ui/containers/ui-data/Dockerfile",
+		"/Users/iamacup/Desktop/sliips-ui/src/content/containers/Pages/Testing/HTML3/index.js",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration10.php",
+		"/Users/iamacup/Desktop/unnamed-ui/shippable.yml",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Fragments/Graphs/graph.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Fragments/Template/navbar.js",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/dev/configuration/uni-ui-service.yaml",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/theme/custom/scss/application.scss",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/bootstrap/IndexPlugins/index.js",
+		"/Users/iamacup/Desktop/sliips-ui/src/content/bootstrap/IndexPlugins/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/WideningParticipation/BME-POLAR3/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/WideningParticipation/BME-Economic/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/FurtherStudy/10-6-7-8-9/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/FurtherStudy/105/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/bootstrap/routes.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Fragments/Filters/standard.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/redux/globals/DataStoreSingle/actions.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/scripts/custom/utilities/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/theme/custom/scss/template-theme-override.scss",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/scripts/custom/echarts/utilities.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/bootstrap/vendorBundleList.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Fragments/Template/wrapper.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/CampaignOverview/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/NotFound/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/redux/globals/DataStoreMulti/actions.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Fragments/Template/aside.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/app/index.js",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/master/configuration/uni-ui-deployment.yaml",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/master/configuration/uni-ui-service.yaml",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/6/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/5/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/11/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/9/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/8/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/7/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/4/index.js",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/things.php",
+		"/Users/iamacup/Desktop/sliips-ui/package.json",
+		"/Users/iamacup/Desktop/unnamed-ui/src/foundation/redux/globals/DataStoreSingle/reducer.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Analytics/DHLE/index.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Main/index.js",
+		"/Users/iamacup/Desktop/nifty-v2.9/get-started/getstarted-expanded-navigation.html",
+		"/Users/iamacup/Desktop/unnamed-ui/.eslintignore",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/theme/custom/scss/variables.scss",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/bootstrap/reducers.js",
+		"/Users/iamacup/Desktop/unnamed-ui/nifty-v2.9/css-preprocessors/scss/_variables.scss",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Main/aside.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Main/navbar.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Main/sidebar.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Main/footer.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/containers/Pages/Main/content.js",
+		"/Users/iamacup/Desktop/nifty-v2.9/demo/index.html",
+		"/Users/iamacup/Desktop/nifty-v2.9/demo/js/nifty.js",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/nifty-v2.9/css-preprocessors/scss/nifty.scss",
+		"/Users/iamacup/Desktop/unnamed-ui/src/content/nifty-v2.9/css-preprocessors/scss/themes/type-e/theme-prickly-pear.scss",
+		"/Users/iamacup/Desktop/nifty-v2.9/get-started/css-preprocessors/scss/themes/type-e/theme-well-red.scss",
+		"/Users/iamacup/Desktop/nifty-v2.9/get-started/css/themes/type-a/theme-purple.min.css",
+		"/Users/iamacup/Desktop/nifty-v2.9/documentation/index.html",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseRepresentation/DatabaseQuestion.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseConnection/Arango/ArangoGeneral.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/QuestionsAdditionalData/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/OptionsFunction.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Dashboard/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/functions/question-functions.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration9.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/config/startup.php",
+		"/Users/iamacup/Desktop/sliips-docs/Box Sync/BoxSliips/Documentation/Technical/Docker/pull data container.md",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseConnection/Postgres/Postgres.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/database/query-utility.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Wizzard/WizzardUtility.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/functions/question-create-functions.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/General/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration8.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/Validators.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Wizzard/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/AnswerStats/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/UniversityWizzard/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Questions/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Company/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Dashboard/DashboardUtility.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/functions/messaging-functions.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration7.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseConnection/Arango/ArangoCreate.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseRepresentation/DatabaseQuestionFreeText.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/ValidationFunctions.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration5.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/actions/Authentication/index.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/nationality.json",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseRepresentation/DatabaseRootObject.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/engine/foundation/functions/utility-functions.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/Auth.class.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseRepresentation/DatabaseQuestionPostcode.class.php",
+		"/Users/iamacup/Desktop/sliips-web/configuration-items/kubenetes/dev/configuration/rabbitmq-deployment.yaml",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration6.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/utilities/migration5a.php",
+		"/Users/iamacup/Desktop/sliips-web/src/engine/foundation/database/general_utility.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/database/qa-utility.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/database/general-utility.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/functions/question-update-functions.php",
+		"/Users/iamacup/Desktop/sliips-web/src/content/classes/DatabaseRepresentation/DatabaseQuestionCurrencySalaryBonus.class.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"api.sl",
+			"alumnibase"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 315,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										190,
+										196
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/content/scripts/custom/utilities/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								631,
+								631
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "alumnibase-web.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
