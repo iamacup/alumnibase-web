@@ -3,7 +3,7 @@ import MainPage from '../../content/containers/Pages/Main/page1';
 import page2 from '../../content/containers/Pages/Main/page2';
 import AboutPage from '../components/about';
 import LegalPage from '../components/legal';
-import DataPage from '../components/dqPage';
+import DataPage from '../components/dataQuality';
 import BenefitsPage from '../components/benefits';
 import TodoPage from '../../content/containers/Pages/ToDo';
 import LoginPage from '../../content/containers/Pages/form';
@@ -13,12 +13,12 @@ import ListPage from '../../content/containers/Pages/form/List';
 
 export default [
   {
-    path: '/',
+    path: '/2',
     exact: true,
     component: MainPage,
   },
   {
-    path: '/2',
+    path: '/',
     exact: true,
     component: page2,
   },

@@ -8,34 +8,40 @@ class HowItWorks extends React.Component {
   render() {
     return (
       <div id="howItWorks2">
-        <h2 id="title">How it works</h2>
-        <div className="container" id="innerWrapper">
-          <div className="row justify-content-around" id="howItWorksRow">
-            <div className="col-sm">
-              <i id="icon" className="fal fa-pencil-alt" />
-              <h5>Survey Alumni</h5>
-            </div>
-            <i id="icon" className="far fa-long-arrow-right" style={{ paddingTop: '8vh' }} />
-            <div className="col-sm">
-              <i id="icon" className="fal fa-database" />
-              <h5>Analyse the Data</h5>
-            </div>
-            <i id="icon" className="far fa-long-arrow-right" style={{ paddingTop: '8vh' }} />
-            <div className="col-sm">
-              <i id="icon" className="fal fa-chart-line" />
-              <h5>Use in TEF</h5>
-              <h5>widening access etc.</h5>
-            </div>
-          </div>
-          <div className="row justify-content-around">
-            <div className="col-sm" style={{ paddingLeft: '9vw' }}>
-              <p>managed and analysed</p>
-              <p>Beautiful survey</p>
-              <p>for all generations</p>
-            </div>
-            <div className="col-sm" style={{ paddingRight: '10vw' }}>
-              <p>in our tool or</p>
-              <p>via expert to tableu etc.</p>
+        <div className="my-5 ml-5">
+          <h2 id="title">How it works</h2>
+        </div>
+        <div className="mb-5">
+          <div className="container" id="innerWrapper">
+            <div className="row justify-content-around" id="howItWorksRow">
+              <div className="col-md">
+                <div className="my-3">
+                  <i id="icon" className="fal fa-pencil-alt" />
+                </div>
+                <h5>Survey Alumni</h5>
+              </div>
+
+              <div className="col">
+                <i id="arrow1" className="far fa-long-arrow-right" style={{ paddingTop: '8vh' }} />
+                <p className="text-muted">managed and analysed Beautiful survey for all generations</p>
+              </div>
+              <div className="col-md">
+                <div className="my-3">
+                  <i id="icon" className="fal fa-database" />
+                </div>
+                <h5>Analyse the Data</h5>
+              </div>
+              <div className="col">
+                <i id="arrow1" className="far fa-long-arrow-right" style={{ paddingTop: '8vh' }} />
+                <p className="text-muted">in our tool or via expert to tableu etc.</p>
+              </div>
+              <div className="col-md">
+                <div className="my-3">
+                  <i id="icon" className="fal fa-chart-line" />
+                </div>
+                <h5>Use in TEF</h5>
+                <h5>widening access etc.</h5>
+              </div>
             </div>
           </div>
         </div>
