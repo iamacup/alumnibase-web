@@ -28,10 +28,9 @@
 
 .landingPage2 {
   background-image: url('../images/background.jpeg');
-  height: 80vh;
   background-size: cover;
   filter: grayscale(50%);
-  padding-top: 25vh;
+  padding-top: 20vh;
 
   .container {
     height: 50vh;
@@ -47,6 +46,20 @@
       font-weight: 900;
       letter-spacing: -0.02em;
       line-height: 1.2;
+    }
+
+    #box {
+      background-color: #fff;
+      border-radius: 5px;
+      opacity: 0.6;
+      width: 375px;
+    }
+
+    #box2 {
+      background-color: #fff;
+      border-radius: 5px;
+      opacity: 0.6;
+      width: 400px;
     }
   }
 
@@ -89,35 +102,27 @@ nav {
   }
 
   .card-header {
-    background-color: #f7786b;
+    background-color: $color-peach;
     text-align: center;
-    min-height: 10vh;
   }
 
   .card-header2 {
-    background-color: #91a8d0;
-    padding-top: 2vh;
+    background-color: $color-lilac;
     text-align: center;
-    min-height: 10vh;
   }
 
   .card-header3 {
-    min-height: 10vh;
-    padding-top: 2vh;
     text-align: center;
-    background-color: #034f84;
+    background-color: $color-blue;
   }
 
   .card-header4 {
-    min-height: 10vh;
-    padding-top: 2vh;
     text-align: center;
-    background-color: #f7cac9;
+    background-color: $color-pink;
   }
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 30vh;
   }
 
   #title {
@@ -128,43 +133,13 @@ nav {
 }
 
 .whatWeDo2 {
-  height: 700px;
-
   #topRow {
     padding-top: 2vh;
     padding-bottom: 5vh;
   }
 
-  .card-header {
-    background-color: #f7786b;
-    text-align: center;
-    min-height: 10vh;
-  }
-
-  .card-header2 {
-    background-color: #91a8d0;
-    padding-top: 2vh;
-    text-align: center;
-    min-height: 10vh;
-  }
-
-  .card-header3 {
-    min-height: 10vh;
-    padding-top: 2vh;
-    text-align: center;
-    background-color: #034f84;
-  }
-
-  .card-header4 {
-    min-height: 10vh;
-    padding-top: 2vh;
-    text-align: center;
-    background-color: #f7cac9;
-  }
-
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 40vh;
   }
 
   #title {
@@ -176,14 +151,29 @@ nav {
   }
 }
 
-#virtuousCircle {
+.survey {
   background-color: #91a8d0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  #heading {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+  }
+
+  #image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+#virtuousCircle {
+  background-color: $color-peach;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: #fff;
-  padding: 5vh;
-  height: 600px;
-  margin-bottom: 10vh;
-  text-align: center;
+
+  #heading {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+  }
 }
 
 #doItNow {
@@ -212,51 +202,53 @@ nav {
   }
 }
 
-#howItWorks2 {
-  height: $secondary-page-height;
+.header-image {
+  margin: 0 40%;
 
+  @media (min-width: 576px) {
+    margin: 0;
+  }
+}
+
+#howItWorks2 {
   #title {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     font-weight: 600;
-    padding-left: 10vw;
     color: #a3a3a3;
   }
 
   #icon {
     font-size: 36px;
-    padding: 20px;
     color: $secondary-blue;
+  }
+
+  #arrow1 {
+    font-size: 36px;
+    color: $secondary-blue;
+    display: none;
+  }
+
+  #arrow2 {
+    display: block;
+  }
+
+  @media (min-width: 768px) {
+    #arrow1 {
+      display: block;
+    }
+
+    #arrow2 {
+      display: none;
+    }
   }
 
   #innerWrapper {
     text-align: center;
 
-    #howItWorksRow {
-      padding-top: 4vh;
-    }
-
     #description {
       border-style: solid;
       border-width: medium;
     }
-  }
-}
-
-.survey {
-  height: $secondary-page-height;
-  padding-top: 20px;
-  background-color: #91a8d0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-  #image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 420px;
-    margin-top: 20px;
-    margin-left: 40px;
-  }
-
-  #textBox {
-    padding-top: 50px;
   }
 }
 
@@ -286,8 +278,6 @@ nav {
 }
 
 .footer {
-  padding-top: 7%;
-  height: 400px;
   background-color: $dark-color;
 
   h5 {
@@ -313,31 +303,26 @@ nav {
   }
 }
 
-#inputForm2 {
-  width: 25vw;
-  padding-top: 2vh;
-}
-
 #bouncePoint {
-  background-color: #f7cac9;
+  background-color: $color-blue;
   border-radius: 25px;
-  height: 60vh;
-  width: 50vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+  .carousel-margin {
+    margin-top: 3%;
+  }
+
   .carousel-inner {
-    height: 60vh;
     color: #fff;
-    padding-top: 13vh;
+    margin: 6% 0;
+    height: 500px;
   }
 }
 
 .questions {
   height: $secondary-page-height;
   padding-top: 10vh;
-  background-color: #034f84;
+  background-color: $secondary-blue;
   text-align: center;
 
   h4 {
@@ -354,84 +339,114 @@ nav {
 }
 
 .questions2 {
-  height: $secondary-page-height;
-  background-color: $primary-grey;
-  padding-top: 10vh;
+  background-color: $secondary-blue;
   text-align: center;
   color: #fff;
 }
 
 #aboutPage {
   padding-top: 10vh;
-  background-color: $secondary-grey;
-
-  #title {
-    font-weight: 600;
-    padding-bottom: 40px;
-  }
 }
 
 #benefitPage {
   padding-top: 13vh;
-  padding-bottom: 10vh;
-  margin: auto;
 
   #title {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     font-weight: 600;
-    padding-left: 10vw;
-    padding-bottom: 40px;
     color: #a3a3a3;
+    text-align: center;
+  }
+
+  #intro {
+    text-align: center;
+    color: #fff;
   }
 
   #subHeading {
     text-align: left;
-    margin-top: 10px;
-    margin-left: 250px;
-    margin-bottom: 20px;
   }
 
   #TEF {
-    padding: 20px;
     text-align: center;
     background-color: $secondary-grey;
 
     #image {
-      margin-bottom: 10px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      height: 35vh;
-      width: 30vw;
     }
 
     #card {
-      margin: 10px;
       text-align: left;
     }
   }
 
-  #meaningfulMarketing {
-    padding: 20px;
-
-    #image {
-      height: 50vh;
-      width: 50vw;
-    }
+  #marketing {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+    background-color: #034f84;
+    color: #fff;
   }
 
   #alumniRelations {
-    padding: 20px;
+    background-color: $secondary-grey;
   }
+
+  #wideningAccess {
+    #textBox {
+      color: $secondary-blue;
+
+      #heading {
+        color: $secondary-blue;
+      }
+    }
+  }
+}
+
+.benefit-introduction {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: $color-blue;
 }
 
 #dqPage {
   padding-top: 10vh;
+
+  #title {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    color: #a3a3a3;
+  }
+
+  #student {
+    #card {
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  #firstBox {
+    background-color: #f7786b;
+  }
+
+  #analytics {
+    display: flex;
+    justify-content: center;
+
+    #card {
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  }
 }
 
 #legalPage {
   padding-top: 5vh;
+  display: flex;
+  justify-content: center;
 
   #wrapper {
     margin-top: 8vh;
     margin-bottom: 12vh;
+  }
+
+  #linkCard {
+    width: 850px;
   }
 }

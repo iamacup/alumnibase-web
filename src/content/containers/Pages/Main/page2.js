@@ -21,7 +21,6 @@ class page1 extends React.Component {
         <Survey />
         <BouncePoint />
         <Questions />
-        <h5 hidden id="contact">contact</h5>
         <Footer />
       </div>
     );
