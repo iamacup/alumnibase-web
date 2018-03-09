@@ -13,12 +13,12 @@ import ListPage from '../../content/containers/Pages/form/List';
 
 export default [
   {
-    path: '/',
+    path: '/2',
     exact: true,
     component: MainPage,
   },
   {
-    path: '/2',
+    path: '/',
     exact: true,
     component: page2,
   },

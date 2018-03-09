@@ -13,6 +13,10 @@ class Benefits extends React.Component {
         <Navbar />
         <div id="benefitPage">
           <h3 id="title">Why AlumniBase?</h3>
+          <p>For us, a lifetime of possibilities means a lifetime of outcomes – and AlumniBase is designed to give insights across the full career of alumni on both financial and non-financial metrics.
+Understanding these has a wide range of benefits that have multiple uses across a university.
+          </p>
+          <img alt="funnel" src={require('../theme/custom/images/benefitsFunnel.png')} style={{ height: '600px' }} />
           <div id="mainContainer">
             <div id="TEF">
               <h3 id="subHeading">Teaching Excellence Framework</h3>
