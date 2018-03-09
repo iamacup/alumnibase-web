@@ -9,8 +9,10 @@ class WhatWeDo extends React.Component {
     return (
       <div className="whatWeDo2">
 
-        <h2 id="title">What we do</h2>
         <div className="container">
+          <div className="row justify-content-center py-5">
+            <h2 id="title">What we do</h2>
+          </div>
           <div className="row">
             <div className="col-md-6 col-lg d-flex align-items-stretch">
               <div className="card mt-4 mt-md-0">

@@ -8,7 +8,7 @@ class Questions extends React.Component {
   render() {
     return (
       <div className="questions2 p-4">
-        <h4 style={{ fontWeight: '600' }}>Still have questions?</h4>
+        <h4 id="title">Still have questions?</h4>
         <div className="container">
           <div className="row justify-content-center">
 

@@ -20,8 +20,8 @@ class Landingpage extends React.Component {
             <div className="p-1" id="box2">
               <h3>Big Data and Joined Up Reporting</h3>
             </div>
-            <hr style={{ width: '40vw' }} />
           </div>
+          <hr style={{ width: '40vw' }} />
         </div>
       </div>
     );
