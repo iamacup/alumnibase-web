@@ -8,7 +8,7 @@ class DataQualityPage extends React.Component {
       <div>
         <Navbar />
         <div id="dqPage">
-          <h3 id="title">Data Quality</h3>
+          <h3 id="title">Data Insights</h3>
           <div id="firstBox">
             <div className="container" id="analytics">
               <div className="card" id="card" style={{ width: '36rem' }}>
