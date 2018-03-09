@@ -19,7 +19,7 @@ class Navbar extends React.Component {
               <a className="nav-link" href="/benefits">Benefits</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/data">Data Quality</a>
+              <a className="nav-link" href="/data">The Analytics</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/legal">Compliance & Legal</a>
