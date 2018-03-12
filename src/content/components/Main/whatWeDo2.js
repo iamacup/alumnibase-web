@@ -18,7 +18,7 @@ class WhatWeDo extends React.Component {
               <div className="card mt-4 mt-md-0">
                 <div className="card-header" style={{ backgroundColor: '#f7786b' }}>
                   <div style={{ margin: '0 30%' }}>
-                    <img className="img-fluid" alt="logo" src={require('../../content/theme/custom/images/TEF.png')} />
+                    <img className="img-fluid" alt="logo" src={require('../../../content/theme/custom/images/TEF.png')} />
                   </div>
                 </div>
                 <div className="p-3">
@@ -31,7 +31,7 @@ class WhatWeDo extends React.Component {
               <div className="card mt-4 mt-md-0">
                 <div className="card-header" style={{ backgroundColor: '#91a8d0' }}>
                   <div style={{ margin: '0 30%' }}>
-                    <img className="img-fluid" alt="logo" src={require('../../content/theme/custom/images/alumni.png')} />
+                    <img className="img-fluid" alt="logo" src={require('../../../content/theme/custom/images/alumni.png')} />
                   </div>
                 </div>
                 <div className="p-3">
@@ -44,7 +44,7 @@ class WhatWeDo extends React.Component {
               <div className="card mt-4 mt-lg-0">
                 <div className="card-header" style={{ backgroundColor: '#034f84' }}>
                   <div style={{ margin: '0 30%' }}>
-                    <img className="img-fluid" alt="logo" src={require('../../content/theme/custom/images/lifelong.png')} />
+                    <img className="img-fluid" alt="logo" src={require('../../../content/theme/custom/images/lifelong.png')} />
                   </div>
                 </div>
                 <div className="p-3">
@@ -57,7 +57,7 @@ class WhatWeDo extends React.Component {
               <div className="card mt-4 mt-lg-0">
                 <div className="card-header" style={{ backgroundColor: '#f7cac9' }}>
                   <div style={{ margin: '0 30%' }}>
-                    <img className="img-fluid" alt="logo" src={require('../../content/theme/custom/images/recruitment.png')} />
+                    <img className="img-fluid" alt="logo" src={require('../../../content/theme/custom/images/recruitment.png')} />
                   </div>
                 </div>
                 <div className="p-3">

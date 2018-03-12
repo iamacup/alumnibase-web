@@ -8,7 +8,7 @@ class HowItWorks extends React.Component {
   render() {
     return (
       <div id="howItWorks2">
-        <div className="row justify-content-center py-5">
+        <div className="my-5" style={{ textAlign: 'center' }}>
           <h2 id="title">How it works</h2>
         </div>
         <div className="mb-5">
