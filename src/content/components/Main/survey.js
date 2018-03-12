@@ -8,7 +8,7 @@ class Survey extends React.Component {
           <div className="row">
 
             <div className="offset-md-1 col-lg-4 d-flex align-items-center">
-              <img className="img-fluid" id="image" alt="survey" src={require('../theme/custom/images/survey.png')} />
+              <img className="img-fluid" id="image" alt="survey" src={require('../../theme/custom/images/survey.png')} />
             </div>
 
             {/* Start of column 2 outer */}
@@ -19,7 +19,7 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2  d-flex align-items-center">
                     <div className="header-image">
-                      <img className="img-fluid" alt="survey" src={require('../theme/custom/images/surveyResults.png')} />
+                      <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyResults.png')} />
                     </div>
                   </div>
 
@@ -34,7 +34,7 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 d-flex align-items-center">
                     <div className="header-image">
-                      <img className="img-fluid" alt="survey" src={require('../theme/custom/images/seedSurvey.png')} />
+                      <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/seedSurvey.png')} />
                     </div>
                   </div>
                   <div className="col-sm-8 text-center text-sm-left">
@@ -48,7 +48,7 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 d-flex align-items-center">
                     <div className="header-image">
-                      <img className="img-fluid" alt="survey" src={require('../theme/custom/images/surveyOnly.png')} />
+                      <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyOnly.png')} />
                     </div>
                   </div>
                   <div className="col-sm-8 text-center text-sm-left">

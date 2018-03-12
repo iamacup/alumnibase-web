@@ -1,13 +1,13 @@
 import React from 'react';
-import LandingPage from '../../../components/landingPage';
-import Navbar from '../../../components/navbar';
-import WhatWeDo from '../../../components/whatWeDo';
-import HowItWorks from '../../../components/howItWorks';
-import Questions from '../../../components/questions';
-// import DoItNow from '../../../components/doItNow';
-import Footer from '../../../components/footer';
-import BouncePoint from '../../../components/bouncePoint';
-import CallToAction from '../../../components/callToAction';
+import LandingPage from '../../../components/Main2/landingPage';
+import Navbar from '../../../components/Main2/navbar';
+import WhatWeDo from '../../../components/Main2/whatWeDo';
+import HowItWorks from '../../../components/Main2/howItWorks';
+import Questions from '../../../components/Main2/questions';
+// import DoItNow from '../../../components/Main2/doItNow';
+import Footer from '../../../components/Main/footer';
+import BouncePoint from '../../../components/Main2/bouncePoint';
+import CallToAction from '../../../components/Main2/callToAction';
 
 class page1 extends React.Component {
   render() {

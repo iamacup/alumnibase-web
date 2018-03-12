@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './navbar2';
-import Footer from './footer';
+import Navbar from '../Main/navbar2';
+import Footer from '../Main/footer';
 
 class DataQualityPage extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class DataQualityPage extends React.Component {
           <div className="mb-5">
             <div className="row justify-content-center" id="student">
               <div className="col-md-2">
-                <img alt="student" src={require('../theme/custom/images/singleStudent.png')} style={{ height: '200px' }} />
+                <img alt="student" src={require('../../theme/custom/images/singleStudent.png')} style={{ height: '200px' }} />
               </div>
               <div className="col-8">
 
@@ -54,7 +54,7 @@ Generating a full view of students enables understanding the full cycle of a stu
             <div id="secondBox">
               <div className="container" id="analytics">
                 <div className="card" id="card" style={{ width: '36rem' }}>
-                  <img className="card-img-top" src={require('../theme/custom/images/dataAnalytics.png')} alt="Card cap" />
+                  <img className="card-img-top" src={require('../../theme/custom/images/dataAnalytics.png')} alt="Card cap" />
                   <div className="card-body">
                     <h5 className="card-title">Analytics</h5>
                     <p className="card-text">Fully GDPR Compliant Solution means aggregate results are returned in a web portal that splits relevant information up for appropriate departments/ activities.</p>

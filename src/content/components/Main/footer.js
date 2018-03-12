@@ -9,7 +9,7 @@ class Footer extends React.Component {
 
             <div className="col-md">
               <div className="my-4">
-                <img alt="logo" src={require('../../content/theme/custom/images/AB_white_300px_150ppi.png')} width="250" height="auto" />
+                <img alt="logo" src={require('../../../content/theme/custom/images/AB_white_300px_150ppi.png')} width="250" height="auto" />
               </div>
             </div>
 
@@ -18,7 +18,7 @@ class Footer extends React.Component {
                 <h5>Alumni Base</h5>
                 <a href="/about">About Us</a><br />
                 <a href="/benefits">Benefits</a><br />
-                <a href="/data">Data Quality</a><br />
+                <a href="/data">Data Insights</a><br />
                 <a href="/legal">Compliance & Legal</a>
               </div>
             </div>
@@ -26,7 +26,7 @@ class Footer extends React.Component {
             <div id="legals" className="col">
               <div className="mt-4">
                 <h5>Legal</h5>
-                <a>GDPR</a>
+                <a href="/legal">GDPR</a>
               </div>
             </div>
 

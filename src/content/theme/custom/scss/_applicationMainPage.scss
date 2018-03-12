@@ -353,35 +353,49 @@ nav {
 }
 
 #benefitPage {
-  padding-top: 100px;
+  padding-top: 78px;
+  background-color: $secondary-grey;
+
+  #heading {
+    background-color: $color-blue;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
   #title {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     font-weight: 600;
-    color: #a3a3a3;
+    color: #fff;
     text-align: center;
   }
 
   #intro {
     text-align: center;
     color: #fff;
+
+    #intro-image {
+      width: 100vw;
+    }
   }
 
   #subHeading {
-    text-align: left;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
   }
 
   #TEF {
     text-align: center;
-    background-color: $secondary-grey;
+    background-color: #fff;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
-    #image {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    #card {
-      text-align: left;
-    }
+  .tef-box {
+    border-radius: 25%;
+    height: 280px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   #marketing {
@@ -391,24 +405,24 @@ nav {
     color: #fff;
   }
 
-  #alumniRelations {
-    background-color: $secondary-grey;
+  .alumniRelations {
+    background-color: #fff;
   }
 
-  #wideningAccess {
-    #textBox {
-      color: $secondary-blue;
+  .wideningParticipation {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
 
-      #heading {
-        color: $secondary-blue;
-      }
+    #percent {
+      color: #0050bd;
     }
   }
-}
 
-.benefit-introduction {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: $color-blue;
+  #careers {
+    background-color: #fff;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
 
 #dqPage {
@@ -440,10 +454,32 @@ nav {
   }
 }
 
+#dataInsights {
+  padding-top: 100px;
+  background-color: $secondary-grey;
+
+  #title {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    color: #a3a3a3;
+  }
+
+  #socialMobility {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+    background-color: #fff;
+  }
+
+  #surveyData {
+    background-color: #fff;
+  }
+}
+
 #legalPage {
   padding-top: 100px;
   display: flex;
   justify-content: center;
+  background-color: $secondary-grey;
 
   #wrapper {
     margin-top: 8vh;

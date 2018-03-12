@@ -26,7 +26,7 @@ class VirtuousCircle extends React.Component {
             <div className="col-4">
               <div className="d-none d-lg-block">
                 <div className="m-3">
-                  <img className="img-fluid" alt="logo" src={require('../../content/theme/custom/images/virtuousCircle.png')} />
+                  <img className="img-fluid" alt="logo" src={require('../../../content/theme/custom/images/virtuousCircle.png')} />
                 </div>
               </div>
             </div>

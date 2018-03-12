@@ -16,7 +16,7 @@ class WhatWeDo extends React.Component {
             <div className="col-4">
               <div className="card" style={{ width: '18rem' }}>
                 <div className="card-header">
-                  <img className="card-img-top" alt="logo" src={require('../../content/theme/custom/images/TEF.png')} style={{ width: '6vw' }} /><br />
+                  <img className="card-img-top" alt="logo" src={require('../../../content/theme/custom/images/TEF.png')} style={{ width: '6vw' }} /><br />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Teaching Excellence Framework</h5>
@@ -28,7 +28,7 @@ class WhatWeDo extends React.Component {
             <div className="col-4">
               <div className="card" style={{ width: '18rem' }}>
                 <div className="card-header2">
-                  <img className="card-img-top" alt="logo" src={require('../../content/theme/custom/images/alumni.png')} style={{ width: '5vw' }} /><br />
+                  <img className="card-img-top" alt="logo" src={require('../../../content/theme/custom/images/alumni.png')} style={{ width: '5vw' }} /><br />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Understanding Alumni</h5>
@@ -43,7 +43,7 @@ class WhatWeDo extends React.Component {
             <div className="col-4">
               <div className="card" style={{ width: '18rem' }}>
                 <div className="card-header3">
-                  <img alt="logo" src={require('../../content/theme/custom/images/lifelong.png')} style={{ width: '5vw' }} /><br />
+                  <img alt="logo" src={require('../../../content/theme/custom/images/lifelong.png')} style={{ width: '5vw' }} /><br />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Lifelong Value of a Degree</h5>
@@ -55,7 +55,7 @@ class WhatWeDo extends React.Component {
             <div className="col-4">
               <div className="card" style={{ width: '18rem' }}>
                 <div className="card-header4">
-                  <img alt="logo" src={require('../../content/theme/custom/images/recruitment.png')} style={{ width: '5vw' }} />
+                  <img alt="logo" src={require('../../../content/theme/custom/images/recruitment.png')} style={{ width: '5vw' }} />
                 </div>
                 <div className="card-body">
                   <h5 className="card-title">Student Recruitment</h5>
