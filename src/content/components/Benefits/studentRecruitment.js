@@ -9,9 +9,9 @@ class StudentRecruitment extends React.Component {
             <h3 id="subHeading">Student Recruitment</h3>
           </div>
         </div>
-        <div className="row d-flex justify-content-center">
-          <div className="col-lg-4 d-flex align-self-center justify-content-center">
-            <img className="img-fluid" src={require('../../theme/custom/images/recruitment2.png')} alt="recruitment" style={{ height: '350px' }} />
+        <div className="row d-flex justify-content-center align-items-center">
+          <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.25s">
+            <img className="img-fluid" src={require('../../theme/custom/images/recruitment2.png')} alt="recruitment" style={{ height: '250px' }} />
           </div>
           <div className="col-lg-8 p-sm-5">
             <h5>

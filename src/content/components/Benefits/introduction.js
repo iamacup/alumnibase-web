@@ -19,7 +19,9 @@ class Introduction extends React.Component {
 
           <div className="benefits-intro">
             <div className="row justify-content-center">
-              <i style={{ fontSize: '7em' }} className="fal fa-users" />
+              <div className="wow fadeInDown" data-wow-duration="1.0s" data-wow-delay="0.25s">
+                <i style={{ fontSize: '7em' }} className="fal fa-users" />
+              </div>
             </div>
             <div className="row justify-content-center">
               <h2 style={{ position: 'absolute' }}>AB</h2>

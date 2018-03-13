@@ -16,7 +16,9 @@ class HowItWorks extends React.Component {
             <div className="row justify-content-around" id="howItWorksRow">
               <div className="col-md">
                 <div className="my-3">
-                  <i id="icon" className="fal fa-pencil-alt" />
+                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.50s">
+                    <i id="icon" className="fal fa-pencil-alt" />
+                  </div>
                 </div>
                 <h5>Survey Alumni</h5>
               </div>
@@ -27,7 +29,10 @@ class HowItWorks extends React.Component {
               </div>
               <div className="col-md">
                 <div className="my-3">
-                  <i id="icon" className="fal fa-database" />
+                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
+
+                    <i id="icon" className="fal fa-database" />
+                  </div>
                 </div>
                 <h5>Analyse the Data</h5>
               </div>
@@ -37,7 +42,10 @@ class HowItWorks extends React.Component {
               </div>
               <div className="col-md">
                 <div className="my-3">
-                  <i id="icon" className="fal fa-chart-line" />
+                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.0s">
+
+                    <i id="icon" className="fal fa-chart-line" />
+                  </div>
                 </div>
                 <h5>Use in TEF</h5>
                 <h5>widening access etc.</h5>

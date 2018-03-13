@@ -17,9 +17,11 @@ class Survey extends React.Component {
 
               <div className="my-4">
                 <div className="row">
-                  <div className="col-sm-2  d-flex align-items-center">
+                  <div className="col-sm-2 p-2 d-flex align-items-center">
                     <div className="header-image">
-                      <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyResults.png')} />
+                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.50s">
+                        <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyResults.png')} />
+                      </div>
                     </div>
                   </div>
 
@@ -34,7 +36,9 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 d-flex align-items-center">
                     <div className="header-image">
-                      <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/seedSurvey.png')} />
+                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
+                        <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/seedSurvey.png')} />
+                      </div>
                     </div>
                   </div>
                   <div className="col-sm-8 text-center text-sm-left">
@@ -48,7 +52,9 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 d-flex align-items-center">
                     <div className="header-image">
-                      <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyOnly.png')} />
+                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.0s">
+                        <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyOnly.png')} />
+                      </div>
                     </div>
                   </div>
                   <div className="col-sm-8 text-center text-sm-left">
