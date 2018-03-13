@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
 
-import { whenLoaded } from '../../../content/scripts/custom/utilities';
+import { whenLoaded, enableWOW } from '../../../content/scripts/custom/utilities';
 
 import '../../../content/theme/custom/scss/application.scss';
 
@@ -13,6 +13,8 @@ class App extends React.Component {
   componentDidMount() {
     whenLoaded(() => {
       require('animate.css');
+
+      enableWOW();
     });
   }
 

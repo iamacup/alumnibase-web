@@ -15,25 +15,35 @@ class WideningParticipation extends React.Component {
           <div className="row justify-content-center text-center my-5 pt-5">
 
             <div className="col">
-              <h5 id="percent" >29%</h5>
-              <h6 className="text-muted">Of all entrants were BME students</h6>
+              <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.25s">
+                <h5 id="percent" >29%</h5>
+                <h6 className="text-muted">Of all entrants were BME students</h6>
+              </div>
             </div>
 
             <div className="col">
-              <h5 id="percent">56%</h5>
-              <h6 className="text-muted">Of Full Time first degree students are women</h6>
+              <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.30s">
+                <h5 id="percent">56%</h5>
+                <h6 className="text-muted">Of Full Time first degree students are women</h6>
+              </div>
             </div>
             <div className="col">
-              <h5 id="percent">11.3%</h5>
-              <h6 className="text-muted">Mature students leave after year one</h6>
+              <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.35s">
+                <h5 id="percent">11.3%</h5>
+                <h6 className="text-muted">Mature students leave after year one</h6>
+              </div>
             </div>
             <div className="col">
-              <h5 id="percent">220%</h5>
-              <h6 className="text-muted">More students with a known mental health condition since 2010-11</h6>
+              <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.40s">
+                <h5 id="percent">220%</h5>
+                <h6 className="text-muted">More students with a known mental health condition since 2010-11</h6>
+              </div>
             </div>
             <div className="col">
-              <h5 id="percent">4.6%</h5>
-              <h6 className="text-muted">Increase in students from POLAR quintile 1</h6>
+              <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.45s">
+                <h5 id="percent">4.6%</h5>
+                <h6 className="text-muted">Increase in students from POLAR quintile 1</h6>
+              </div>
             </div>
           </div>
           <div className="row justify-content-end">
