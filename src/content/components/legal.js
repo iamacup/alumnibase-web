@@ -15,12 +15,9 @@ class Legal extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title">GDPR</h5>
                   <h6 className="card-subtitle mb-2 text-muted">GDPR Compliant</h6>
-                  <p className="card-text">Alumni Base is fully GDPR Compliant and can be implemented without increasing a Universities' GDPR responsabilities at all.</p>
-                  <ul>
-                    <li>Our tool is completely GDPR compliant and protecting alumni data is our primary data objective</li>
-                    <li>Alumni Base holds the Personal Information and passes you the aggregate, which isn't considered Personal Information.</li>
-                    <li>Optimising the survey by sharing some alumni information with us is possible under GDPR</li>
-                  </ul>
+                  <p className="card-text">AlumniBase is designed to be fully GDPR compliant and to provide this useful data without increasing a universities data protection responsibilities.</p>
+                  <p className="card-text">From communication with alumni to returning useable insights, please get in touch to find out more about how we deliver the GDPR logistics in addition to the data.
+                  </p>
                 </div>
               </div>
             </div>
