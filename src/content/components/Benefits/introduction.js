@@ -28,21 +28,11 @@ class Introduction extends React.Component {
               </div>
             </div>
             <div className="row d-flex justify-content-center mb-5">
-              <div className="col-xl d-flex justify-content-center mb-1">
-                <a id="button" className="btn btn-light" href="#TEF" role="button">Teaching Excellence Framework</a>
-              </div>
-              <div className="col-xl d-flex justify-content-center mb-1">
-                <a id="button" className="btn btn-light" href="#widening" role="button">Widening Participation</a>
-              </div>
-              <div className="col-xl d-flex justify-content-center mb-1">
-                <a id="button" className="btn btn-light" href="#student" role="button">Student Recruitment</a>
-              </div>
-              <div className="col-xl d-flex justify-content-center mb-1">
-                <a id="button" className="btn btn-light" href="#careers" role="button">Careers</a>
-              </div>
-              <div className="col-xl d-flex justify-content-center mb-1">
-                <a id="button" className="btn btn-light" href="#alumniRelations" role="button">Alumni Outreach</a>
-              </div>
+              <a id="button" className="btn btn-light" href="#TEF" role="button">Teaching Excellence Framework</a>
+              <a id="button" className="btn btn-light" href="#widening" role="button">Widening Participation</a>
+              <a id="button" className="btn btn-light" href="#student" role="button">Student Recruitment</a>
+              <a id="button" className="btn btn-light" href="#careers" role="button">Careers</a>
+              <a id="button" className="btn btn-light" href="#alumniRelations" role="button">Alumni Outreach</a>
             </div>
           </div>
 

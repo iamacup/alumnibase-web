@@ -1,10 +1,7 @@
 import React from 'react';
+import Form from './form';
 
 class Questions extends React.Component {
-  handleEmail(e) {
-    console.log('emailButton');
-  }
-
   render() {
     return (
       <div className="questions2 p-4">
@@ -13,14 +10,7 @@ class Questions extends React.Component {
           <div className="row justify-content-center">
 
             <div className="col-sm-4 order-sm-12 my-4">
-              <label htmlFor="exampleInputEmail1" style={{ fontWeight: '600' }}>Email us</label>
-              <div className="mb-2">
-                <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Your Email" />
-              </div>
-              <div className="mb-2">
-                <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Comments" rows="3" />
-              </div>
-              <button type="button" className="btn btn-outline-light" onClick={e => this.handleEmail(e)}>Send</button>
+              <Form />
             </div>
 
             <div className="col-sm-4 order-sm-1 my-4">

@@ -6,15 +6,15 @@ class TEF extends React.Component {
 
       <div className="container mt-5 p-5" id="TEF">
 
-        <div className="mb-5">
+        <div className="row justify-content-center mb-5">
           <h3 id="subHeading">Teaching Excellence Framework</h3>
         </div>
 
-        <div className="row">
-          <div className="col-lg-6" >
+        <div className="row d-flex justify-content-center">
+          <div className="col-lg-7 p-5">
             <img className="img-fluid" id="image" alt="logo" src={require('../../../content/theme/custom/images/benefitTEF.png')} />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-4 pt-5 d-flex align-content-center">
 
             <div className="tef-box pt-5 mt-3">
               <h5 id="subHeading">Did You Know?</h5>

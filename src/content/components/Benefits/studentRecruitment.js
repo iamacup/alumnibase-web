@@ -9,11 +9,11 @@ class StudentRecruitment extends React.Component {
             <h3 id="subHeading">Student Recruitment</h3>
           </div>
         </div>
-        <div className="row justify-content-center m-5">
-          <div className="col-4">
-            <img src={require('../../theme/custom/images/recruitment2.png')} alt="recruitment" />
+        <div className="row d-flex justify-content-center">
+          <div className="col-lg-4 d-flex align-self-center justify-content-center">
+            <img className="img-fluid" src={require('../../theme/custom/images/recruitment2.png')} alt="recruitment" style={{ height: '350px' }} />
           </div>
-          <div className="col-8">
+          <div className="col-lg-8 p-sm-5">
             <h5>
               The narrative around universities has undoubtedly soured over the past year. Tuition fees, maintenance loans and grants have changed dramatically.
             </h5>

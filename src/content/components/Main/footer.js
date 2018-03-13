@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from './form';
 
 class Footer extends React.Component {
   render() {
@@ -33,19 +34,24 @@ class Footer extends React.Component {
             <div id="contact" className="col">
               <div className="mt-4">
                 <h5>Contact Us</h5>
-                <i className="far fa-envelope" />
-                <a href="mailto:hello@Sliips.com?Subject=Hello">hello@Sliips.com</a><br />
-                <i className="fab fa-twitter" />
-                <a href="https://www.twitter.com/paySliips">@paySliips</a>
+                <i style={{ marginRight: '10px' }} className="far fa-envelope" />
+                <a href="mailto:hello@alumnibaseapp.com?Subject=Hello">hello@alumnibaseapp.com</a><br />
               </div>
             </div>
 
-            <div id="copyright" className="col-md">
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-md">
+
+              <Form />
+            </div>
+            <div id="copyright" className="col-md text-right">
               <div className="mt-4">
-                <p>Copyright © 2014-2018, Sliips LTD.</p>
+                <p>Copyright © 2017-2018, Sliips LTD.</p>
                 <p>All rights reserved. Various trademarks held by their respective owners.</p>
               </div>
             </div>
+
           </div>
         </div>
       </div>

@@ -31,13 +31,13 @@ class Legal extends React.Component {
                   <li className="list-group-item">
                     <div className="card-body">
                       <p className="card-text">The T's & C's details what you can, and cannot do with the data within our platform, among other things.</p>
-                      <h7 className="card-title"><a href="/terms">Terms & Conditions</a></h7>
+                      <h7 className="card-title text-muted">Coming Soon</h7>
                     </div>
                   </li>
                   <li className="list-group-item">
                     <div className="card-body">
                       <p className="card-text">Our privacy policy explains what data we collect, who we share it with and your rights and controls.</p>
-                      <h7 className="card-title"><a href="/privacy">Privacy</a></h7>
+                      <h7 className="card-title text-muted">Coming Soon</h7>
                     </div>
                   </li>
                 </ul>
