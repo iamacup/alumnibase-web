@@ -8,21 +8,21 @@ class BouncePoint extends React.Component {
         <div className="carousel-inner">
 
           <div className="carousel-item active">
-            <img className="d-block w-100" src={require('../../content/theme/custom/images/studentRecruitment.jpeg')} alt="..." />
+            <img className="d-block w-100" src={require('../../../content/theme/custom/images/studentRecruitment.jpeg')} alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Teaching Excellence Framework</h5>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img className="d-block w-100" src={require('../../content/theme/custom/images/studentRecruitment.jpeg')} alt="..." />
+            <img className="d-block w-100" src={require('../../../content/theme/custom/images/studentRecruitment.jpeg')} alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Student Recruitment</h5>
             </div>
           </div>
 
           <div className="carousel-item">
-            <img className="d-block w-100" src={require('../../content/theme/custom/images/employability.jpeg')} alt="..." />
+            <img className="d-block w-100" src={require('../../../content/theme/custom/images/employability.jpeg')} alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5>Employability</h5>
             </div>

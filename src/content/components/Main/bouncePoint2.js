@@ -14,7 +14,7 @@ class BouncePoint extends React.Component {
             <div className="carousel-inner">
               <div className="carousel-item active text-center">
                 <div className="carousel-margin">
-                  <img alt="logo" src={require('../../content/theme/custom/images/TEF2.png')} />
+                  <img alt="logo" src={require('../../../content/theme/custom/images/TEF2.png')} />
                   <h5>Teaching Excellence Framework</h5>
                   <p>AlumniBase is compatible with the DLHE survey, </p>
                   <p>meaning TEF quality data for lifetime graduate outcomes.</p>
@@ -22,7 +22,7 @@ class BouncePoint extends React.Component {
               </div>
               <div className="carousel-item text-center">
                 <div className="carousel-margin">
-                  <img alt="logo" src={require('../../content/theme/custom/images/recruitment2.png')} />
+                  <img alt="logo" src={require('../../../content/theme/custom/images/recruitment2.png')} />
                   <h5>Student Recruitment</h5>
                   <p>Being able to show how students just like the applicant</p>
                   <p> have gone on to succeed after graduation answers much deeper </p>
@@ -31,7 +31,7 @@ class BouncePoint extends React.Component {
               </div>
               <div className="carousel-item text-center">
                 <div className="carousel-margin">
-                  <img alt="logo" src={require('../../content/theme/custom/images/employability.png')} />
+                  <img alt="logo" src={require('../../../content/theme/custom/images/employability.png')} />
                   <h5>Employability</h5>
                   <p>Past alumni success can help persuade the </p>
                   <p>audiences to attend your university.</p>

@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './navbar2';
-import Footer from './footer';
+import Navbar from './Main/navbar2';
+import Footer from './Main/footer';
 
 class About extends React.Component {
   componentDidMount() {
@@ -11,7 +11,7 @@ class About extends React.Component {
     return (
       <div>
         <Navbar />
-        <div className="container" id="aboutPage">
+        <div className="container mb-5" id="aboutPage">
           <div className="mb-4">
             <h3 style={{ fontWeight: '600' }}>AlumniBase</h3>
           </div>
