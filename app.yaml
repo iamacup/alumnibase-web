@@ -1,7 +1,7 @@
 
 runtime: custom
 env: flex
-service: web-dev
+service: web-prod
 automatic_scaling:
   min_num_instances: 1
   max_num_instances: 20
