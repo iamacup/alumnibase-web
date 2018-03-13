@@ -48,7 +48,7 @@ class VirtuousCircle extends React.Component {
           <div className="mt-2">
             <div className="row justify-content-center">
               <div className="col-lg-4">
-                <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.50s">
+                <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.45s">
                   <h5 id="heading">Better Careers Service</h5>
                   <h6>Show students the full range of career options and how they can fit in to improve employment outcomes</h6>
                 </div>

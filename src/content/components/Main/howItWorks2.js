@@ -16,7 +16,7 @@ class HowItWorks extends React.Component {
             <div className="row justify-content-around" id="howItWorksRow">
               <div className="col-md">
                 <div className="my-3">
-                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.50s">
+                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.30s">
                     <i id="icon" className="fal fa-pencil-alt" />
                   </div>
                 </div>
@@ -29,7 +29,7 @@ class HowItWorks extends React.Component {
               </div>
               <div className="col-md">
                 <div className="my-3">
-                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
+                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.50s">
 
                     <i id="icon" className="fal fa-database" />
                   </div>
@@ -42,7 +42,7 @@ class HowItWorks extends React.Component {
               </div>
               <div className="col-md">
                 <div className="my-3">
-                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.0s">
+                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
 
                     <i id="icon" className="fal fa-chart-line" />
                   </div>

@@ -19,7 +19,7 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 p-2 d-flex align-items-center">
                     <div className="header-image">
-                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.50s">
+                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
                         <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyResults.png')} />
                       </div>
                     </div>
@@ -36,7 +36,7 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 d-flex align-items-center">
                     <div className="header-image">
-                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
+                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.95s">
                         <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/seedSurvey.png')} />
                       </div>
                     </div>
@@ -52,7 +52,7 @@ class Survey extends React.Component {
                 <div className="row">
                   <div className="col-sm-2 d-flex align-items-center">
                     <div className="header-image">
-                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.0s">
+                      <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.15s">
                         <img className="img-fluid" alt="survey" src={require('../../theme/custom/images/surveyOnly.png')} />
                       </div>
                     </div>
