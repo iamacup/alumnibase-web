@@ -25,7 +25,7 @@ class HowItWorks extends React.Component {
 
               <div className="col">
                 <i id="arrow1" className="far fa-long-arrow-right" style={{ paddingTop: '8vh' }} />
-                <p className="text-muted">managed and analysed Beautiful survey for all generations</p>
+                <p className="text-muted">Beautiful survey for all generations.</p>
               </div>
               <div className="col-md">
                 <div className="my-3">
@@ -38,7 +38,7 @@ class HowItWorks extends React.Component {
               </div>
               <div className="col">
                 <i id="arrow1" className="far fa-long-arrow-right" style={{ paddingTop: '8vh' }} />
-                <p className="text-muted">in our tool or via expert to tableu etc.</p>
+                <p className="text-muted">In our tool or via export to Tableau.</p>
               </div>
               <div className="col-md">
                 <div className="my-3">
@@ -47,8 +47,8 @@ class HowItWorks extends React.Component {
                     <i id="icon" className="fal fa-chart-line" />
                   </div>
                 </div>
-                <h5>Use in TEF</h5>
-                <h5>widening access etc.</h5>
+                <h5>Use in TEF, Careers</h5>
+                <h5> and Recruitment</h5>
               </div>
             </div>
           </div>

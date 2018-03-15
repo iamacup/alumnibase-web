@@ -24,7 +24,7 @@ class About extends React.Component {
                 <h5>What is AlumniBase?</h5>
                 <div className="row">
                   <div className="col">
-                  AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a href="www.sliips.com">www.sliips.com.</a> While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.
+                  AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a href="www.sliips.com">www.sliips.com</a>. While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.
 
                   </div>
                 </div>
@@ -38,12 +38,10 @@ class About extends React.Component {
                 <h5>Our Mission</h5>
                 <div className="row">
                   <div className="col">
-                    <h6 className="text-justify">
             To achieve our mission to help people make better career choices and to facilitate social mobility, we realise the type of insights we provide need to be accessed as early as possible, by people who can use them to plan their education and career. It needs to be seen by students.
 
 We thought hard about it and have created AlumniBase, a mechanism through which alumni can feedback to their university on their outcomes, and can deliver this information to students to help them plan their careers.
 
-                    </h6>
                   </div>
                 </div>
               </div>
@@ -56,9 +54,7 @@ We thought hard about it and have created AlumniBase, a mechanism through which 
                 <h5>Our 3 Core Principles</h5>
                 <div className="row">
                   <div className="col">
-                    <h6 className="text-justify">
 As part of this mission, we have three key principles that inform how we go about things.
-                    </h6>
                   </div>
                 </div>
               </div>
@@ -87,12 +83,16 @@ As part of this mission, we have three key principles that inform how we go abou
               <div className="card border-info mb-3">
                 <div className="card-header">3. Service</div>
                 <div className="card-body text-info">
-                  <p className="card-text text-justify">We work hard to make things work best for you. We believe complex problems deserve customised answers: we'll take care of everything so you just have to focus on the insights we deliver.
-
-So, if you need something not on the ‘menu’, just ask and we’ll take care of the rest.
+                  <p className="card-text text-justify">We believe complex problems deserve customised answers: we take care of everything so you just have to focus on the insights we deliver.
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col">
+          So, if you need something not on the ‘menu’, just ask and we’ll take care of the rest.
             </div>
           </div>
         </div>
