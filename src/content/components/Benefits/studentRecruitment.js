@@ -10,7 +10,7 @@ class StudentRecruitment extends React.Component {
           </div>
         </div>
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="wow fadeIn" data-wow-duration="1.0s" data-wow-delay="0.25s">
+          <div className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.25s">
             <img className="img-fluid" id="srImage" src={require('../../theme/custom/images/studentRecruitmentBenefits.png')} alt="recruitment" style={{ height: '410px' }} />
           </div>
           <div className="col-lg-6 p-sm-5">
