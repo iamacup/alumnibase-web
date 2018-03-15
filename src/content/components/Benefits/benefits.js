@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import Navbar from '../Main/navbar2';
 import Footer from '../Main/footer';
 import TEF from './TEF';
@@ -18,6 +19,7 @@ class Benefits extends React.Component {
     return (
       <div id="benefitPage">
         <Navbar />
+        <Helmet title="Benefits" />
         <Introduction />
         <TEF />
         <WideningParticipation />
