@@ -20,9 +20,11 @@ class Questions extends React.Component {
                 <h5 style={{ fontWeight: '600' }}>Find out about:</h5>
                 <div className="card">
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item"><a href="GDPR">GDPR Compliant</a></li>
-                    <li className="list-group-item"><a href="dq">Data Quality</a></li>
-                    <li className="list-group-item"><a href="surveying">Surveying</a></li>
+                    <li className="list-group-item"><a href="/legal">GDPR Compliant</a></li>
+                    <li className="list-group-item"><a href="/data">Data Quality</a></li>
+                    <div data-spy="scroll" data-target="#list-example" data-offset="0" className="scrollspy-example">
+                      <li className="list-group-item"><a href="#survey">Surveying</a></li>
+                    </div>
                   </ul>
                 </div>
               </div>

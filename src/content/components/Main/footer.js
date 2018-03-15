@@ -33,7 +33,7 @@ class Footer extends React.Component {
 
             <div id="contact" className="col">
               <div className="mt-4">
-                <h5>Contact Us</h5>
+                <h5>Email</h5>
                 <i style={{ marginRight: '10px' }} className="far fa-envelope" />
                 <a href="mailto:hello@alumnibaseapp.com?Subject=Hello">hello@alumnibaseapp.com</a><br />
               </div>

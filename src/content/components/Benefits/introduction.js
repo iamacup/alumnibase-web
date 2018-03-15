@@ -13,8 +13,8 @@ class Introduction extends React.Component {
           </div>
 
           <div className="row justify-content-center mb-3" id="intro">
-            <h6>For us, a lifetime of possibilities means a lifetime of outcomes</h6>
-            <h7>AlumniBase is designed to give insights across the full career of alumni on both financial and non-financial metrics.</h7>
+            <h5>For us, a lifetime of possibilities means a lifetime of outcomes</h5>
+            <h7>AlumniBase delivers financial and non-financial insights over the full career of your graduates.</h7>
           </div>
 
           <div className="benefits-intro">
@@ -39,7 +39,6 @@ class Introduction extends React.Component {
           </div>
 
 
-          <h6 id="intro">Understanding these has a wide range of benefits that have multiple uses across a university.</h6>
         </div>
       </div>
 

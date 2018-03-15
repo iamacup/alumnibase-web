@@ -3,7 +3,7 @@ import React from 'react';
 class Survey extends React.Component {
   render() {
     return (
-      <div className="survey py-5">
+      <div className="survey py-5" id="survey">
         <div className="container">
           <div className="row">
 
@@ -27,7 +27,7 @@ class Survey extends React.Component {
 
                   <div className="col-sm-8 text-center text-sm-left">
                     <h5 id="heading">21st Century Surveying</h5>
-                    <h6>means surveys look good, results are returned immediately to respondents and the survey is customisable.</h6>
+                    <h6>Means surveys that look great and return results immediately to the people who take it. </h6>
                   </div>
                 </div>
               </div>
@@ -42,8 +42,8 @@ class Survey extends React.Component {
                     </div>
                   </div>
                   <div className="col-sm-8 text-center text-sm-left">
-                    <h5 id="heading">Seed Survey with HE Data</h5>
-                    <h6>Sharing some of your data with us can help optimise the survey or allow us to conduct the outreach for survey completion for you.</h6>
+                    <h5 id="heading">Seed Survey with HEI Data</h5>
+                    <h6>Sharing some data with us can help optimise the survey or allow us to conduct survey for you.</h6>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,7 @@ class Survey extends React.Component {
                   </div>
                   <div className="col-sm-8 text-center text-sm-left">
                     <h5 id="heading">Survey Only</h5>
-                    <h6>It is possible to run the survey without increasing your GDPR responsibilities, as we form individual consenting relationships with survey respondents and pass the anonymised aggregate data back to you.</h6>
+                    <h6>AlumniBase has been designed to run without increasing your GDPR responsibilities at all.</h6>
                   </div>
                 </div>
               </div>
