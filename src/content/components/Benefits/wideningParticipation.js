@@ -56,7 +56,7 @@ class WideningParticipation extends React.Component {
               <div className="mb-4">
                 <h5>Tracking lifetime alumni outcomes and being able to show breakdowns across these key participation metrics can arm universities with the information they need to tailor widening participation efforts for maximum impact.</h5>
               </div>
-              <h5>Moreover, these same life long stories are exactly the evidence individuals need to hear to help them make the decision to go to university that is right for them; knowing that people who share their background or situation went to university, fit in and went on to have successful careers are the kind of success stories individuals need to hear to help them make their choice about going to university.
+              <h5>These lifelong stories are exactly the evidence individuals need to hear to help them make the decision to go to the university that is right for them; knowing that people who share their background or situation went to university, fitted in and went on to have successful careers are the kind of success stories individuals need to hear to help them make their choice about going to university.
               </h5>
             </div>
           </div>

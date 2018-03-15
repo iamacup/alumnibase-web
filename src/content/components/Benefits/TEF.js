@@ -14,7 +14,7 @@ class TEF extends React.Component {
           <div className="col-lg-7 p-5">
             <img className="img-fluid" id="image" alt="logo" src={require('../../../content/theme/custom/images/benefitTEF.png')} />
           </div>
-          <div className="col-lg-4 pt-5 d-flex align-content-center">
+          <div className="col-lg-4 pt-lg-5 d-flex justify-content-center">
 
             <div className="tef-box pt-5 mt-3">
               <h5 id="subHeading">Did You Know?</h5>
@@ -27,11 +27,10 @@ class TEF extends React.Component {
         </div>
         <div className="row justify-content-center">
           <div className="col-10 mx-5 mt-4">
-            <p>Since TEF2, the Department for Education has published lessons learnt indicating that the weighting of the NSS is being halved, effectively meaning that employment outcomes data are now doubly important when compiling and submitting the provider submission.
+            <p>Since TEF2, the Department for Education has <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/651157/DfE_TEF_Year_2_Lessons_Learned-report.pdf"> published </a> lessons learned, including the decision to halve weighting of the NSS, effectively doubling the importance of employment outcomes data and evidencing this when compiling and submitting the provider submission.  </p>
+            <p>AlumniBase picks up where the DLHE leaves off. We believe a six (or 15) month snapshot is useful but that really understanding a lifetime of outcomes requires lifelong measurement of outcomes. Earnings, learning impact and the value of a degree change as people reach new and more demanding career and life goals. </p>
 
-AlumniBase picks up where the DLHE leaves off. We believe a six (or 15) month snapshot is useful but to really understand a lifetime of outcomes requires lifelong measurement to understand earnings, learning gain and the value of a degree as people reach new and more demanding career and life goals.
-            </p>
-            <footer className="blockquote-footer">Get in touch <a href="mailto:hello@Sliips.com?Subject=Hello">here</a> to find out more</footer>
+            <a href="mailto:hello@Sliips.com?Subject=Hello">Get in touch to find out more</a>
 
           </div>
         </div>

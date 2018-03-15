@@ -1,4 +1,6 @@
 import React from 'react';
+import Helmet from 'react-helmet';
+
 import Navbar from './Main/navbar2';
 import Footer from './Main/footer';
 
@@ -8,6 +10,7 @@ class Legal extends React.Component {
       <div>
         <div id="legalPage">
           <Navbar />
+          <Helmet title="Compliance & Legal" />
           <div className="container" id="wrapper">
 
             <div className="row justify-content-center mb-5">
@@ -15,7 +18,7 @@ class Legal extends React.Component {
                 <div className="card-body">
                   <h5 className="card-title">GDPR</h5>
                   <h6 className="card-subtitle mb-2 text-muted">GDPR Compliant</h6>
-                  <p className="card-text">AlumniBase is designed to be fully GDPR compliant and to provide this useful data without increasing a universities data protection responsibilities.</p>
+                  <p className="card-text">AlumniBase is designed to be fully GDPR compliant and to provide this useful data without increasing a university's data protection responsibilities.</p>
                   <p className="card-text">From communication with alumni to returning useable insights, please get in touch to find out more about how we deliver the GDPR logistics in addition to the data.
                   </p>
                 </div>
