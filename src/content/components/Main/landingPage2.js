@@ -12,10 +12,6 @@ class Landingpage extends React.Component {
     return (
       <div className="landingPage2">
         <Helmet title="Home" />
-
-        <div className="meetings-iframe-container" data-src="https://app.hubspot.com/meetings/patrick147?embed=true" />
-        <script type="text/javascript" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js" />
-
         <div className="container pt-5">
           <h2 id="text">Alumni Outcomes Data</h2>
           <h2 id="text">that is easy to collect and use</h2>
