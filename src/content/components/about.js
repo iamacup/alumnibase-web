@@ -67,7 +67,7 @@ As part of this mission, we have three key principles that inform how we go abou
               <div id="principles" className="card border-info mb-3">
                 <div className="card-header">1. Dependability</div>
                 <div className="card-body text-info">
-                  <p className="card-text text-justify">Through providing alumni outcome data and insights that universities and students can use with confidence.</p>
+                  <p id="text" className="card-text text-left">Through providing alumni outcome data and insights that universities and students can use with confidence.</p>
                 </div>
               </div>
             </div>
@@ -75,15 +75,15 @@ As part of this mission, we have three key principles that inform how we go abou
               <div id="principles" className="card border-info mb-3">
                 <div className="card-header">2. Transparency</div>
                 <div className="card-body text-info">
-                  <p className="card-text text-justify">Considering our background, it’s no surprise we believe in transparency to clearly show how our service works to alumni, students and universities. </p>
+                  <p id="text" className="card-text text-left">Considering our background, it’s no surprise we believe in transparency to clearly show how our service works to alumni, students and universities. </p>
                 </div>
               </div>
             </div>
             <div className="col-lg">
-              <div className="card border-info mb-3">
+              <div id="principles" className="card border-info mb-3">
                 <div className="card-header">3. Service</div>
                 <div className="card-body text-info">
-                  <p className="card-text text-justify">We believe complex problems deserve customised answers: we take care of everything so you just have to focus on the insights we deliver.
+                  <p id="text" className="card-text text-left">We believe complex problems deserve customised answers: we take care of everything so you just have to focus on the insights we deliver.
                   </p>
                 </div>
               </div>

@@ -46,8 +46,8 @@ class Footer extends React.Component {
               <Form />
             </div>
             <div id="copyright" className="col-md text-right">
-              <div className="mt-4">
-                <p>Copyright © 2017-2018, Sliips LTD.</p>
+              <div className="mt-4" style={{ color: '#696969' }}>
+                <p>Copyright © 2017-2018, Sliips ltd.</p>
                 <p>All rights reserved. Various trademarks held by their respective owners.</p>
               </div>
             </div>

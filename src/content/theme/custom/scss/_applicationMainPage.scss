@@ -374,6 +374,15 @@ nav {
   padding-top: 100px;
 }
 
+#principles {
+  border-color: $secondary-blue;
+  color: $secondary-blue;
+
+  #text {
+    color: $secondary-blue;
+  }
+}
+
 #benefitPage {
   padding-top: 78px;
   background-color: $secondary-grey;
