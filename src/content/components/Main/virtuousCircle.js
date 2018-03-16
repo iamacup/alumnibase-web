@@ -10,7 +10,7 @@ class VirtuousCircle extends React.Component {
               <div className="col-lg-4">
                 <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.05s">
                   <h5 id="heading">AlumniBase Survey</h5>
-                  <h6>Understanding of Alumni Outcomes, data delivered back across the student life cycle.</h6>
+                  <h6>Understand Alumni Outcomes, data delivered back across the student life cycle.</h6>
                 </div>
               </div>
             </div>
@@ -37,7 +37,7 @@ class VirtuousCircle extends React.Component {
             <div className="col-lg-4 align-self-center">
               <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.25s">
                 <h5 id="heading">Better Student Recruitment</h5>
-                <h6>More tailored marketing messages that resonate with individuals can increase student recruitment</h6>
+                <h6>Tailored marketing messages that resonate with individuals improves student recruitment.</h6>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ class VirtuousCircle extends React.Component {
               <div className="col-lg-4">
                 <div className="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.45s">
                   <h5 id="heading">Better Careers Service</h5>
-                  <h6>Show students the full range of career options and how they can fit in to improve employment outcomes</h6>
+                  <h6>Show students the full range of career options and how they can fit in to improve employment outcomes.</h6>
                 </div>
               </div>
             </div>

@@ -66,7 +66,7 @@ class Form extends React.Component {
     return (
       <div>
         {errorMessage}
-        <label htmlFor="exampleInputEmail1" style={{ fontWeight: '600' }}>Email us</label>
+        <h5 htmlFor="exampleInputEmail1" style={{ fontWeight: '600', color: '#fff' }}>Contact us</h5>
         <div className="mb-2">
           <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Your Email" ref={(element) => { this.email = element; }} />
         </div>

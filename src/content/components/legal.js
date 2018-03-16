@@ -16,9 +16,9 @@ class Legal extends React.Component {
             <div className="row justify-content-center mb-5">
               <div className="card" style={{ width: '53rem' }}>
                 <div className="card-body">
-                  <h5 className="card-title">GDPR</h5>
+                  <h5 className="card-title">Data Protection</h5>
                   <h6 className="card-subtitle mb-2 text-muted">GDPR Compliant</h6>
-                  <p className="card-text">AlumniBase is designed to be fully GDPR compliant and to provide this useful data without increasing a university's data protection responsibilities.</p>
+                  <p className="card-text">AlumniBase is designed to be fully GDPR compliant - providing outcomes data without increasing a university's GDPR responsibilities.</p>
                   <p className="card-text">From communication with alumni to returning useable insights, please get in touch to find out more about how we deliver the GDPR logistics in addition to the data.
                   </p>
                 </div>

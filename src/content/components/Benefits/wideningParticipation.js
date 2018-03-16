@@ -9,7 +9,7 @@ class WideningParticipation extends React.Component {
         <div className="container">
           <h3 className="my-5" id="subHeading">Widening Participation</h3>
           <div className="row">
-            <h5>Everyone with the potential and ambition to succeed in, and because of, higher education should have equal opportunity to do so, whatever their income or background. For us, data is the key to making that happen. </h5>
+            <p>Everyone with the potential and ambition to succeed in, and because of, higher education should have equal opportunity to do so, whatever their income or background. For us, data is the key to making that happen. </p>
           </div>
 
           <div className="row justify-content-center text-center my-5 pt-5">
@@ -54,10 +54,10 @@ class WideningParticipation extends React.Component {
           <div className="row justify-content-center my-5">
             <div className="col-10">
               <div className="mb-4">
-                <h5>Tracking lifetime alumni outcomes and being able to show breakdowns across these key participation metrics can arm universities with the information they need to tailor widening participation efforts for maximum impact.</h5>
+                <p>Tracking lifetime alumni outcomes and being able to show breakdowns across these key participation metrics can arm universities with the information they need to tailor widening participation efforts for maximum impact.</p>
               </div>
-              <h5>These lifelong stories are exactly the evidence individuals need to hear to help them make the decision to go to the university that is right for them; knowing that people who share their background or situation went to university, fitted in and went on to have successful careers are the kind of success stories individuals need to hear to help them make their choice about going to university.
-              </h5>
+              <p>These lifelong stories are exactly the evidence individuals need to hear to help them make the decision to go to the university that is right for them; knowing that people who share their background or situation went to university, fitted in and went on to have successful careers are the kind of success stories individuals need to hear to help them make their choice about going to university.
+              </p>
             </div>
           </div>
 
