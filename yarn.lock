@@ -453,8 +453,8 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
     delayed-stream "~1.0.0"
 
 commander@^2.9.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.0.tgz#ad2a23a1c3b036e392469b8012cec6b33b4c1322"
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
 compressible@~2.0.13:
   version "2.0.13"
@@ -1803,7 +1803,7 @@ rc@^1.0.1, rc@^1.1.7:
 
 "react-base@https://github.com/iamacup/react-base.git#master":
   version "1.0.0"
-  resolved "https://github.com/iamacup/react-base.git#a17902e8d073d2087c4efe1dc57525b54a4d91e5"
+  resolved "https://github.com/iamacup/react-base.git#fc424f0951ae15b28141f7345ed62d1856f589d9"
   dependencies:
     axios "^0.17.1"
     babel-core "^6.26.0"
