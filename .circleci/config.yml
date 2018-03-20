@@ -23,11 +23,21 @@ jobs:
       # install the package dependencies #& use a frozen lockfile as recommended here: https://yarnpkg.com/lang/en/docs/cli/install/
       - run: yarn install #--frozen-lockfile 
 
+      # now we run the remote command which will merge our package jsons etc for the react-base package into workdir
+      - run: yarn remoteprep
+
       # save this stuff so we can speed up things next run if no changes
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+      # copy the google deployment files into the combined project directory
+      - run: "cp app.yaml workdir && cp Dockerfile workdir && cp .dockerignore workdir && cp dispatch.yaml workdir"
+
+      # move into the combined project
+      - run: "pushd workdir"
+      - run: "ls -a"
 
       # build the thing
       - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && yarn build:prod || yarn build:dev"
