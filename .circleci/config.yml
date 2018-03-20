@@ -24,7 +24,7 @@ jobs:
       - run: yarn install #--frozen-lockfile 
 
       # now we run the remote command which will merge our package jsons etc for the react-base package into workdir
-      - run: ls merge.js
+      - run: ls ./node_modules/react-base/tools/build-scripts/merge.js
       - run: yarn remoteprep
 
       # save this stuff so we can speed up things next run if no changes
