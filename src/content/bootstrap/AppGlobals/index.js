@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   render() {
-    const path = 'http://www.example.org/';
+    const path = 'http://www.alumnibaseapp.com/';
 
     return (
       <div>

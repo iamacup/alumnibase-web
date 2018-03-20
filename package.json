@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/iamacup/alumnibase-web/issues"
   },
-  "homepage": "https://www.sliips.com/",
+  "homepage": "https://www.alumnibaseapp.com/",
   "scripts": {
     "start": "google-app-angine-start-command",
     "start-gce-dev": "yarn start:dev",
@@ -243,7 +243,7 @@
   },
   "stylelint": {
     "ignoreFiles": [
-      "fontawesome-pro-5.0.4/**/*"
+      "src/includes/**/*"
     ],
     "extends": "stylelint-config-standard",
     "rules": {
