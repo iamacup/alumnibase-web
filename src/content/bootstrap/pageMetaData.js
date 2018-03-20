@@ -6,7 +6,7 @@ export default {
   meta: [
     {
       name: 'description',
-      content: '.',
+      content: 'Alumni Outcomes Data that is easy to collect and use - solve TEF headaches, widen participation and demonstrate value.',
     },
     {
       name: 'twitter:card',
