@@ -1,85 +1,87 @@
 
 # CircleCI 2.0 configuration file
 
-version: 2
-jobs:
-  build:
-    docker:
-      # specify the version you desire here
-      - image: circleci/node:9.7
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      build:
+        docker:
+          # specify the version you desire here
+          - image: circleci/node:9.7
 
-    working_directory: ~/repo
+        working_directory: ~/repo
 
-    steps:
-      - checkout
+        steps:
+          - checkout
 
-      # Download and cache dependencies
-      #- restore_cache:
-      #    keys:
-      #    - v1-dependencies-{{ checksum "package.json" }}
-      #    # fallback to using the latest cache if no exact match is found
-      #    - v1-dependencies-
+          # Download and cache dependencies
+          #- restore_cache:
+          #    keys:
+          #    - v1-dependencies-{{ checksum "package.json" }}
+          #    # fallback to using the latest cache if no exact match is found
+          #    - v1-dependencies-
 
-      # install the package dependencies #& use a frozen lockfile as recommended here: https://yarnpkg.com/lang/en/docs/cli/install/
-      - run: yarn install #--frozen-lockfile 
+          # install the package dependencies #& use a frozen lockfile as recommended here: https://yarnpkg.com/lang/en/docs/cli/install/
+          - run: yarn install #--frozen-lockfile 
 
-      # now we run the remote command which will merge our package jsons etc for the react-base package into workdir
-      - run: cat ./node_modules/react-base/tools/build-scripts/merge.js
-      - run: yarn remoteprep
+          # now we run the remote command which will merge our package jsons etc for the react-base package into workdir
+          - run: cat ./node_modules/react-base/tools/build-scripts/merge.js
+          - run: yarn remoteprep
 
 
 
-      
 
-      # save this stuff so we can speed up things next run if no changes
-      #- save_cache:
-      #    paths:
-      #      - node_modules
-      #    key: v1-dependencies-{{ checksum "package.json" }}
 
-      # copy the google deployment files into the combined project directory #
-      - run: "cp app.yaml workdir && cp Dockerfile workdir && cp .dockerignore workdir && cp dispatch.yaml workdir"
+          # save this stuff so we can speed up things next run if no changes
+          #- save_cache:
+          #    paths:
+          #      - node_modules
+          #    key: v1-dependencies-{{ checksum "package.json" }}
 
-  subbuild:
-    requires:
-      - build
+          # copy the google deployment files into the combined project directory #
+          - run: "cp app.yaml workdir && cp Dockerfile workdir && cp .dockerignore workdir && cp dispatch.yaml workdir"
 
-    docker:
-      # specify the version you desire here
-      - image: circleci/node:9.7
+      subbuild:
+        requires:
+          - build
 
-    working_directory: ~/repo/workdir
+        docker:
+          # specify the version you desire here
+          - image: circleci/node:9.7
 
-    steps:
-      - run: "ls -a"
+        working_directory: ~/repo/workdir
 
-      # build the thing
-      - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && yarn build:prod || yarn build:dev"
+        steps:
+          - run: "ls -a"
 
-      # download google cloud sdk
-      - run: wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-191.0.0-linux-x86_64.tar.gz
-      - run: tar -zxf google-cloud-sdk-191.0.0-linux-x86_64.tar.gz
-      - run: rm google-cloud-sdk-191.0.0-linux-x86_64.tar.gz
-      # we don't need kubectl on this run because we only use google app engine
-      # - run: ./google-cloud-sdk/bin/gcloud components install kubectl
+          # build the thing
+          - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && yarn build:prod || yarn build:dev"
 
-      # authenticate with google cloud
-      - run: echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
-      - run: sudo ./google-cloud-sdk/bin/gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
-      - run: sudo ./google-cloud-sdk/bin/gcloud config set project $GCLOUD_PROJECT
+          # download google cloud sdk
+          - run: wget https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-191.0.0-linux-x86_64.tar.gz
+          - run: tar -zxf google-cloud-sdk-191.0.0-linux-x86_64.tar.gz
+          - run: rm google-cloud-sdk-191.0.0-linux-x86_64.tar.gz
+          # we don't need kubectl on this run because we only use google app engine
+          # - run: ./google-cloud-sdk/bin/gcloud components install kubectl
 
-      # rewrite the app.yaml to start prod or dev as needed
-      - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && echo \"Do nothing\" || sed -i \"s/web-prod/web-$CIRCLE_BRANCH/g\" ./app.yaml"
-      - run: cat ./app.yaml
+          # authenticate with google cloud
+          - run: echo $GCLOUD_SERVICE_KEY | base64 --decode --ignore-garbage > ${HOME}/gcloud-service-key.json
+          - run: sudo ./google-cloud-sdk/bin/gcloud auth activate-service-account --key-file=${HOME}/gcloud-service-key.json
+          - run: sudo ./google-cloud-sdk/bin/gcloud config set project $GCLOUD_PROJECT
 
-      # rewrite the package.json to start prod or dev as needed  
-      - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && sed -i \"s/google-app-angine-start-command/yarn start-gce-prod/g\" ./package.json || sed -i \"s/google-app-angine-start-command/yarn start-gce-dev/g\" ./package.json"
-      - run: cat ./package.json
+          # rewrite the app.yaml to start prod or dev as needed
+          - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && echo \"Do nothing\" || sed -i \"s/web-prod/web-$CIRCLE_BRANCH/g\" ./app.yaml"
+          - run: cat ./app.yaml
 
-      # deploy the project - we set the timeout to 20 mins in case the deploy takes a while
-      - run: 
-          command: sudo ./google-cloud-sdk/bin/gcloud --quiet app deploy app.yaml
-          no_output_timeout: 1200
+          # rewrite the package.json to start prod or dev as needed  
+          - run: "[ \"$CIRCLE_BRANCH\" == \"master\" ] && sed -i \"s/google-app-angine-start-command/yarn start-gce-prod/g\" ./package.json || sed -i \"s/google-app-angine-start-command/yarn start-gce-dev/g\" ./package.json"
+          - run: cat ./package.json
 
-      # update the dispatch file if it exists
-      - run: "[ -f ./dispatch.yaml ] && (sudo ./google-cloud-sdk/bin/gcloud app deploy dispatch.yaml) || echo \"No dispatch file found\""
+          # deploy the project - we set the timeout to 20 mins in case the deploy takes a while
+          - run: 
+              command: sudo ./google-cloud-sdk/bin/gcloud --quiet app deploy app.yaml
+              no_output_timeout: 1200
+
+          # update the dispatch file if it exists
+          - run: "[ -f ./dispatch.yaml ] && (sudo ./google-cloud-sdk/bin/gcloud app deploy dispatch.yaml) || echo \"No dispatch file found\""
