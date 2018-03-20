@@ -32,7 +32,7 @@ jobs:
       #      - node_modules
       #    key: v1-dependencies-{{ checksum "package.json" }}
 
-      # copy the google deployment files into the combined project directory
+      # copy the google deployment files into the combined project directory #
       - run: "cp app.yaml workdir && cp Dockerfile workdir && cp .dockerignore workdir && cp dispatch.yaml workdir"
 
   subbuild:
