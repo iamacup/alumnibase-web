@@ -3,7 +3,7 @@
 
 version: 2
 jobs:
-  build:
+  setup:
     docker:
       # specify the version you desire here
       - image: circleci/node:9.7
@@ -35,8 +35,17 @@ jobs:
       # copy the google deployment files into the combined project directory
       - run: "cp app.yaml workdir && cp Dockerfile workdir && cp .dockerignore workdir && cp dispatch.yaml workdir"
 
-      # move into the combined project
-      - run: "pushd workdir"
+  build:
+    requires:
+      - setup
+
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:9.7
+
+    working_directory: ~/repo/workdir
+
+    steps:
       - run: "ls -a"
 
       # build the thing
