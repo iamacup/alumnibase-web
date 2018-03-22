@@ -6,6 +6,8 @@ import LegalPage from '../components/legal';
 import DataPage from '../components/Main/dataInsights';
 import BenefitsPage from '../components/Benefits/benefits';
 
+import MeetMePage from '../../content/containers/Pages/MeetMe';
+
 // megan's experiments
 // import TodoPage from '../../content/containers/Pages/ToDo';
 // import LoginPage from '../../content/containers/Pages/form';
@@ -23,6 +25,11 @@ export default [
     path: '/',
     exact: true,
     component: MainPage,
+  },
+  {
+    path: '/meet-me',
+    exact: true,
+    component: MeetMePage,
   },
   {
     path: '/about',
