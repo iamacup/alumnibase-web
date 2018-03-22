@@ -1,15 +1,15 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import _ from 'lodash';
+// import { connect } from 'react-redux';
+// import PropTypes from 'prop-types';
+// import _ from 'lodash';
 
 import { dNc } from '../../../content/scripts/custom/utilities';
 import fetchDataBuilder from '../../../foundation/redux/Factories/FetchData';
-import * as storeAction from '../../../foundation/redux/globals/DataStoreMulti/actions';
+// import * as storeAction from '../../../foundation/redux/globals/DataStoreMulti/actions';
 
 const fetchDataTransactionStateMainID = 'alumniBaseFormApiCall';
 const FetchData = fetchDataBuilder(fetchDataTransactionStateMainID);
-const dataStoreID = 'inputFormData';
+// const dataStoreID = 'inputFormData';
 
 
 class Form extends React.Component {
@@ -88,24 +88,4 @@ class Form extends React.Component {
   }
 }
 
-Form.propTypes = {
-  reduxAction_doUpdate: PropTypes.func,
-  reduxState_this: PropTypes.object,
-};
-
-Form.defaultProps = {
-  reduxState_this: {},
-  reduxAction_doUpdate: () => {},
-};
-
-const mapStateToProps = state => ({
-  reduxState_this: state.dataStoreMulti[dataStoreID],
-});
-
-const mapDispatchToProps = dispatch => ({
-  reduxAction_doUpdate: (subID, data) =>
-    dispatch(storeAction.doUpdate(dataStoreID, subID, data)),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Form);
-
+export default Form;

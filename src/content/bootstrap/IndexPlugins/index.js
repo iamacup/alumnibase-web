@@ -14,6 +14,9 @@ const result = {
   HEAD TOP SCRIPTS
 */
 
+
+
+
 result.headTop.push(<link key="ico1" rel="apple-touch-icon-precomposed" sizes="57x57" href="https://files.alumnibaseapp.com/images/favicomatic/apple-touch-icon-57x57.png" />);
 result.headTop.push(<link key="ico2" rel="apple-touch-icon-precomposed" sizes="114x114" href="https://files.alumnibaseapp.com/images/favicomatic/apple-touch-icon-114x114.png" />);
 result.headTop.push(<link key="ico3" rel="apple-touch-icon-precomposed" sizes="72x72" href="https://files.alumnibaseapp.com/images/favicomatic/apple-touch-icon-72x72.png" />);
@@ -36,6 +39,17 @@ result.headTop.push(<meta key="ico19" name="msapplication-wide310x150logo" conte
 result.headTop.push(<meta key="ico20" name="msapplication-square310x310logo" content="https://files.alumnibaseapp.com/images/favicomatic/mstile-310x310.png" />);
 
 
+result.headTop.push(<script key="ga1" async src="https://www.googletagmanager.com/gtag/js?id=UA-116203719-1" />);
+result.headTop.push(<script key="ga2"
+                      dangerouslySetInnerHTML={{ __html: 
+                        `window.dataLayer = window.dataLayer || [];
+                          function gtag(){dataLayer.push(arguments);}
+                          gtag('js', new Date());
+
+                          gtag('config', 'UA-116203719-1');` }} />);
+
+
+
 
 // font
 result.headTop.push(<link key="5" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css" />);
@@ -49,8 +63,8 @@ result.headTop.push(<link key="8" href="https://cdnjs.cloudflare.com/ajax/libs/s
 // Slider Stylesheets
 result.headTop.push(<link key="9" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css" rel="stylesheet" />);
 
-result.headTop.push(<link key="fa1" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-+iHwwKZGTdlVFbv4fsKmLkogfdKlp47zQGkSMDN3ANc8kXjyKudKvQwinI5VH+2C" crossorigin="anonymous" />);
-result.headTop.push(<link key="fa2" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-+5VkSw5C1wIu2iUZEfX77QSYRb5fhjmEsRn8u4r9Ma8mvu/GvTag4LDSEAw7RjXl" crossorigin="anonymous" />);
+result.headTop.push(<link key="fa1" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-+iHwwKZGTdlVFbv4fsKmLkogfdKlp47zQGkSMDN3ANc8kXjyKudKvQwinI5VH+2C" crossOrigin="anonymous" />);
+result.headTop.push(<link key="fa2" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-+5VkSw5C1wIu2iUZEfX77QSYRb5fhjmEsRn8u4r9Ma8mvu/GvTag4LDSEAw7RjXl" crossOrigin="anonymous" />);
 
 /*
   HEAD BOTTOM SCRIPTS
@@ -82,5 +96,7 @@ result.bodyBottom.push(<script key="24" src="https://unpkg.com/inputmask@3.3.11/
 //bootstrap stuff
 result.bodyBottom.push(<script key="25" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossOrigin="anonymous" />);
 result.bodyBottom.push(<script key="26" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossOrigin="anonymous" />);
+
+result.bodyBottom.push(<script key="hubspot" src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js" />);
 
 export default result;
