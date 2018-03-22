@@ -14,6 +14,9 @@ const result = {
   HEAD TOP SCRIPTS
 */
 
+
+
+
 result.headTop.push(<link key="ico1" rel="apple-touch-icon-precomposed" sizes="57x57" href="https://files.alumnibaseapp.com/images/favicomatic/apple-touch-icon-57x57.png" />);
 result.headTop.push(<link key="ico2" rel="apple-touch-icon-precomposed" sizes="114x114" href="https://files.alumnibaseapp.com/images/favicomatic/apple-touch-icon-114x114.png" />);
 result.headTop.push(<link key="ico3" rel="apple-touch-icon-precomposed" sizes="72x72" href="https://files.alumnibaseapp.com/images/favicomatic/apple-touch-icon-72x72.png" />);
@@ -34,6 +37,17 @@ result.headTop.push(<meta key="ico17" name="msapplication-square70x70logo" conte
 result.headTop.push(<meta key="ico18" name="msapplication-square150x150logo" content="https://files.alumnibaseapp.com/images/favicomatic/mstile-150x150.png" />);
 result.headTop.push(<meta key="ico19" name="msapplication-wide310x150logo" content="https://files.alumnibaseapp.com/images/favicomatic/mstile-310x150.png" />);
 result.headTop.push(<meta key="ico20" name="msapplication-square310x310logo" content="https://files.alumnibaseapp.com/images/favicomatic/mstile-310x310.png" />);
+
+
+result.headTop.push(<script key="ga1" async src="https://www.googletagmanager.com/gtag/js?id=UA-116203719-1" />);
+result.headTop.push(<script key="ga2"
+                      dangerouslySetInnerHTML={{ __html: 
+                        `window.dataLayer = window.dataLayer || [];
+                          function gtag(){dataLayer.push(arguments);}
+                          gtag('js', new Date());
+
+                          gtag('config', 'UA-116203719-1');` }} />);
+
 
 
 
