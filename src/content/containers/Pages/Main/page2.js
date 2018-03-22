@@ -9,22 +9,16 @@ import VirtuousCircle from '../../../components/Main/virtuousCircle';
 import Survey from '../../../components/Main/survey';
 import Footer from '../../../components/Main/footer';
 
-class page1 extends React.Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <LandingPage />
-        <WhatWeDo />
-        <VirtuousCircle />
-        <HowItWorks />
-        <Survey />
-        <BouncePoint />
-        <Questions />
-        <Footer />
-      </div>
-    );
-  }
-}
-
-export default page1;
+export default () => (
+  <div>
+    <Navbar />
+    <LandingPage />
+    <WhatWeDo />
+    <VirtuousCircle />
+    <HowItWorks />
+    <Survey />
+    <BouncePoint />
+    <Questions />
+    <Footer />
+  </div>
+);
