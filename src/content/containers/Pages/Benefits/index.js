@@ -7,7 +7,7 @@ import Footer from '../../../../content/components/Footer';
 
 import TEF from './TEF';
 import Introduction from './introduction';
-import WideningParticipation from './wideningParticipation';  
+import WideningParticipation from './wideningParticipation';
 import StudentRecruitment from './studentRecruitment';
 import Careers from './careers';
 import AlumniOutreach from './alumniOutreach';

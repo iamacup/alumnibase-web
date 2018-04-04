@@ -4,7 +4,7 @@ import AboutPage from '../../content/containers/Pages/About';
 import LegalPage from '../../content/containers/Pages/Legal';
 import MeetMePage from '../../content/containers/Pages/MeetMe';
 import DataPage from '../../content/containers/Pages/Data';
-import BenefitsPage from '../../content/containers/Pages/Benefits'; 
+import BenefitsPage from '../../content/containers/Pages/Benefits';
 
 
 export default [
@@ -15,7 +15,7 @@ export default [
   },
   {
     path: '/meet-me',
-    exact: true, 
+    exact: true,
     component: MeetMePage,
   },
   {
