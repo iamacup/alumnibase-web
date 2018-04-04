@@ -1,6 +1,7 @@
 
 import React from 'react';
-import Navbar from '../../../components/Main/navbar2';
+
+import Navbar from '../../../../content/components/Navbar';
 
 export default () => (
   <div>
