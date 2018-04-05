@@ -27,7 +27,7 @@ class Footer extends React.Component {
             <div id="legals" className="col">
               <div className="mt-4">
                 <h5>Legal</h5>
-                <a href="/legal">GDPR</a>
+                <a href="/gdpr">GDPR</a>
               </div>
             </div>
 
