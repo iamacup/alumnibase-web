@@ -5,10 +5,6 @@ import AboutPage from '../components/about';
 import LegalPage from '../components/legal';
 import DataPage from '../components/Main/dataInsights';
 import BenefitsPage from '../components/Benefits/benefits';
-import TodoPage from '../../content/containers/Pages/ToDo';
-import LoginPage from '../../content/containers/Pages/form';
-import InputPage from '../../content/containers/Pages/form/Input';
-import ListPage from '../../content/containers/Pages/form/List';
 
 
 export default [
@@ -41,26 +37,6 @@ export default [
     path: '/legal',
     exact: true,
     component: LegalPage,
-  },
-  {
-    path: '/login',
-    exact: true,
-    component: LoginPage,
-  },
-  {
-    path: '/input',
-    exact: true,
-    component: InputPage,
-  },
-  {
-    path: '/list',
-    exact: true,
-    component: ListPage,
-  },
-  {
-    path: '/todo',
-    exact: true,
-    component: TodoPage,
   },
   /* {
     path: '*',
