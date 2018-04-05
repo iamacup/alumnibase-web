@@ -5,6 +5,7 @@ import AboutPage from '../components/about';
 import LegalPage from '../components/legal';
 import DataPage from '../components/Main/dataInsights';
 import BenefitsPage from '../components/Benefits/benefits';
+import GDPRPage from '../components/GDPR/gdprPage';
 
 
 export default [
@@ -37,6 +38,11 @@ export default [
     path: '/legal',
     exact: true,
     component: LegalPage,
+  },
+  {
+    path: '/GDPR',
+    exact: true,
+    component: GDPRPage,
   },
   /* {
     path: '*',
