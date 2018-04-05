@@ -1,23 +1,23 @@
-
-import MainPage from '../../content/containers/Pages/Main/page1';
-import page2 from '../../content/containers/Pages/Main/page2';
-import AboutPage from '../components/about';
-import LegalPage from '../components/legal';
-import DataPage from '../components/Main/dataInsights';
-import BenefitsPage from '../components/Benefits/benefits';
+import MainPage from '../../content/containers/Pages/Main';
+import AboutPage from '../../content/containers/Pages/About';
+import LegalPage from '../../content/containers/Pages/Legal';
+import MeetMePage from '../../content/containers/Pages/MeetMe';
+import DataPage from '../../content/containers/Pages/Data';
+import BenefitsPage from '../../content/containers/Pages/Benefits';
 import GDPRPage from '../components/GDPR/gdprPage';
+
 
 
 export default [
   {
-    path: '/2',
+    path: '/',
     exact: true,
     component: MainPage,
   },
   {
-    path: '/',
+    path: '/meet-me',
     exact: true,
-    component: page2,
+    component: MeetMePage,
   },
   {
     path: '/about',
