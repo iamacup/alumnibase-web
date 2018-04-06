@@ -19,6 +19,7 @@ export default () => (
               <p className="card-text">AlumniBase is designed to be fully GDPR compliant - providing outcomes data without increasing a university's GDPR responsibilities.</p>
               <p className="card-text">From communication with alumni to returning useable insights, please get in touch to find out more about how we deliver the GDPR logistics in addition to the data.
               </p>
+              <a href="/GDPR">Click here for our detailed views on the GDPR & AlumniBase</a>
             </div>
           </div>
         </div>

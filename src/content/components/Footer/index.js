@@ -25,7 +25,7 @@ export default () => (
         <div id="legals" className="col">
           <div className="mt-4">
             <h5>Legal</h5>
-            <a href="/legal">GDPR</a>
+            <a href="/GDPR">GDPR</a>
           </div>
         </div>
 
