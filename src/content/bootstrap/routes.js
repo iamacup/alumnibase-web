@@ -39,7 +39,7 @@ export default [
     exact: true,
     component: LegalPage,
   },
-    {
+  {
     path: '/GDPR',
     exact: true,
     component: GDPRPage,

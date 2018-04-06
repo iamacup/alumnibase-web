@@ -2,7 +2,6 @@ import React from 'react';
 import Questions from './questions';
 
 class FAQ extends React.Component {
-
   render() {
     return (
       <div className="faq" id="faq">

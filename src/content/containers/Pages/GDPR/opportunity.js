@@ -1,7 +1,6 @@
 import React from 'react';
 
 class opportunity extends React.Component {
-
   render() {
     return (
       <div className="opportunity" id="opportunity">
