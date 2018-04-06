@@ -546,3 +546,14 @@ nav {
     width: 850px;
   }
 }
+
+.landing {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: $color-blue;
+  padding-top: 100px;
+  color: #fff;
+
+  .roadmap-landing {
+    padding-top: 100px;
+  }
+}
