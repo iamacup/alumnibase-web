@@ -1,15 +1,16 @@
 
 import React from 'react';
 
+import { whenLoaded } from '../../../content/scripts/custom/utilities';
+
 class About extends React.Component {
   componentDidMount() {
-    /*
-    $(() => {
+    whenLoaded(() => {
       $(document).scroll(() => {
         const $nav = $('.navbar');
         $nav.toggleClass('scrolled', $(document).scrollTop() > $nav.height());
       });
-    }); */
+    });
   }
 
   render() {
