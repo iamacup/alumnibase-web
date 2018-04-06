@@ -5,6 +5,8 @@ import LegalPage from '../../content/containers/Pages/Legal';
 import MeetMePage from '../../content/containers/Pages/MeetMe';
 import DataPage from '../../content/containers/Pages/Data';
 import BenefitsPage from '../../content/containers/Pages/Benefits';
+import GDPRPage from '../../content/containers/Pages/GDPR/gdprPage';
+
 import NewTestPage from '../../content/containers/Pages/NewTest';
 
 export default [
@@ -42,5 +44,10 @@ export default [
     path: '/new-test',
     exact: true,
     component: NewTestPage,
+  },
+  {
+    path: '/GDPR',
+    exact: true,
+    component: GDPRPage,
   },
 ];
