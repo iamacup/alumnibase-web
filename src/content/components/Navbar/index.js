@@ -1,14 +1,15 @@
-import React from 'react';
 
+import React from 'react';
 
 class About extends React.Component {
   componentDidMount() {
+    /*
     $(() => {
       $(document).scroll(() => {
         const $nav = $('.navbar');
         $nav.toggleClass('scrolled', $(document).scrollTop() > $nav.height());
       });
-    });
+    }); */
   }
 
   render() {
