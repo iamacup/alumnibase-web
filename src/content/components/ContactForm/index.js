@@ -66,14 +66,18 @@ class Form extends React.Component {
     return (
       <div>
         {errorMessage}
-        <h5 htmlFor="exampleInputEmail1" style={{ fontWeight: '600', color: '#fff' }}>Contact us</h5>
+        <div className="p-2 cycle-text">
+                      <h5 className="dark-blue-header-text">Contact Us:</h5>
+                  </div>
         <div className="mb-2">
           <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Your Email" ref={(element) => { this.email = element; }} />
         </div>
         <div className="mb-2">
           <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Comments" rows="3" ref={(element) => { this.comment = element; }} />
         </div>
-        <button type="button" className="btn btn-outline-light mb-5" onClick={e => this.handleEmail(e)}>Send</button>
+        <div className="text-right">
+        <button type="button" className="btn btn-green mb-5" onClick={e => this.handleEmail(e)}>Send</button>
+        </div>
         <FetchData
           active={active}
           fetchURL="api/alumnibase/contactUs"
