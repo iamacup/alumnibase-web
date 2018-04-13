@@ -1,17 +1,336 @@
 // import { currencyFormatter } from './utilities';
 
-import { isNumeric } from '../utilities';
+import { isNumeric, nFormatter } from '../../../../content/scripts/custom/utilities';
 
 function getColourScheme() {
   return [
-    '#944a9c',
-    '#c5bdee',
-    '#bd94b4',
-    '#735a8b',
-    '#d5a4de',
-    '#392939',
-    '#ff9494',
+    '#1c6cab',
+    '#a4c0e5',
+    '#ff7311',
+    '#ffbb7d',
+    '#d02224',
+    '#ff8d8b',
+    '#11293b',
   ];
+}
+
+export function drawComparisonChart(titles, set1Name, set2Name, set1, set2, percentages) {
+  let finalSet1 = [];
+  let finalSet2 = [];
+
+  if (percentages === true) {
+    const preFinalSet1 = [];
+    const preFinalSet2 = [];
+
+    for (let a = 0; a < set1.length; a++) {
+      const total = set1[a] + set2[a];
+
+      preFinalSet1.push(Math.round((set1[a] / total) * 100));
+      preFinalSet2.push(Math.round((set2[a] / total) * 100));
+    }
+
+    finalSet1 = {
+      1: preFinalSet1,
+    };
+
+    finalSet2 = {
+      1: preFinalSet2,
+    };
+  } else {
+    finalSet1 = {
+      1: set1,
+    };
+
+    finalSet2 = {
+      1: set2,
+    };
+  }
+
+  const timeLineData = [1];
+
+  const max1 = finalSet2[1];
+  const max2 = finalSet1[1];
+
+  const maxVal = Math.max(Math.max(...max1), Math.max(...max2));
+
+  if (percentages === true) {
+    //
+  }
+
+  const option = {
+    baseOption: {
+      backgroundColor: '#fff',
+      timeline: {
+        show: false,
+        axisType: 'category',
+        autoPlay: false,
+        currentIndex: 0,
+        playInterval: 1000,
+        label: {
+          normal: {
+            show: true,
+            interval: 'auto',
+            formatter: '{value}',
+          },
+        },
+        data: [],
+      },
+      legend: {
+        data: [set1Name, set2Name],
+        top: 4,
+        left: 4,
+        textStyle: {
+          color: '#4d627b',
+        },
+      },
+      tooltip: {
+        show: true,
+        trigger: 'axis',
+        formatter: '{b}<br/>{a}: {c}',
+        axisPointer: {
+          type: 'shadow',
+        },
+      },
+      toolbox: {
+        right: 20,
+        feature: {
+          // saveAsImage: {},
+          // restore: {},
+          // dataView: {},
+          /* magicType: {
+            type: ['line', 'bar'],
+          }, */
+        },
+      },
+      grid: [{
+        show: false,
+        left: '8%',
+        top: 60,
+        bottom: 0,
+        containLabel: true,
+        width: '50%',
+      }, {
+        show: false,
+        left: '51.5%',
+        top: 80,
+        bottom: 0,
+        width: '0%',
+      }, {
+        show: false,
+        right: '8%',
+        top: 60,
+        bottom: 0,
+        containLabel: true,
+        width: '50%',
+      }],
+      xAxis: [
+        {
+          max: maxVal,
+          type: 'value',
+          inverse: true,
+          axisLine: {
+            show: false,
+          },
+          axisTick: {
+            show: false,
+          },
+          position: 'top',
+          axisLabel: {
+            show: true,
+            textStyle: {
+              color: '#4d627b',
+              fontSize: 12,
+            },
+            formatter: (value) => {
+              if (percentages === true) {
+                return value + '%';
+              }
+
+              return nFormatter(value, 1);
+            },
+          },
+          splitLine: {
+            show: true,
+            lineStyle: {
+              color: '#d9e3f0',
+              width: 1,
+              type: 'solid',
+            },
+          },
+        }, {
+          gridIndex: 1,
+          show: false,
+        }, {
+          max: maxVal,
+          gridIndex: 2,
+          type: 'value',
+          axisLine: {
+            show: false,
+          },
+          axisTick: {
+            show: false,
+          },
+          position: 'top',
+          axisLabel: {
+            show: true,
+            textStyle: {
+              color: '#4d627b',
+              fontSize: 12,
+            },
+            formatter: (value) => {
+              if (percentages === true) {
+                return value + '%';
+              }
+
+              return nFormatter(value, 1);
+            },
+          },
+          splitLine: {
+            show: true,
+            lineStyle: {
+              color: '#d9e3f0',
+              width: 1,
+              type: 'solid',
+            },
+          },
+        }],
+      yAxis: [{
+        // max: 400,
+        type: 'category',
+        inverse: true,
+        position: 'right',
+        axisLine: {
+          show: false,
+        },
+        axisTick: {
+          show: false,
+        },
+        axisLabel: {
+          show: false,
+          margin: 8,
+          textStyle: {
+            color: '#4d627b',
+            fontSize: 12,
+          },
+        },
+        data: titles,
+      }, {
+        gridIndex: 1,
+        type: 'category',
+        inverse: true,
+        position: 'left',
+        axisLine: {
+          show: false,
+        },
+        axisTick: {
+          show: false,
+        },
+        axisLabel: {
+          show: true,
+          textStyle: {
+            color: '#4d627b',
+            fontSize: 12,
+          },
+        },
+        data: titles.map(value => ({
+          value,
+          textStyle: {
+            align: 'center',
+          },
+        })),
+      }, {
+        gridIndex: 2,
+        type: 'category',
+        inverse: true,
+        position: 'left',
+        axisLine: {
+          show: false,
+        },
+        axisTick: {
+          show: false,
+        },
+        axisLabel: {
+          show: false,
+          textStyle: {
+            color: '#4d627b',
+            fontSize: 12,
+          },
+        },
+        data: titles,
+      }],
+      series: [],
+    },
+    options: [],
+  };
+
+  for (let i = 0; i < timeLineData.length; i++) {
+    option.baseOption.timeline.data.push(timeLineData[i]);
+    option.options.push({
+      series: [{
+        name: set1Name,
+        type: 'bar',
+        barGap: 20,
+        barWidth: 20,
+        label: {
+          normal: {
+            show: false,
+          },
+          emphasis: {
+            show: true,
+            position: 'left',
+            offset: [0, 0],
+            textStyle: {
+              color: '#fff',
+              fontSize: 14,
+            },
+          },
+        },
+        itemStyle: {
+          normal: {
+            color: getColourScheme()[2],
+          },
+          emphasis: {
+            color: '#71586c',
+          },
+        },
+        data: finalSet1[timeLineData[i]],
+      },
+      {
+        name: set2Name,
+        type: 'bar',
+        barGap: 20,
+        barWidth: 20,
+        xAxisIndex: 2,
+        yAxisIndex: 2,
+        label: {
+          normal: {
+            show: false,
+          },
+          emphasis: {
+            show: true,
+            position: 'right',
+            offset: [0, 0],
+            textStyle: {
+              color: '#fff',
+              fontSize: 14,
+            },
+          },
+        },
+        itemStyle: {
+          normal: {
+            color: getColourScheme()[1],
+          },
+          emphasis: {
+            color: '#76718e',
+          },
+        },
+        data: finalSet2[timeLineData[i]],
+      },
+      ],
+    });
+  }
+
+  return option;
 }
 
 // data array should be in the form

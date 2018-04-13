@@ -53,6 +53,7 @@ result.headTop.push(<script key="ga2"
 
 // font
 result.headTop.push(<link key="5" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css" />);
+//result.headTop.push(<link key="font2" href="https://fonts.googleapis.com/css?family=Cambay:400,700" rel="stylesheet">);
 
 // Bootstrap Stylesheets
 result.headTop.push(<link key="6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />);
