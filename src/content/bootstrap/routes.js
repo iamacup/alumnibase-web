@@ -41,6 +41,7 @@ export default [
     component: LegalPage,
   },
   {
+
     path: '/new-test',
     exact: true,
     component: NewTestPage,
