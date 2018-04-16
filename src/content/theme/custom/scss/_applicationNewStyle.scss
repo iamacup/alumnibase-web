@@ -37,6 +37,13 @@ $color2: #f6f9fc;
   position: relative;
 }
 
+.how-it-works-icons {
+  @media (max-width: 576px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .bg-two {
   background-color: #f6f9fc;
   position: absolute;
@@ -157,6 +164,35 @@ $color2: #f6f9fc;
   border-top-left-radius: 4px;
 }
 
+.toolkit {
+  img {
+    min-width: 100px;
+  }
+
+  .card-title {
+    display: block;
+  }
+
+  .mobile-card-title {
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    img {
+      height: 120px;
+      min-width: 10px !important;
+    }
+
+    .card-title {
+      display: none;
+    }
+
+    .mobile-card-title {
+      display: block;
+    }
+  }
+}
+
 .box-1 {
   h5 {
     color: #2296bc;
@@ -218,6 +254,16 @@ $color2: #f6f9fc;
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
+  }
+}
+
+.survey-arrow {
+  width: 250px;
+  margin-left: 150px;
+
+  @media (max-width: 992px) {
+    margin: 0 auto;
+    padding-top: 30px;
   }
 }
 

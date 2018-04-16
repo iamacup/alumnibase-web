@@ -1,4 +1,3 @@
-
 import MainPage from '../../content/containers/Pages/Main';
 import AboutPage from '../../content/containers/Pages/About';
 import LegalPage from '../../content/containers/Pages/Legal';
