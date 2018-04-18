@@ -26,6 +26,9 @@ const drawNewPieChart = (data, label, chart, toggle) => {
       x: alignment[1],
       y: alignment[2],
     },
+    textStyle: {
+      fontFamily: 'Open Sans',
+    },
     series: [
       {
         type: 'pie',

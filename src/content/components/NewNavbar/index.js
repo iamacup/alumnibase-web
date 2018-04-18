@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 // import { whenLoaded } from '../../../content/scripts/custom/utilities';
 
 class Navbar extends React.Component {
-   // componentDidMount() {
-    // whenLoaded(() => {
-    //   $(document).scroll(() => {
-    //     const $nav = $('.navbar');
-    //     $nav.toggleClass('scrolled', $(document).scrollTop() > $nav.height());
-    //   });
-    // });
-  // } 
+  // componentDidMount() {
+  // whenLoaded(() => {
+  //   $(document).scroll(() => {
+  //     const $nav = $('.navbar');
+  //     $nav.toggleClass('scrolled', $(document).scrollTop() > $nav.height());
+  //   });
+  // });
+  // }
 
   getLink(location, text, style) {
     const { pathname } = this.context.router.route.location;
@@ -28,14 +28,13 @@ class Navbar extends React.Component {
   }
 
   render() {
-
-    let style={color: ""};
-    let image = (<img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/large-nav.png')} />)
-// eslint-disable-next-line react/prop-types
-if (this.props.color) {
-  style.color = this.props.color;
-  image = (<img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/AB_300px_150ppi.png')} height="75px" />)
-}
+    const style = { color: '' };
+    let image = (<img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/large-nav.png')} />);
+    // eslint-disable-next-line react/prop-types
+    if (this.props.color) {
+      style.color = this.props.color;
+      image = (<img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/AB_300px_150ppi.png')} height="75px" />);
+    }
 
 
     return (

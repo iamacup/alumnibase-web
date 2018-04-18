@@ -399,7 +399,6 @@ $color2: #f6f9fc;
 }
 
 .recruitment-container {
-  margin-top: 880px;
   margin-bottom: 100px;
   padding-top: 50px;
   z-index: 1;
@@ -542,10 +541,8 @@ $color2: #f6f9fc;
 }
 
 .recruitment-background {
-  margin-top: 860px;
   top: -50px;
   bottom: 0;
-  height: 1800px;
   z-index: -1;
   background: #32325d;
   will-change: transform;
@@ -554,6 +551,90 @@ $color2: #f6f9fc;
   right: 0;
   transform: skewY(-12deg);
   pointer-events: none;
+}
+
+@media (max-width: 430px) {
+  .recruitment-background {
+    margin-top: 1850px;
+    height: 3110px;
+  }
+
+  .recruitment-container {
+    margin-top: 1850px;
+  }
+}
+
+@media (min-width: 431px) {
+  .recruitment-background {
+    margin-top: 1750px;
+    height: 3000px;
+  }
+
+  .recruitment-container {
+    margin-top: 1750px;
+  }
+}
+
+@media (min-width: 445px) {
+  .recruitment-background {
+    height: 2800px;
+  }
+}
+
+@media (min-width: 520px) {
+  .recruitment-background {
+    margin-top: 1650px;
+    height: 2650px;
+  }
+
+  .recruitment-container {
+    margin-top: 1650px;
+  }
+}
+
+@media (min-width: 768px) {
+  .recruitment-background {
+    margin-top: 1150px;
+    height: 2500px;
+  }
+
+  .recruitment-container {
+    margin-top: 1150px;
+  }
+
+  .infoSource {
+    margin-right: 45%;
+  }
+
+  .chart2-title {
+    margin-right: 18px;
+  }
+
+  .chart4-source {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .recruitment-background {
+    margin-top: 1000px;
+    height: 1900px;
+  }
+
+  .recruitment-container {
+    margin-top: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recruitment-background {
+    margin-top: 840px;
+    height: 1750px;
+  }
+
+  .recruitment-container {
+    margin-top: 840px;
+  }
 }
 
 .recruitment-background .stripe {

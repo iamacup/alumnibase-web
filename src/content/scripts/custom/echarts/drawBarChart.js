@@ -1,4 +1,4 @@
-const drawGroupedBarChart = (titles, data, options) => {
+const drawGroupedBarChart = (titles, data, options, invertedBool) => {
   // data sould be in the form {x: [1, 2, 3], y: '%'}
   // direction is which way the axis should be: horizontal or vertical;
   // value is the axis value, ie "%" || "£";
@@ -22,6 +22,14 @@ const drawGroupedBarChart = (titles, data, options) => {
     };
   }
 
+
+  const inverted = {};
+  if (invertedBool) {
+    inverted.color = '#c4f0ff';
+  } else {
+    inverted.color = '';
+  }
+
   const option = {
     tooltip: {
       trigger: 'axis',
@@ -31,6 +39,14 @@ const drawGroupedBarChart = (titles, data, options) => {
     },
     legend: {
       data: data.map(element => element.name),
+      textStyle: {
+        fontFamily: 'Open Sans',
+        color: inverted.color,
+      },
+    },
+    textStyle: {
+      fontFamily: 'Open Sans',
+      color: inverted.color,
     },
     grid: {
       left: '3%',

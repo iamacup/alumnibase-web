@@ -52,12 +52,12 @@ export default [
     exact: true,
     component: NewBenefitsPage,
   },
-   {
+  {
     path: '/new-about',
     exact: true,
     component: NewAboutPage,
   },
-     {
+  {
     path: '/new-legal',
     exact: true,
     component: NewLegalPage,
