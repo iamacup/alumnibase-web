@@ -8,7 +8,7 @@ import Footer from '../../../../content/components/Footer';
 import drawNewPieChart from '../../../../content/scripts/custom/echarts/drawPieChart';
 
 
-import { renderChartToTarget, redrawCharts, updateChartOptions } from '../../../../content/scripts/custom/echarts/utilities';
+import { renderChartToTarget, redrawCharts } from '../../../../content/scripts/custom/echarts/utilities';
 import { fireDebouncedResizeEvents, whenLoaded } from '../../../../content/scripts/custom/utilities';
 
 
@@ -133,121 +133,121 @@ class NewTest extends React.Component {
           </div>
         </div>
 
-        <div className="container" style={{ marginTop: '-60px' }}>  {/* Images between 576 and 100 need to be sized correctly */}
-        <div className="toolkit">
+        <div className="container" style={{ marginTop: '-60px' }}>
+          <div className="toolkit">
 
-          <div className="text-center dark-blue-header-text">
-            <p style={{ fontSize: '26px', lineHeight: '33px' }}>THE COMPLETE TOOLKIT FOR UNIVERSITY DATA</p>
+            <div className="text-center dark-blue-header-text">
+              <p style={{ fontSize: '26px', lineHeight: '33px' }}>THE COMPLETE TOOLKIT FOR UNIVERSITY DATA</p>
+            </div>
+
+            <br /><br />
+
+            <div className="row">
+
+              <div className="col-md-6 mb-5 mb-md-0">
+                <div className="my-card box-1" style={{ padding: 0 }}>
+                  <div className="row">
+                    <div className="col-md-3 d-flex align-items-stretch">
+                      <div className="d-flex align-items-center image-corners-what-we-do">
+                        <div className="toolkit-mobile-sizing-icons">
+                          <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/1-s2-n.png')} />
+                        </div>
+                        <div className="mobile-card-title ml-5">
+                          <h5>Teaching Excellence Framework</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-9">
+                      <div className="p-4">
+                        <div className="card-title">
+                          <h5>Teaching Excellence Framework</h5>
+                        </div>
+                        <p className="dark-blue-main-text">Our survey is designed to give you lifelong employment outcomes to use in your written TEF submission.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                <div className="my-card box-2" style={{ padding: 0 }} >
+                  <div className="row pb-md-4 pb-lg-0">
+                    <div className="col-md-3 d-flex align-items-stretch">
+                      <div className="d-flex align-items-center image-corners-what-we-do">
+                        <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/2-s2-n.png')} />
+                      </div>
+                      <div className="mobile-card-title mt-5 ml-5">
+                        <h5>Understanding Alumni</h5>
+                      </div>
+                    </div>
+                    <div className="col-md-9">
+                      <div className="p-4">
+                        <div className="card-title">
+                          <h5>Understanding Alumni</h5>
+                        </div>
+                        <p className="dark-blue-main-text pb-lg-4">Build life-long relationships with alumni by giving them something of value they can use.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="m-5" />
+
+            <div className="row">
+
+              <div className="col-md-6 mb-5 mb-md-0">
+                <div className="my-card box-3" style={{ padding: 0 }}>
+                  <div className="row">
+                    <div className="col-md-3 d-flex align-items-stretch">
+                      <div className="d-flex align-items-center image-corners-what-we-do">
+                        <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/3-s2-n.png')} />
+                      </div>
+                      <div className="mobile-card-title mt-5 ml-5">
+                        <h5>Lifelong Value of a Degree</h5>
+                      </div>
+                    </div>
+                    <div className="col-md-9">
+                      <div className="p-4">
+                        <div className="card-title">
+                          <h5>Lifelong Value of a Degree</h5>
+                        </div>
+                        <p className="dark-blue-main-text">Understand both financial and non-financial value of a degree across a graduate's entire career. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-md-6">
+                <div className="my-card box-4" style={{ padding: 0 }}>
+                  <div className="row">
+                    <div className="col-md-3 d-flex align-items-stretch">
+                      <div className="d-flex align-items-center image-corners-what-we-do">
+                        <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/4-s2-n.png')} />
+                      </div>
+                      <div className="mobile-card-title mt-5 ml-5">
+                        <h5>Student Recruitment</h5>
+                      </div>
+                    </div>
+                    <div className="col-md-9">
+                      <div className="p-4">
+                        <div className="card-title">
+                          <h5>Student Recruitment</h5>
+                        </div>
+                        <p className="dark-blue-main-text">Get specific marketing messages that will resonate with students, wherever they come from.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
           </div>
-
-          <br /><br />
-
-          <div className="row">
-
-            <div className="col-md-6 mb-5 mb-md-0">
-              <div className="my-card box-1" style={{ padding: 0 }}>
-                <div className="row">
-                  <div className="col-md-3 d-flex align-items-stretch">
-                    <div className="d-flex align-items-center image-corners-what-we-do">
-                    <div className="toolkit-mobile-sizing-icons">
-                      <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/1-s2-n.png')} />
-                    </div>
-                    <div className="mobile-card-title ml-5">
-                    <h5>Teaching Excellence Framework</h5>
-                    </div>
-                    </div>
-                  </div>
-                  <div className="col-md-9">
-                    <div className="p-4">
-                    <div className="card-title">
-                      <h5>Teaching Excellence Framework</h5>
-                    </div>
-                      <p className="dark-blue-main-text">Our survey is designed to give you lifelong employment outcomes to use in your written TEF submission.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6">
-              <div className="my-card box-2" style={{ padding: 0 }} >
-                <div className="row pb-md-4 pb-lg-0">
-                  <div className="col-md-3 d-flex align-items-stretch">
-                    <div className="d-flex align-items-center image-corners-what-we-do">
-                      <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/2-s2-n.png')} />
-                    </div>
-                        <div className="mobile-card-title mt-5 ml-5">
-                    <h5>Understanding Alumni</h5>
-                    </div>
-                  </div>
-                  <div className="col-md-9">
-                    <div className="p-4">
-                    <div className="card-title">
-                      <h5>Understanding Alumni</h5>
-                    </div>
-                      <p className="dark-blue-main-text pb-lg-4">Build life-long relationships with alumni by giving them something of value they can use.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div className="m-5" />
-
-          <div className="row">
-
-            <div className="col-md-6 mb-5 mb-md-0">
-              <div className="my-card box-3" style={{ padding: 0 }}>
-                <div className="row">
-                  <div className="col-md-3 d-flex align-items-stretch">
-                    <div className="d-flex align-items-center image-corners-what-we-do">
-                      <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/3-s2-n.png')} />
-                    </div>
-                                            <div className="mobile-card-title mt-5 ml-5">
-                    <h5>Lifelong Value of a Degree</h5>
-                    </div>
-                  </div>
-                  <div className="col-md-9">
-                    <div className="p-4">
-                    <div className="card-title">
-                      <h5>Lifelong Value of a Degree</h5>
-                    </div>
-                      <p className="dark-blue-main-text">Understand both financial and non-financial value of a degree across a graduate's entire career. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-6">
-              <div className="my-card box-4" style={{ padding: 0 }}>
-                <div className="row">
-                  <div className="col-md-3 d-flex align-items-stretch">
-                    <div className="d-flex align-items-center image-corners-what-we-do">
-                      <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/4-s2-n.png')} />
-                    </div>
-                                                    <div className="mobile-card-title mt-5 ml-5">
-                    <h5>Student Recruitment</h5>
-                    </div>
-                  </div>
-                  <div className="col-md-9">
-                    <div className="p-4">
-                    <div className="card-title">
-                      <h5>Student Recruitment</h5>
-                    </div>
-                      <p className="dark-blue-main-text">Get specific marketing messages that will resonate with students, wherever they come from.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-        </div>
         </div>
 
 
@@ -297,10 +297,10 @@ class NewTest extends React.Component {
                   </div>
 
                   <div className="col-lg-6">
-                        <div className="survey-arrow">
-                          <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/circle-new.png')} />
-                        </div>
-                      </div>
+                    <div className="survey-arrow">
+                      <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/circle-new.png')} />
+                    </div>
+                  </div>
                 </div>
               </div>
 
