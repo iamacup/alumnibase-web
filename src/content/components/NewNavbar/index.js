@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import { whenLoaded } from '../../../content/scripts/custom/utilities';
+// import { whenLoaded } from '../../../content/scripts/custom/utilities';
 
 class Navbar extends React.Component {
   /* componentDidMount() {
@@ -39,7 +39,7 @@ class Navbar extends React.Component {
           </a>
 
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon" />
+            <i className="fal fa-bars" />
           </button>
           <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul className="navbar-nav mr-auto">
