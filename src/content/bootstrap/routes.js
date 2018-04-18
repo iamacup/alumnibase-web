@@ -9,6 +9,7 @@ import GDPRPage from '../../content/containers/Pages/GDPR/gdprPage';
 import NewTestPage from '../../content/containers/Pages/NewTest';
 import NewBenefitsPage from '../../content/containers/Pages/NewBenefits';
 import NewAboutPage from '../../content/containers/Pages/NewAbout';
+import NewLegalPage from '../../content/containers/Pages/NewLegal';
 
 export default [
   {
@@ -55,6 +56,11 @@ export default [
     path: '/new-about',
     exact: true,
     component: NewAboutPage,
+  },
+     {
+    path: '/new-legal',
+    exact: true,
+    component: NewLegalPage,
   },
   {
     path: '/GDPR',

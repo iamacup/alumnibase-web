@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 // import { whenLoaded } from '../../../content/scripts/custom/utilities';
 
 class Navbar extends React.Component {
-  /* componentDidMount() {
-    whenLoaded(() => {
-      $(document).scroll(() => {
-        const $nav = $('.navbar');
-        $nav.toggleClass('scrolled', $(document).scrollTop() > $nav.height());
-      });
-    });
-  } */
+   // componentDidMount() {
+    // whenLoaded(() => {
+    //   $(document).scroll(() => {
+    //     const $nav = $('.navbar');
+    //     $nav.toggleClass('scrolled', $(document).scrollTop() > $nav.height());
+    //   });
+    // });
+  // } 
 
   getLink(location, text, style) {
     const { pathname } = this.context.router.route.location;
@@ -28,13 +28,23 @@ class Navbar extends React.Component {
   }
 
   render() {
+
+    let style={color: ""};
+    let image = (<img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/large-nav.png')} />)
+// eslint-disable-next-line react/prop-types
+if (this.props.color) {
+  style.color = this.props.color;
+  image = (<img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/AB_300px_150ppi.png')} height="75px" />)
+}
+
+
     return (
       <nav className="navbar navbar-expand-md">
 
         <div className="container py-2 px-md-5">
 
           <a className="navbar-brand" href="#">
-            <img className="logo-large" alt="logo" src={require('../../../content/theme/custom/images/large-nav.png')} />
+            {image}
             <img className="logo-small" alt="logo" src={require('../../../content/theme/custom/images/small-nav.png')} />
           </a>
 
@@ -43,10 +53,10 @@ class Navbar extends React.Component {
           </button>
           <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul className="navbar-nav mr-auto">
-              {this.getLink('/about', 'About', {})}
-              {this.getLink('/benefits', 'Benefits', {})}
-              {this.getLink('/data', 'Insights', {})}
-              {this.getLink('/legal', 'Legal & GDPR', {})}
+              {this.getLink('/about', 'About', style)}
+              {this.getLink('/benefits', 'Benefits', style)}
+              {this.getLink('/data', 'Insights', style)}
+              {this.getLink('/legal', 'Legal & GDPR', style)}
             </ul>
 
             <ul className="navbar-nav">
