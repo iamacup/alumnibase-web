@@ -14,9 +14,9 @@ class Benefits extends React.Component {
   componentDidMount() {
     whenLoaded(() => {
       const data = [
-        { name: 'I would have reconsidered applying', value: 39 },
-        { name: 'I would still have applied', value: 38 },
-        { name: 'I would not have applied', value: 12 },
+        { name: 'I would have\n\rreconsidered\n\rapplying', value: 39 },
+        { name: 'I would\n\rstill have applied', value: 38 },
+        { name: 'I would not\n\rhave applied', value: 12 },
         { name: 'Don\'t know', value: 11 },
       ];
 
@@ -110,14 +110,14 @@ class Benefits extends React.Component {
               <div className="main-text text-center">
                 <h1>Why Alumni Base?</h1>
               </div>
-              <div className="row">
-                <div className="col-md-6 mt-sm-5 pt-sm-5">
+              <div className="row justify-content-center">
+                <div className="col-lg-6 mt-3 mt-sm-5 pt-sm-5 align-self-center">
                   <div className="main-text" id="main-text">
-                    <h3>For us, a lifetime of possibilities means a lifetime of outcomes.</h3>
+                    <h3>For us, a lifetime of possibilities means a lifetime of outcomes.</h3><br />
                     <h6>Alumni Base delivers financial and non-financial insights over the full career of your graduates.</h6>
                   </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-6 d-flex justify-content-center">
                   <div className="top-navigation" style={{ width: '300px' }}>
                     <a id="button" className="btn btn-block mr-2" href="#TEF" role="button">Teaching Excellence Framework</a>
                     <a id="button" className="btn btn-block mr-2" href="#widening" role="button">Widening Participation</a>
@@ -138,8 +138,8 @@ class Benefits extends React.Component {
                   <p style={{ fontSize: '26px', lineHeight: '33px' }}>TEACHING EXCELLENCE FRAMEWORK</p>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-md-6">
+              <div className="row justify-content-center">
+                <div className="col-md-4">
                   <div className="cycle-text">
                     <p className="dark-blue-main-text" style={{ textAlign: 'center' }}>If your university had been given a <strong>Bronze</strong> rating when you applied, would it have affected your decision to apply?</p>
                   </div>
@@ -149,7 +149,7 @@ class Benefits extends React.Component {
                     style={{ width: '100%', height: '240px' }}
                   />
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-4">
                   <div className="text-box py-5">
                     <div className="cycle-text">
                       <h5 className="dark-blue-header-text">Did You Know?</h5>
@@ -184,10 +184,9 @@ class Benefits extends React.Component {
                 </div>
               </div>
               <div className="row justify-content-center mb-4 m-4 m-md-0">
-                {/* } <div className="cycle-text col-10"> */}
                 <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>Everyone with the potential and ambition to succeed in, and because of, higher education should have equal opportunity to do so, whatever their income or background. For us, data is the key to making that happen.</p>
               </div>
-              <div className="row justify-content-center text-center">
+              <div className="row justify-content-center text-center mt-sm-5">
                 <div className="dark-blue-header-text col-md-auto">
                   <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>29%</p>
                   <p className="dark-blue-header-text">Of all entrants<br />were BME students.</p>
@@ -212,6 +211,11 @@ class Benefits extends React.Component {
               <div className="row justify-content-end">
                 <p className="infoSource text-muted" style={{ fontSize: '10px' }}>Source: <a href="http://www.hefce.ac.uk/analysis/HEinEngland/students/" style={{ color: '#6772e5' }}>hefce</a></p>
               </div>
+              </div>
+
+            </div>
+<div className="participation-container2">
+<div className="container">
               <div className="row justify-content-center">
                 <div className="col-10 col-md-8">
                   <div className="cycle-text mb-4">
@@ -223,14 +227,15 @@ class Benefits extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+              </div>
+              </div>
+
+          
 
           <div className="benefits-header">
             <div className="recruitment-background">
               <div className="stripe s1" /> {/* white left stripe */}
               <div className="stripe s2" /> {/* purple right stripe */}
-              <div className="stripe s3" /> {/* bottom blue stripe */}
             </div>
           </div>
 
@@ -268,7 +273,7 @@ class Benefits extends React.Component {
             </div>
             <br />
             <br />
-            <hr style={{ backgroundColor: '#343469', width: '50%', height: '5px' }} />
+            <hr style={{ backgroundColor: '#343469', width: '50%', height: '15px', boxShadow: "inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)" }} />
           </div>
 
           <div className="careers-container" id="careers">
