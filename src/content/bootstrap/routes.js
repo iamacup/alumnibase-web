@@ -1,4 +1,3 @@
-
 import MainPage from '../../content/containers/Pages/Main';
 import AboutPage from '../../content/containers/Pages/About';
 import LegalPage from '../../content/containers/Pages/Legal';
@@ -8,6 +7,9 @@ import BenefitsPage from '../../content/containers/Pages/Benefits';
 import GDPRPage from '../../content/containers/Pages/GDPR/gdprPage';
 
 import NewTestPage from '../../content/containers/Pages/NewTest';
+import NewBenefitsPage from '../../content/containers/Pages/NewBenefits';
+import NewAboutPage from '../../content/containers/Pages/NewAbout';
+import NewLegalPage from '../../content/containers/Pages/NewLegal';
 
 export default [
   {
@@ -41,10 +43,24 @@ export default [
     component: LegalPage,
   },
   {
-
     path: '/new-test',
     exact: true,
     component: NewTestPage,
+  },
+  {
+    path: '/new-benefits',
+    exact: true,
+    component: NewBenefitsPage,
+  },
+  {
+    path: '/new-about',
+    exact: true,
+    component: NewAboutPage,
+  },
+  {
+    path: '/new-legal',
+    exact: true,
+    component: NewLegalPage,
   },
   {
     path: '/GDPR',

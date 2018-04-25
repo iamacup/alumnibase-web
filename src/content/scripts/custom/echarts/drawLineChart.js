@@ -38,8 +38,17 @@ const drawLineChart = (data, options, titles) => {
   const option = {
     legend: {
       data: data.name,
+      selected: {
+        EY: false,
+        Deloitte: false,
+        KPMG: false,
+        'PA Consulting': false,
+      },
     },
     title: labels,
+    textStyle: {
+      fontFamily: 'Open Sans',
+    },
     tooltip: {
       trigger: 'item',
       axisPointer: {
@@ -52,7 +61,7 @@ const drawLineChart = (data, options, titles) => {
     xAxis: [{
       name: options.x,
       nameLocation: 'center',
-      nameGap: 50,
+      nameGap: 30,
       type: 'category',
       axisLine: {
         lineStyle: {
@@ -67,6 +76,9 @@ const drawLineChart = (data, options, titles) => {
       nameGap: gap,
       nameRotate: yLabel,
       type: 'value',
+      axisLabel: {
+        formatter: '£{value}',
+      },
       splitLine: {
         show: true,
       },
@@ -77,9 +89,6 @@ const drawLineChart = (data, options, titles) => {
       },
       axisTick: {
         show: false,
-      },
-      axisLabel: {
-        interval: 0,
       },
       splitArea: {
         show: false,
