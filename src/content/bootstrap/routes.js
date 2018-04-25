@@ -12,53 +12,53 @@ import NewAboutPage from '../../content/containers/Pages/NewAbout';
 import NewLegalPage from '../../content/containers/Pages/NewLegal';
 
 export default [
-  {
+  /* {
     path: '/',
     exact: true,
     component: MainPage,
+  }, */
+  {
+    path: '/',
+    exact: true,
+    component: NewTestPage,
   },
   {
     path: '/meet-me',
     exact: true,
     component: MeetMePage,
   },
-  {
+  /* {
     path: '/about',
     exact: true,
     component: AboutPage,
-  },
+  }, */
   {
+    path: '/about',
+    exact: true,
+    component: NewAboutPage,
+  },
+  /* {
     path: '/benefits',
     exact: true,
     component: BenefitsPage,
+  }, */
+  {
+    path: '/benefits',
+    exact: true,
+    component: NewBenefitsPage,
   },
   {
     path: '/data',
     exact: true,
     component: DataPage,
   },
-  {
+  /* {
     path: '/legal',
     exact: true,
     component: LegalPage,
-  },
+  }, */
   {
-    path: '/new-test',
-    exact: true,
-    component: NewTestPage,
-  },
-  {
-    path: '/new-benefits',
-    exact: true,
-    component: NewBenefitsPage,
-  },
-  {
-    path: '/new-about',
-    exact: true,
-    component: NewAboutPage,
-  },
-  {
-    path: '/new-legal',
+    path: '/legal',
     exact: true,
     component: NewLegalPage,
   },

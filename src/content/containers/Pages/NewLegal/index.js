@@ -11,7 +11,7 @@ class Legal extends React.Component {
         <div className="text-center dark-blue-header-text pt-5">
           <p style={{ fontSize: '26px', lineHeight: '33px' }}>Compliance and Legal</p>
         </div>
-        <div className="legal-header pb-5" style={{ transform: 'translateX(opx)', marginBottom: '100px' }}>
+        <div className="legal-header">
 
           <div className="container">
             <div className="row justify-content-center py-5">

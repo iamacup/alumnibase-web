@@ -211,11 +211,11 @@ class Benefits extends React.Component {
               <div className="row justify-content-end">
                 <p className="infoSource text-muted" style={{ fontSize: '10px' }}>Source: <a href="http://www.hefce.ac.uk/analysis/HEinEngland/students/" style={{ color: '#6772e5' }}>hefce</a></p>
               </div>
-              </div>
-
             </div>
-<div className="participation-container2">
-<div className="container">
+
+          </div>
+          <div className="participation-container2">
+            <div className="container">
               <div className="row justify-content-center">
                 <div className="col-10 col-md-8">
                   <div className="cycle-text mb-4">
@@ -227,10 +227,9 @@ class Benefits extends React.Component {
                   </div>
                 </div>
               </div>
-              </div>
-              </div>
+            </div>
+          </div>
 
-          
 
           <div className="benefits-header">
             <div className="recruitment-background">
@@ -273,7 +272,10 @@ class Benefits extends React.Component {
             </div>
             <br />
             <br />
-            <hr style={{ backgroundColor: '#343469', width: '50%', height: '15px', boxShadow: "inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)" }} />
+            <hr style={{
+ backgroundColor: '#343469', width: '50%', height: '15px', boxShadow: 'inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)',
+}}
+            />
           </div>
 
           <div className="careers-container" id="careers">
