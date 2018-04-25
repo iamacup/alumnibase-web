@@ -67,8 +67,8 @@ class Form extends React.Component {
       <div>
         {errorMessage}
         <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">Contact Us:</h5>
-                  </div>
+          <h5 className="dark-blue-header-text">Contact Us:</h5>
+        </div>
         <div className="mb-2">
           <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Your Email" ref={(element) => { this.email = element; }} />
         </div>
@@ -76,7 +76,7 @@ class Form extends React.Component {
           <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Comments" rows="3" ref={(element) => { this.comment = element; }} />
         </div>
         <div className="text-right">
-        <button type="button" className="btn btn-green mb-5" onClick={e => this.handleEmail(e)}>Send</button>
+          <button type="button" className="btn btn-green mb-5" onClick={e => this.handleEmail(e)}>Send</button>
         </div>
         <FetchData
           active={active}

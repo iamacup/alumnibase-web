@@ -227,63 +227,62 @@ class NewTest extends React.Component {
 
         </div>
 
-    
 
         <div className="outer">
           <div className="bg-two" />
           <div className="content-two">
 
-            <div className="container" style={{paddingTop: '40px'}}>
+            <div className="container" style={{ paddingTop: '40px' }}>
 
               <div className="text-center dark-blue-header-text">
                 <p style={{ fontSize: '26px', lineHeight: '33px' }}>SURVEY YOUR ALUMNI</p>
-                <div style={{marginTop: '26px'}} />
+                <div style={{ marginTop: '26px' }} />
 
                 <div className="row">
-                <div className="col-sm-2" />
-                <div className="col-sm-8">
-                <p style={{fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>
+                  <div className="col-sm-2" />
+                  <div className="col-sm-8">
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>
                   Understand Alumni Outcomes and deliver data back to the university, and everyone across the whole student life cycle
-                </p>
+                    </p>
+                  </div>
                 </div>
-                </div>
-                
+
               </div>
 
-              <div style={{paddingTop: '34px'}}>
-              <div className="row align-items-center">
-                <div className="col-sm-6">
-                  <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                    <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">Better Student Recruitment</h5>
-                      <p className="dark-blue-main-text">Tailored marketing messages that resonate with individuals improves student recruitment.</p>
+              <div style={{ paddingTop: '34px' }}>
+                <div className="row align-items-center">
+                  <div className="col-sm-6">
+                    <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">Better Student Recruitment</h5>
+                        <p className="dark-blue-main-text">Tailored marketing messages that resonate with individuals improves student recruitment.</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.75s">
-                    <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">Better Careers Service</h5>
-                      <p className="dark-blue-main-text">Show students the full range of career options and how they can fit in to improve employment outcomes.</p>
+                    <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.75s">
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">Better Careers Service</h5>
+                        <p className="dark-blue-main-text">Show students the full range of career options and how they can fit in to improve employment outcomes.</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.0s">
-                    <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">Better Alumni Outcomes</h5>
-                      <p className="dark-blue-main-text">More students, better equipped for employment will improve graduate outcomes and improve your next survey.</p>
+                    <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.0s">
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">Better Alumni Outcomes</h5>
+                        <p className="dark-blue-main-text">More students, better equipped for employment will improve graduate outcomes and improve your next survey.</p>
+                      </div>
                     </div>
+
                   </div>
 
+                  <div className="col-sm-6">
+                    <div className="px-5">
+                      <div className="px-5">
+                        <div className="px-5">
+                          <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/circle-new.png')} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <div className="col-sm-6">
-                  <div className="px-5">
-                  <div className="px-5">
-                  <div className="px-5">
-                  <img className="img-fluid" alt="logo" src={require('../../../../content/theme/custom/images/front-new/circle-new.png')} />
-                  </div>
-                  </div>
-                  </div>
-                </div>
-              </div>
               </div>
 
 
@@ -293,263 +292,239 @@ class NewTest extends React.Component {
         </div>
 
         <div className="outer">
-        <div className="three-box">
+          <div className="three-box">
 
-        <div className="container">
-          <div className="text-center dark-blue-header-text">
+            <div className="container">
+              <div className="text-center dark-blue-header-text">
                 <p style={{ fontSize: '26px', lineHeight: '33px' }}>HOW IT WORKS</p>
               </div>
 
-              <div style={{paddingTop: '44px'}}>
+              <div style={{ paddingTop: '44px' }}>
                 <div className="row">
                   <div className="col-sm-4">
                     <div>
-                    <i class="fas fa-pencil-alt fa-3x purple-text-two" style={{marginBottom: '16px'}}></i>
-                    <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">1. Survey Alumni</h5>
-                      <p className="dark-blue-main-text">We have built a next-generation survey tool that provides instant feedback to users filling it out.</p>
-                    </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div>
-                    <i class="fas fa-database fa-3x purple-text-two" style={{marginBottom: '16px'}}></i>
-                    <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">2. Analyse The Data</h5>
-                      <p className="dark-blue-main-text">Analyse the data in a fully GDPR compliant way either in our tool or in Tableau or other analytics engine.</p>
-                    </div>
+                      <i className="fas fa-pencil-alt fa-3x purple-text-two" style={{ marginBottom: '16px' }} />
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">1. Survey Alumni</h5>
+                        <p className="dark-blue-main-text">We have built a next-generation survey tool that provides instant feedback to users filling it out.</p>
+                      </div>
                     </div>
                   </div>
                   <div className="col-sm-4">
                     <div>
-                    <i class="fas fa-chart-line fa-3x purple-text-two" style={{marginBottom: '16px'}}></i>
-                    <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">3. Use in TEF, Careers Advice and Recruitment</h5>
-                      <p className="dark-blue-main-text">Our specific tools and dashboards enable you to quickly deploy insights to immediately improve your institution in multiple ways.</p>
+                      <i className="fas fa-database fa-3x purple-text-two" style={{ marginBottom: '16px' }} />
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">2. Analyse The Data</h5>
+                        <p className="dark-blue-main-text">Analyse the data in a fully GDPR compliant way either in our tool or in Tableau or other analytics engine.</p>
+                      </div>
                     </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div>
+                      <i className="fas fa-chart-line fa-3x purple-text-two" style={{ marginBottom: '16px' }} />
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">3. Use in TEF, Careers Advice and Recruitment</h5>
+                        <p className="dark-blue-main-text">Our specific tools and dashboards enable you to quickly deploy insights to immediately improve your institution in multiple ways.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
 
-               <div className="text-center dark-blue-header-text">
+              <div className="text-center dark-blue-header-text">
                 <div className="row">
-                <div className="col-sm-2" />
-                <div className="col-sm-8">
-                <p style={{fontSize: '24px', lineHeight: '36px', fontWeight: '400', paddingTop: '30px' }}>
+                  <div className="col-sm-2" />
+                  <div className="col-sm-8">
+                    <p style={{
+ fontSize: '24px', lineHeight: '36px', fontWeight: '400', paddingTop: '30px',
+}}
+                    >
                   With our tools you are affoarded unparalleled access to data that is further reaching than LEO & DLHE that not only benefit your administration, but also curent and past students.
-                </p>
+                    </p>
+                  </div>
                 </div>
-                </div>
-                
+
               </div>
 
 
-        </div>
+            </div>
 
-        </div>
+          </div>
         </div>
 
         <div className="outer">
-        <div className="four-box">
-          <div className="container">
-      <div className="row">
+          <div className="four-box">
+            <div className="container">
+              <div className="row">
 
-        <div className="offset-md-1 col-lg-4 d-flex align-items-center">
-          <img className="img-fluid img-shadow" id="image" alt="survey" src={require('../../../../content/theme/custom/images/survey.png')} />
-        </div>
-
-        {/* Start of column 2 outer */}
-        <div className="offset-md-1 col-lg-6">
-
-
-          <div className="my-4">
-            <div className="row">
-              <div className="col-sm-2 p-2 d-flex align-items-center">
-                <div className="header-image">
-                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
-                    <img className="img-fluid" alt="survey" src={require('../../../../content/theme/custom/images/front-new/5-s.png')} />
-                  </div>
+                <div className="offset-md-1 col-lg-4 d-flex align-items-center">
+                  <img className="img-fluid img-shadow" id="image" alt="survey" src={require('../../../../content/theme/custom/images/survey.png')} />
                 </div>
-              </div>
 
-              <div className="col-sm-8 text-center text-sm-left">
-                <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text" style={{color: '#2296bc'}}>21st Century Surveying</h5>
-                      <p className="dark-blue-main-text">Means surveys that look great and return results immediately to the people who take it.</p>
+                {/* Start of column 2 outer */}
+                <div className="offset-md-1 col-lg-6">
+
+
+                  <div className="my-4">
+                    <div className="row">
+                      <div className="col-sm-2 p-2 d-flex align-items-center">
+                        <div className="header-image">
+                          <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.75s">
+                            <img className="img-fluid" alt="survey" src={require('../../../../content/theme/custom/images/front-new/5-s.png')} />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col-sm-8 text-center text-sm-left">
+                        <div className="p-2 cycle-text">
+                          <h5 className="dark-blue-header-text" style={{ color: '#2296bc' }}>21st Century Surveying</h5>
+                          <p className="dark-blue-main-text">Means surveys that look great and return results immediately to the people who take it.</p>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+
+                  <div className="my-4">
+                    <div className="row">
+                      <div className="col-sm-2 d-flex align-items-center">
+                        <div className="header-image">
+                          <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.95s">
+                            <img className="img-fluid" alt="survey" src={require('../../../../content/theme/custom/images/front-new/6-s.png')} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-8 text-center text-sm-left">
+                        <div className="p-2 cycle-text">
+                          <h5 className="dark-blue-header-text" style={{ color: '#1673b4' }}>Seed Survey with HEI Data</h5>
+                          <p className="dark-blue-main-text">Sharing some data with us can help optimise the survey or allow us to conduct survey for you.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="my-4">
+                    <div className="row">
+                      <div className="col-sm-2 d-flex align-items-center">
+                        <div className="header-image">
+                          <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.15s">
+                            <img className="img-fluid" alt="survey" src={require('../../../../content/theme/custom/images/front-new/7-s.png')} />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-8 text-center text-sm-left">
+                        <div className="p-2 cycle-text">
+                          <h5 className="dark-blue-header-text" style={{ color: '#40509d' }}>Survey Only</h5>
+                          <p className="dark-blue-main-text">AlumniBase has been designed to run without increasing your GDPR responsibilities at all.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                {/* end of column 2 outer */}
+
               </div>
             </div>
           </div>
-
-          <div className="my-4">
-            <div className="row">
-              <div className="col-sm-2 d-flex align-items-center">
-                <div className="header-image">
-                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="0.95s">
-                    <img className="img-fluid" alt="survey" src={require('../../../../content/theme/custom/images/front-new/6-s.png')} />
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-8 text-center text-sm-left"> 
-                <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text" style={{color: '#1673b4'}}>Seed Survey with HEI Data</h5>
-                      <p className="dark-blue-main-text">Sharing some data with us can help optimise the survey or allow us to conduct survey for you.</p>
-                    </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="my-4">
-            <div className="row">
-              <div className="col-sm-2 d-flex align-items-center">
-                <div className="header-image">
-                  <div className="wow bounceIn" data-wow-duration="1s" data-wow-delay="1.15s">
-                    <img className="img-fluid" alt="survey" src={require('../../../../content/theme/custom/images/front-new/7-s.png')} />
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-8 text-center text-sm-left">
-              <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text" style={{color: '#40509d'}}>Survey Only</h5>
-                      <p className="dark-blue-main-text">AlumniBase has been designed to run without increasing your GDPR responsibilities at all.</p>
-                    </div>
-              </div>
-            </div>
-          </div>
-
-
         </div>
-        {/* end of column 2 outer */}
-
-      </div>
-    </div>
-        </div>
-        </div>
-
-
-
-
 
 
         <div className="outer">
-        <div className="five-box">
+          <div className="five-box">
 
 
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="false">
+              <div className="carousel-inner">
+                <div className="carousel-item active text-center">
+                  <div className="carousel-margin">
+                    <img className="img-fluid" alt="logo" width="30%" src={require('../../../../content/theme/custom/images/front-new/8-s.png')} />
 
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="false">
-        <div className="carousel-inner">
-          <div className="carousel-item active text-center">
-            <div className="carousel-margin">
-              <img className="img-fluid" alt="logo" width="30%" src={require('../../../../content/theme/custom/images/front-new/8-s.png')} />
-
-              <div className="p-2 cycle-text">
+                    <div className="p-2 cycle-text">
                       <h5 className="dark-blue-header-text">Teaching Excellence Framework</h5>
                       <p className="dark-blue-main-text">AlumniBase is compatible with the DLHE survey, <br /> meaning TEF quality data for lifetime graduate outcomes.</p>
                     </div>
 
-            </div>
-          </div>
-          <div className="carousel-item text-center">
-            <div className="carousel-margin">
-              <img className="img-fluid" alt="logo" width="25%" src={require('../../../../content/theme/custom/images/front-new/9-s.png')} />
-              
-              <div className="p-2 cycle-text">
+                  </div>
+                </div>
+                <div className="carousel-item text-center">
+                  <div className="carousel-margin">
+                    <img className="img-fluid" alt="logo" width="25%" src={require('../../../../content/theme/custom/images/front-new/9-s.png')} />
+
+                    <div className="p-2 cycle-text">
                       <h5 className="dark-blue-header-text">Student Recruitment</h5>
                       <p className="dark-blue-main-text">Showing applicants how students like them have gone on to succeed <br /> answers much deeper questions when selecting a university.</p>
                     </div>
 
-            </div>
-          </div>
-          <div className="carousel-item text-center">
-            <div className="carousel-margin">
-              <img className="img-fluid" alt="logo" width="30%" src={require('../../../../content/theme/custom/images/front-new/10-s.png')} />
-              
-              <div className="p-2 cycle-text">
+                  </div>
+                </div>
+                <div className="carousel-item text-center">
+                  <div className="carousel-margin">
+                    <img className="img-fluid" alt="logo" width="30%" src={require('../../../../content/theme/custom/images/front-new/10-s.png')} />
+
+                    <div className="p-2 cycle-text">
                       <h5 className="dark-blue-header-text">Employability</h5>
                       <p className="dark-blue-main-text">The insights we return to alumni will help them <br /> maximise their earning potential.</p>
                     </div>
+                  </div>
+                </div>
+                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span className="carousel-control-prev-icon" aria-hidden="true" />
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span className="carousel-control-next-icon" aria-hidden="true" />
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
             </div>
+
+
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="sr-only">Previous</span>
-          </a>
-          <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-
-
-
-        </div>
         </div>
 
 
-
-
-
-
-
-
-
-         <div className="outer">
+        <div className="outer">
           <div className="six-box">
 
-          <div className="container">
-      
+            <div className="container">
 
-          <div className="text-center dark-blue-header-text">
+
+              <div className="text-center dark-blue-header-text">
                 <p style={{ fontSize: '26px', lineHeight: '33px' }}>STILL HAVE QUESTIONS?</p>
               </div>
 
-          <div className="container">
-            <div className="row justify-content-center">
+              <div className="container">
+                <div className="row justify-content-center">
 
-              <div className="col-sm-4 order-sm-12 my-4">
-                <div className="wow slideInRight" data-wow-duration="0.5s" data-wow-delay="0.75s">
-                  <Form />
-                </div>
-              </div>
-
-              <div className="col-sm-4 order-sm-1 my-4">
-                <div className="wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
-                  <div className="p-2 cycle-text">
-                      <h5 className="dark-blue-header-text">Find out about:</h5>
+                  <div className="col-sm-4 order-sm-12 my-4">
+                    <div className="wow slideInRight" data-wow-duration="0.5s" data-wow-delay="0.75s">
+                      <Form />
+                    </div>
                   </div>
 
-                  <a href="/legal" className="btn btn-green btn-block">GDPR Compliance</a>
-                  <a href="/data" className="btn btn-green btn-block">Data Quality</a>
-                  <a href="#survey" className="btn btn-green btn-block">Surveying</a>
+                  <div className="col-sm-4 order-sm-1 my-4">
+                    <div className="wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                      <div className="p-2 cycle-text">
+                        <h5 className="dark-blue-header-text">Find out about:</h5>
+                      </div>
 
-                  
+                      <a href="/legal" className="btn btn-green btn-block">GDPR Compliance</a>
+                      <a href="/data" className="btn btn-green btn-block">Data Quality</a>
+                      <a href="#survey" className="btn btn-green btn-block">Surveying</a>
+
+
+                    </div>
+                  </div>
+
+
                 </div>
               </div>
-
-
             </div>
-          </div>
-          </div>
 
           </div>
-          </div>
-          
-      
-        
-
-
-
-
-
-
-
-
-
-
-
+        </div>
 
 
         <Footer />
