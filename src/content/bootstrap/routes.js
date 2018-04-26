@@ -1,79 +1,70 @@
-
-// import MainPage from '../../content/containers/Pages/Main/page1';
-import MainPage from '../../content/containers/Pages/Main/page2';
-import AboutPage from '../components/about';
-import LegalPage from '../components/legal';
-import DataPage from '../components/Main/dataInsights';
-import BenefitsPage from '../components/Benefits/benefits';
-
+import MainPage from '../../content/containers/Pages/Main';
+import AboutPage from '../../content/containers/Pages/About';
+import LegalPage from '../../content/containers/Pages/Legal';
 import MeetMePage from '../../content/containers/Pages/MeetMe';
+import DataPage from '../../content/containers/Pages/Data';
+import BenefitsPage from '../../content/containers/Pages/Benefits';
+import GDPRPage from '../../content/containers/Pages/GDPR/gdprPage';
 
-// megan's experiments
-// import TodoPage from '../../content/containers/Pages/ToDo';
-// import LoginPage from '../../content/containers/Pages/form';
-// import InputPage from '../../content/containers/Pages/form/Input';
-// import ListPage from '../../content/containers/Pages/form/List';
-
+import NewTestPage from '../../content/containers/Pages/NewTest';
+import NewBenefitsPage from '../../content/containers/Pages/NewBenefits';
+import NewAboutPage from '../../content/containers/Pages/NewAbout';
+import NewLegalPage from '../../content/containers/Pages/NewLegal';
 
 export default [
   /* {
-    path: '/2',
+    path: '/',
     exact: true,
     component: MainPage,
   }, */
   {
     path: '/',
     exact: true,
-    component: MainPage,
+    component: NewTestPage,
   },
   {
     path: '/meet-me',
     exact: true,
     component: MeetMePage,
   },
-  {
+  /* {
     path: '/about',
     exact: true,
     component: AboutPage,
-  },
+  }, */
   {
+    path: '/about',
+    exact: true,
+    component: NewAboutPage,
+  },
+  /* {
     path: '/benefits',
     exact: true,
     component: BenefitsPage,
+  }, */
+  {
+    path: '/benefits',
+    exact: true,
+    component: NewBenefitsPage,
   },
   {
     path: '/data',
     exact: true,
     component: DataPage,
   },
-  {
+  /* {
     path: '/legal',
     exact: true,
     component: LegalPage,
+  }, */
+  {
+    path: '/legal',
+    exact: true,
+    component: NewLegalPage,
   },
-  /* {
-    path: '/login',
+  {
+    path: '/GDPR',
     exact: true,
-    component: LoginPage,
-  }, */
-  /* {
-    path: '/input',
-    exact: true,
-    component: InputPage,
-  }, */
-  /* {
-    path: '/list',
-    exact: true,
-    component: ListPage,
-  }, */
-  /* {
-    path: '/todo',
-    exact: true,
-    component: TodoPage,
-  }, */
-  /* {
-    path: '*',
-    component: NotFoundPage,
-    loadData: defaultLoadFunction,
-  }, */
+    component: GDPRPage,
+  },
 ];

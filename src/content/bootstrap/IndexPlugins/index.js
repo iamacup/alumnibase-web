@@ -53,6 +53,7 @@ result.headTop.push(<script key="ga2"
 
 // font
 result.headTop.push(<link key="5" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css" />);
+//result.headTop.push(<link key="font2" href="https://fonts.googleapis.com/css?family=Cambay:400,700" rel="stylesheet">);
 
 // Bootstrap Stylesheets
 result.headTop.push(<link key="6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />);
@@ -63,8 +64,8 @@ result.headTop.push(<link key="8" href="https://cdnjs.cloudflare.com/ajax/libs/s
 // Slider Stylesheets
 result.headTop.push(<link key="9" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css" rel="stylesheet" />);
 
-result.headTop.push(<link key="fa1" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-+iHwwKZGTdlVFbv4fsKmLkogfdKlp47zQGkSMDN3ANc8kXjyKudKvQwinI5VH+2C" crossOrigin="anonymous" />);
-result.headTop.push(<link key="fa2" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-+5VkSw5C1wIu2iUZEfX77QSYRb5fhjmEsRn8u4r9Ma8mvu/GvTag4LDSEAw7RjXl" crossOrigin="anonymous" />);
+// result.headTop.push(<link key="fa1" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-+iHwwKZGTdlVFbv4fsKmLkogfdKlp47zQGkSMDN3ANc8kXjyKudKvQwinI5VH+2C" crossOrigin="anonymous" />);
+// result.headTop.push(<link key="fa2" rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-+5VkSw5C1wIu2iUZEfX77QSYRb5fhjmEsRn8u4r9Ma8mvu/GvTag4LDSEAw7RjXl" crossOrigin="anonymous" />);
 
 /*
   HEAD BOTTOM SCRIPTS
