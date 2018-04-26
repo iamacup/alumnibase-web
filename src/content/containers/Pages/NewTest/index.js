@@ -50,9 +50,19 @@ class NewTest extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
+
+        <div style={{ position: 'relative' }}>
+          <div className="background-fix" />
+        </div>
+
+        <Navbar
+          superContainerClass="navbar navbar-expand-md background-fix"
+        />
+
 
         <div className="outer">
+
+
           <div className="bg-top">
             <span className="span1" />
             <span className="span2" />
@@ -60,6 +70,7 @@ class NewTest extends React.Component {
             <span className="span4" />
             <span className="span5" />
           </div>
+
           <div className="content-top">
             <div className="container">
               <div className="row align-items-center">

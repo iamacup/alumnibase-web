@@ -1,4 +1,6 @@
+
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Navbar from '../../../../content/components/NewNavbar';
 import Footer from '../../../../content/components/Footer';
@@ -6,8 +8,11 @@ import Footer from '../../../../content/components/Footer';
 class Legal extends React.Component {
   render() {
     return (
-      <div>
-        <Navbar color="#0050bd" />
+      <div style={{ backgroundColor: '#f6f9fc' }}>
+        <Navbar
+          altImage
+          containerClass="alt-nav"
+        />
         <div className="text-center dark-blue-header-text pt-5">
           <p style={{ fontSize: '26px', lineHeight: '33px' }}>Compliance and Legal</p>
         </div>
@@ -23,14 +28,15 @@ class Legal extends React.Component {
                     <p style={{
  fontSize: '24px', lineHeight: '36px', fontWeight: '400', color: '#fff',
 }}
-                    >Data Protection
+                    >
+                      Data Protection
                     </p>
                   </div>
                   <div className="cycle-text">
                     <h5 className="dark-blue-header-text" style={{ color: '#b5deff' }}>GDPR Compliant</h5>
                     <p className="dark-blue-header-text" style={{ color: '#b5deff' }}>AlumniBase is designed to be fully GDPR compliant - providing outcomes data without increasing a university's GDPR responsibilities.</p>
                     <p className="dark-blue-header-text" style={{ color: '#b5deff' }}>From communication with alumni to returning useable insights, please get in touch to find out more about how we deliver the GDPR logistics in addition to the data.</p>
-                    <a href="/GDPR" style={{ color: '#fff' }}>Click here for our detailed views on the GDPR & AlumniBase</a>
+                    <Link className="btn btn-green btn-multiline" href="/GDPR" to="/GDPR">Click here for our detailed views on the GDPR & AlumniBase</Link>
                   </div>
                 </div>
               </div>
@@ -41,7 +47,7 @@ class Legal extends React.Component {
                     <div className="card-body">
                       <div className="cycle-text">
                         <p className="text-left dark-blue-main-text" style={{ color: '#b5deff' }}>The T's & C's details what you can, and cannot do with the data within our platform, among other things.</p>
-                        <p className="text-left dark-blue-main-text text-muted" style={{ color: '#b5deff' }}>Coming Soon</p>
+                        <p className="text-right dark-blue-main-text text-muted">Coming Soon...</p>
                       </div>
                     </div>
                   </li>
@@ -50,7 +56,7 @@ class Legal extends React.Component {
                     <div className="card-body">
                       <div className="cycle-text">
                         <p className="text-left dark-blue-main-text" style={{ color: '#b5deff' }}>Our privacy policy explains what data we collect, who we share it with and your rights and controls.</p>
-                        <p className="text-left dark-blue-main-text text-muted" style={{ color: '#b5deff' }}>Coming Soon</p>
+                        <p className="text-right dark-blue-main-text text-muted">Coming Soon...</p>
                       </div>
                     </div>
                   </li>

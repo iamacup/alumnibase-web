@@ -1,11 +1,14 @@
+
 import React from 'react';
 import Helmet from 'react-helmet';
-import Navbar from '../../../../content/components/Navbar';
+
 import SecondNavbar from './gdprNavbar';
 import Content from './content';
 import Roadmap from './roadmap';
 import Opportunity from './opportunity';
 import FAQ from './faq';
+
+import Navbar from '../../../../content/components/NewNavbar';
 import Footer from '../../../../content/components/Footer';
 
 class GdprPage extends React.Component {
@@ -13,7 +16,10 @@ class GdprPage extends React.Component {
     return (
       <div className="GDPR">
         <Helmet title="GDPR" />
-        <Navbar />
+        <Navbar
+          altImage
+          containerClass="alt-nav"
+        />
         <div className="landing">
           <div className="row justify-content-center pt-5 mt-5">
             <h2>The GDPR & AlumniBase</h2>

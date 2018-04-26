@@ -68,23 +68,6 @@
   }
 }
 
-#navbar2 {
-  height: 7vh;
-
-  .navbar-brand {
-    padding-left: 2vw;
-  }
-
-  .nav-link {
-    color: $dark-color;
-    margin-right: 2vw;
-  }
-
-  .nav-link:hover {
-    color: #0050bd;
-  }
-}
-
 nav {
   position: relative;
 
@@ -552,14 +535,10 @@ nav {
   line-height: 30px;
 
   .landing {
-    padding-top: 100px;
+    padding-top: 30px;
     background-color: $color-blue;
     color: #fff;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-
-    .navbar-2 {
-      background-color: #fff;
-    }
   }
 
   .roadmap-landing {
