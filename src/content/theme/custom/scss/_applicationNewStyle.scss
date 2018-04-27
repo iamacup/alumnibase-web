@@ -2,22 +2,74 @@
 $color1: #fff;
 $color2: #f6f9fc;
 
-.navbar {
-  .logo-small {
-    display: none;
-  }
+.top-navigation {
+  text-align: center;
+  margin-top: 100px;
+  color: #fff;
 
-  .scrolled {
-    color: red;
+  a {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #6772e5;
   }
-
-  z-index: 1020;
 }
 
 .navbar-toggler {
   z-index: 1030;
   color: #fff;
   font-size: 35px;
+}
+
+.navbar {
+  .logo-small {
+    display: none;
+  }
+
+  .active {
+    a {
+      color: #0056b3;
+    }
+  }
+
+  z-index: 1020;
+
+  .alt-nav {
+    a {
+      color: #0056b3;
+    }
+
+    a:hover {
+      color: lighten(#0056b3, 40%);
+    }
+
+    .active {
+      a {
+        color: lighten(#0056b3, 40%);
+      }
+    }
+
+    .navbar-toggler {
+      color: #0056b3;
+    }
+  }
+}
+
+.background-fix {
+  display: none;
+  top: -100px;
+  position: absolute;
+  z-index: -1;
+
+  @media (max-width: 767px) {
+    background: linear-gradient(#507eb1, #507eb1 32%);
+    //background-color: red;
+    text-rendering: optimizelegibility;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    width: 100%;
+    display: block;
+    height: 300px;
+  }
 }
 
 .navbar.scrolled {
@@ -128,18 +180,6 @@ $color2: #f6f9fc;
 
   .main-text {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  }
-}
-
-.top-navigation {
-  text-align: center;
-  margin-top: 100px;
-  color: #fff;
-
-  a {
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: #6772e5;
   }
 }
 
@@ -321,6 +361,10 @@ $color2: #f6f9fc;
   background-color: rgb(62, 207, 142);
   padding-left: 18px !important;
   padding-right: 18px !important;
+}
+
+.btn-multiline {
+  white-space: normal;
 }
 
 .btn:hover {
@@ -684,4 +728,9 @@ $color2: #f6f9fc;
   padding: 20px;
   padding-top: 40px;
   border-radius: 5px;
+}
+
+.green-box-border {
+  border: 3px solid #74e4a2;
+  border-radius: 4px;
 }

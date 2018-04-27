@@ -1,4 +1,7 @@
+
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Form from '../../../content/components/ContactForm';
 
 export default () => (
@@ -15,17 +18,17 @@ export default () => (
         <div id="navigation" className="col">
           <div className="mt-4">
             <h5>Alumni Base</h5>
-            <a href="/about">About Us</a><br />
-            <a href="/benefits">Benefits</a><br />
-            <a href="/data">Data Insights</a><br />
-            <a href="/legal">Compliance & Legal</a>
+            <Link to="/about" href="/about">About Us</Link><br />
+            <Link to="/benefits" href="/benefits">Benefits</Link><br />
+            <Link to="/data" href="/data">Data Insights</Link><br />
+            <Link to="/legal" href="/legal">Compliance & Legal</Link>
           </div>
         </div>
 
         <div id="legals" className="col">
           <div className="mt-4">
             <h5>Legal</h5>
-            <a href="/GDPR">GDPR</a>
+            <Link to="/GDPR" href="/GDPR">GDPR</Link>
           </div>
         </div>
 

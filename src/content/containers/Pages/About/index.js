@@ -24,7 +24,7 @@ class About extends React.Component {
                 <h5>What is AlumniBase?</h5>
                 <div className="row">
                   <div className="col">
-                  AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a href="www.sliips.com">www.sliips.com</a>. While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.
+                  AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a href="https://www.sliips.com">www.sliips.com</a>. While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.
 
                   </div>
                 </div>
