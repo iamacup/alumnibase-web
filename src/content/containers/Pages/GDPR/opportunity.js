@@ -19,11 +19,11 @@ class opportunity extends React.Component {
           <div className="text-box">
             <div className="row justify-content-center">
               <div className="col-md-8">
-                <p>Now that we've gotten product specifics out of the way, a quick word on our mindset towards the GDPR, as marketers.</p>
+                <p>Now that we've gotten product specifics out of the way, a quick word on our mindset towards the GDPR, as data people.</p>
                 <p>When a new set of rules is first introduced, our first reaction is often fear. Fear of compliance, of punishment, of red tape.</p>
                 <p>But here’s the thing: all of the recent data protection laws, from CAN-SPAM to CASL to the GDPR and beyond, are built for a simple reason: <strong>to provide better experiences for our customers and the people who trust us with their data.</strong></p>
                 <p>In that way, they’re perfectly aligned with the concept of Inbound. Be relevant, be helpful, be transparent, and you’ll be on your way to compliance. Be spammy, interruptive, aggressive, and you’ll be in trouble.</p>
-                <p>Complying with the GDPR will require effort, and that effort may lead to stress between now and deadline day. But, at the end of the day, if the GDPR makes your customers’ lives better, it’ll grow your business as a result.</p>
+                <p>Complying with the GDPR will require effort, and that effort may lead to stress between now and deadline day. But, at the end of the day, if the GDPR makes your applicants, students or alumni’s lives better, it’ll grow your business as a result.</p>
                 <p>Here are a few big business benefits to think about, as you work through the process over the next few months:</p>
                 <ul>
                   <li><strong>The GDPR has specific rules about enabling your contacts to specify exactly what they want to receive from you.</strong>This makes total sense from a business perspective. Don’t send to contacts that don’t want to hear from you, and make sure the ones that do get to choose what they want. Tangibly, this will lead to fewer unsubscribes and better deliverability.</li>
