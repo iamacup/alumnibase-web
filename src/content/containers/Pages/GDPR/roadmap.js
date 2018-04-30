@@ -25,7 +25,7 @@ class Roadmap extends React.Component {
                 <p>If you're an AlumniBase customer, then you sent an email to Ana with a link to the AlumniBase survey. When Ana filled it in she formed a new relationship with us as a second data “controller”, where Ana is again the “data subject.” </p>
                 <p>With the introduction of the GDPR, data subjects like Ana are given an enhanced set of rights, and controllers like Aristotle University and AlumniBase, respectively, an enhanced set of regulations.</p>
                 <p>Importantly, if we anonymise and aggregate Ana’s records and return these to you, these are no longer personally identifying and you won’t need to treat them the same way as Ana’s individual record you already have.
-</p>
+                </p>
               </div>
             </div>
           </div>

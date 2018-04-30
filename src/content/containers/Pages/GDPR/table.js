@@ -124,7 +124,7 @@ class Table extends React.Component {
                       panel”, here each of Ana’s<br />
                       consents are displayed, and<br />
                       Ana has the ability to change<br />
-                      them. All this is logged. 
+                      them. All this is logged.
                     </p>
                   </td>
                 </tr>
@@ -157,7 +157,8 @@ class Table extends React.Component {
                       Ana’s location
                     </p>
                     <p><strong>In Progress - Available early<br />
-                    May</strong></p>
+                    May</strong>
+                    </p>
                   </td>
                 </tr>
                 <tr>
@@ -267,7 +268,7 @@ and anonymization.
                       security controls across<br />
                       the board.
                     </p>
-                     <p>
+                    <p>
                       In addition to industry<br />
                       standard practices around<br />
                       encryption, AlumniBase’s<br />
@@ -276,7 +277,8 @@ and anonymization.
                       authentication, authorization,<br />
                       and auditing at a massive<br />
                       scale to better protect our<br />
-                      customer's data. <br />
+                      customer's data.
+                      <br />
                       We will provide additional<br />
                       details on these security<br />
                       measures as they are<br />
