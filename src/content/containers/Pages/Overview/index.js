@@ -27,24 +27,24 @@ class Overview extends React.Component {
         <div className="overview-page">
         <div className="container">
         <div className="text-center pb-4">
-              <h1 style={{ color: "#1d1d5c" }}>Overview of Alumni Base</h1>
+             
             </div>
               <div className="row justify-content-center pt-3 pb-5 mb-5">
-                <div className="col-md-5 pb-4 align-self-center">
+                <div className="col-lg-5 pb-4 align-self-center">
                 <div className="text-center cycle-text">
                 <img className="logo-large pb-2" alt="sliips-logo" src={require('../../../../content/theme/custom/images/SLIIPS-LOGOFinal-TransBG-PNG.png')} width="300px" />
                   <h5 className="dark-blue-header-text">Career Data Start Up</h5>
                 </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                 <div className="text-one text-center cycle-text">
                   <h5 className="dark-blue-header-text">We began as <a className="text-info" href="www.sliips.com">www.sliips.com</a>.<br /> A career data start up helping graduates with their career.</h5>
                   <hr />
                   <div className="row p-3">
-                  <div className="col-lg-6">
+                <div className="col-lg-6">
                   <p className="dark-blue-main-text">We had over 3,000 people in professional services companies in London sign up over six months.</p>
                 </div>
-                  <div className="col-lg-6">
+                <div className="col-lg-6">
                   <p className="dark-blue-main-text">We have grads useable insights for their careers, leading many to negotiate fair pay with their employer.</p>
                 </div>
                 </div>
