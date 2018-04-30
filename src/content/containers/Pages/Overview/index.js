@@ -41,7 +41,7 @@ class Overview extends React.Component {
                   <p className="dark-blue-main-text">We had over 3,000 people in professional services companies sign up over six months.</p>
                 </div>
                   <div className="col-lg-6">
-                  <p className="dark-blue-main-text">We have graduates useable insights for their careers, leading many to negotiate fair pay with their employer.</p>
+                  <p className="dark-blue-main-text">We gave graduates useable insights for their careers, leading many to negotiate fair pay with their employer.</p>
                 </div>
                 </div>
                 </div>
@@ -50,7 +50,7 @@ class Overview extends React.Component {
             <div>
               <div className="row justify-content-center">
                   <div className="text-center dark-blue-header-text pt-md-2 pb-5">
-              <p style={{ fontSize: '26px', lineHeight: '33px' }}>We realised people needed these insights earlier,<br />and believe university is the best time.</p>
+              <p style={{ fontSize: '26px', lineHeight: '33px' }}>We realised people needed these insights earlier.<br />University is the perfect time.</p>
             </div>
               </div>
 
@@ -63,7 +63,7 @@ class Overview extends React.Component {
                <div className="row text-center pb-5 mb-5">
               <div className="col-md-4">
                 <img className="logo-large pb-2" alt="career" height="100px" src={require('../../../../content/theme/custom/images/front-new/3-s2.png')} />
-              <p className="dark-blue-main-text">Students find the right Career.</p>
+              <p className="dark-blue-main-text">Students find the right career.</p>
               </div>
               <div className="col-md-4">
                 <img className="logo-large pb-2" alt="outcomes" height="100px" src={require('../../../../content/theme/custom/images/front-new/1-s2.png')} />
