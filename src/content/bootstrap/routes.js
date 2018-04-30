@@ -10,6 +10,7 @@ import NewTestPage from '../../content/containers/Pages/NewTest';
 import NewBenefitsPage from '../../content/containers/Pages/NewBenefits';
 import NewAboutPage from '../../content/containers/Pages/NewAbout';
 import NewLegalPage from '../../content/containers/Pages/NewLegal';
+import OverviewPage from '../../content/containers/Pages/Overview';
 
 export default [
   /* {
@@ -66,5 +67,10 @@ export default [
     path: '/GDPR',
     exact: true,
     component: GDPRPage,
+  },
+    {
+    path: '/overview',
+    exact: true,
+    component: OverviewPage,
   },
 ];

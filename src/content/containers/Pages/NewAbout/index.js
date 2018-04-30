@@ -11,7 +11,7 @@ class About extends React.Component {
         <div className="about-header">
           <div className="about-background">
             <div className="stripe s0" />
-            <div className="stripe s2 pattern" />
+            <div className="stripe s2" />
           </div>
           <div className="about-background accelerated">
             <div className="stripe s1" />
