@@ -773,41 +773,37 @@ $color2: #f6f9fc;
 }
 
 .overview-background .s5 {
-  height: 750px;
+  height: 900px;
   bottom: -1990px;
   background: linear-gradient(90deg, #006efd, #0050bd);
   opacity: 0.1;
 
   @media (min-width: 405px) {
-    height: 700px;
+    height: 950px;
   }
 
-  @media (min-width: 495px) {
-    height: 850px;
+  @media (min-width: 483px) {
+    height: 1000px;
   }
 
   @media (min-width: 537px) {
-    height: 900px;
+    height: 1050px;
   }
 }
 
 @media (min-width: 768px) {
   .overview-background .s5 {
-    height: 600px;
+    height: 950px;
     bottom: -1650px;
 
     @media (min-width: 992px) {
-      height: 500px;
+      height: 800px;
       bottom: -1450px;
     }
 
     @media (min-width: 1200px) {
-      height: 500px;
+      height: 750px;
       bottom: -1350px;
-    }
-
-    @media (min-width: 1545px) {
-      height: 500px;
     }
   }
 
