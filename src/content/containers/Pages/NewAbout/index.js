@@ -28,11 +28,14 @@ class About extends React.Component {
 
             <div className="row pt-5 mt-5 mb-5 pb-5 justify-content-center align-content-center">
               <div className="col-lg-6 align-self-center">
+                  <div className="wow fadeInUp" data-wow-duration="0.50s" data-wow-delay="0.5s">
+
                 <div className="text-one text-center cycle-text">
                   <h5 className="dark-blue-header-text">Who We Are</h5>
                   <hr />
                   <p className="dark-blue-main-text">AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a className="text-info" href="www.sliips.com">www.sliips.com</a>.</p>
                   <p className="dark-blue-main-text">While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.</p>
+                </div>
                 </div>
               </div>
               <div className="col-lg-6 text-center mt-5 pt-5 mt-lg-0 pt-lg-0">
@@ -57,42 +60,48 @@ class About extends React.Component {
               </div>
               <div className="col-lg-6">
                 <div className="row mb-3">
-                  <div className="my-card box-1" style={{ padding: 0 }}>
-                    <div className="row">
-                      <div className="col-md-9">
-                        <div className="p-4">
-                          <div className="card-title">
-                            <h5 className="dark-blue-header-text" style={{ fontSize: '18px' }}>Dependability</h5>
+                  <div className="wow fadeIn" data-wow-duration="1.25s" data-wow-delay="0.5s">
+                    <div className="my-card box-1" style={{ padding: 0 }}>
+                      <div className="row">
+                        <div className="col-md-9">
+                          <div className="p-4">
+                            <div className="card-title">
+                              <h5 className="dark-blue-header-text" style={{ fontSize: '18px' }}>Dependability</h5>
+                            </div>
+                            <p id="text" className="card-text text-left">Through providing alumni outcome data and insights that universities and students can use with confidence.</p>
                           </div>
-                          <p id="text" className="card-text text-left">Through providing alumni outcome data and insights that universities and students can use with confidence.</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="row mb-3">
-                  <div className="my-card box-1" style={{ padding: 0 }}>
-                    <div className="row">
-                      <div className="col-md-9">
-                        <div className="p-4">
-                          <div className="card-title">
-                            <h5 className="dark-blue-header-text" style={{ fontSize: '18px' }}>Transparency</h5>
+                  <div className="wow fadeInUp" data-wow-duration="0.25s" data-wow-delay="0.5s">
+                    <div className="my-card box-1" style={{ padding: 0 }}>
+                      <div className="row">
+                        <div className="col-md-9">
+                          <div className="p-4">
+                            <div className="card-title">
+                              <h5 className="dark-blue-header-text" style={{ fontSize: '18px' }}>Transparency</h5>
+                            </div>
+                            <p id="text" className="card-text text-left">Considering our background, it’s no surprise we believe in transparency to clearly show how our service works to alumni, students and universities. </p>
                           </div>
-                          <p id="text" className="card-text text-left">Considering our background, it’s no surprise we believe in transparency to clearly show how our service works to alumni, students and universities. </p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="row">
-                  <div className="my-card box-1" style={{ padding: 0 }}>
-                    <div className="row">
-                      <div className="col-md-9">
-                        <div className="p-4">
-                          <div className="card-title">
-                            <h5 className="dark-blue-header-text" style={{ fontSize: '18px' }}>Service</h5>
+                  <div className="wow fadeInUp" data-wow-duration="1.00s" data-wow-delay="0.5s">
+                    <div className="my-card box-1" style={{ padding: 0 }}>
+                      <div className="row">
+                        <div className="col-md-9">
+                          <div className="p-4">
+                            <div className="card-title">
+                              <h5 className="dark-blue-header-text" style={{ fontSize: '18px' }}>Service</h5>
+                            </div>
+                            <p className="card-text text-left">We believe complex problems deserve customised answers: we take care of everything so you just have to focus on the insights we deliver.</p>
                           </div>
-                          <p className="card-text text-left">We believe complex problems deserve customised answers: we take care of everything so you just have to focus on the insights we deliver.</p>
                         </div>
                       </div>
                     </div>

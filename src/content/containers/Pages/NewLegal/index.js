@@ -20,17 +20,10 @@ class Legal extends React.Component {
 
           <div className="container">
             <div className="row justify-content-center py-5">
-
-
               <div className="col-lg-6">
                 <div className="m-5">
                   <div className="dark-blue-header-text">
-                    <p style={{
- fontSize: '24px', lineHeight: '36px', fontWeight: '400', color: '#fff',
-}}
-                    >
-                      Data Protection
-                    </p>
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400', color: '#fff' }}>Data Protection</p>
                   </div>
                   <div className="cycle-text">
                     <h5 className="dark-blue-header-text" style={{ color: '#b5deff' }}>GDPR Compliant</h5>
@@ -40,33 +33,32 @@ class Legal extends React.Component {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6">
                 <div className="principles m-0 m-sm-5">
+                  <div className="wow fadeInRight" data-wow-duration="1.00s" data-wow-delay="0.5s">
                   <li>
                     <div className="card-body">
                       <div className="cycle-text">
                         <p className="text-left dark-blue-main-text" style={{ color: '#b5deff' }}>The T's & C's details what you can, and cannot do with the data within our platform, among other things.</p>
                         <p className="text-right dark-blue-main-text text-muted">Coming Soon...</p>
                       </div>
-                    </div>
+                      </div>
                   </li>
-
+                    </div>
+                    <div className="wow fadeInRight" data-wow-duration="2.00s" data-wow-delay="1.0s">
                   <li className="mt-5">
                     <div className="card-body">
                       <div className="cycle-text">
                         <p className="text-left dark-blue-main-text" style={{ color: '#b5deff' }}>Our privacy policy explains what data we collect, who we share it with and your rights and controls.</p>
                         <p className="text-right dark-blue-main-text text-muted">Coming Soon...</p>
                       </div>
-                    </div>
+                      </div>
                   </li>
+                    </div>
                 </div>
               </div>
-
-
             </div>
           </div>
-
         </div>
         <Footer />
       </div>
