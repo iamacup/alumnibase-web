@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Questions extends React.Component {
-  render() {
+const Questions = () => {
     return (
       <div className="faq-questions">
         <div className="container">
@@ -116,7 +115,6 @@ Finally we empower users as part of the GDPR requirements by giving users a perm
         </div>
       </div>
     );
-  }
 }
 
 export default Questions;

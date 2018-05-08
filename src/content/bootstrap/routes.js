@@ -1,9 +1,9 @@
-import MainPage from '../../content/containers/Pages/Main';
-import AboutPage from '../../content/containers/Pages/About';
-import LegalPage from '../../content/containers/Pages/Legal';
+// import MainPage from '../../content/containers/Pages/Main';
+// import AboutPage from '../../content/containers/Pages/About';
+// import LegalPage from '../../content/containers/Pages/Legal';
 import MeetMePage from '../../content/containers/Pages/MeetMe';
 import DataPage from '../../content/containers/Pages/Data';
-import BenefitsPage from '../../content/containers/Pages/Benefits';
+// import BenefitsPage from '../../content/containers/Pages/Benefits';
 import GDPRPage from '../../content/containers/Pages/GDPR/gdprPage';
 
 import NewTestPage from '../../content/containers/Pages/NewTest';
@@ -50,7 +50,7 @@ export default [
     component: NewBenefitsPage,
   },
   {
-    path: '/data',
+    path: '/insights',
     exact: true,
     component: DataPage,
   },
@@ -74,7 +74,7 @@ export default [
     exact: true,
     component: OverviewPage,
   },
-   {
+  {
     path: '/*',
     component: NotFoundPage,
   },

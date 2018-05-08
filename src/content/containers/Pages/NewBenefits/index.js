@@ -119,21 +119,21 @@ class Benefits extends React.Component {
                 </div>
                 <div className="col-lg-6 d-flex justify-content-center">
                   <div className="top-navigation" style={{ width: '300px' }}>
-                  <div className="wow fadeInUp mb-2" data-wow-duration="0.50s" data-wow-delay="0.5s">
-                    <a id="button" className="btn btn-block mr-2" href="#TEF" role="button">Teaching Excellence Framework</a>
+                    <div className="wow fadeInUp mb-2" data-wow-duration="0.50s" data-wow-delay="0.5s">
+                      <a id="button" className="btn btn-block mr-2" href="#TEF" role="button">Teaching Excellence Framework</a>
                     </div>
-                  <div className="wow fadeInUp mb-2" data-wow-duration="1.00s" data-wow-delay="0.5s">
-                    <a id="button" className="btn btn-block mr-2" href="#widening" role="button">Widening Participation</a>
+                    <div className="wow fadeInUp mb-2" data-wow-duration="1.00s" data-wow-delay="0.5s">
+                      <a id="button" className="btn btn-block mr-2" href="#widening" role="button">Widening Participation</a>
                     </div>
-                  <div className="wow fadeInUp mb-2" data-wow-duration="1.50s" data-wow-delay="0.5s">
-                    <a id="button" className="btn btn-block mr-2" href="#student" role="button">Student Recruitment</a>
+                    <div className="wow fadeInUp mb-2" data-wow-duration="1.50s" data-wow-delay="0.5s">
+                      <a id="button" className="btn btn-block mr-2" href="#student" role="button">Student Recruitment</a>
                     </div>
-                  <div className="wow fadeInUp mb-2" data-wow-duration="2.00s" data-wow-delay="0.5s">
-                    <a id="button" className="btn btn-block mr-2" href="#careers" role="button">Careers</a>
-                  </div>
-                  <div className="wow fadeInUp" data-wow-duration="2.50s" data-wow-delay="0.5s">
-                    <a id="button" className="btn btn-block" href="#alumniRelations" role="button">Alumni Outreach</a>
-                  </div>
+                    <div className="wow fadeInUp mb-2" data-wow-duration="2.00s" data-wow-delay="0.5s">
+                      <a id="button" className="btn btn-block mr-2" href="#careers" role="button">Careers</a>
+                    </div>
+                    <div className="wow fadeInUp" data-wow-duration="2.50s" data-wow-delay="0.5s">
+                      <a id="button" className="btn btn-block" href="#alumniRelations" role="button">Alumni Outreach</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -199,33 +199,33 @@ class Benefits extends React.Component {
               <div className="row justify-content-center text-center mt-sm-5">
                 <div className="dark-blue-header-text col-md-auto">
                   <div className="wow fadeIn" data-wow-duration="0.50s" data-wow-delay="0.25s">
-                  <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>29%</p>
-                  <p className="dark-blue-header-text">Of all entrants<br />were BME students.</p>
-                </div>
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>29%</p>
+                    <p className="dark-blue-header-text">Of all entrants<br />were BME students.</p>
+                  </div>
                 </div>
                 <div className="dark-blue-header-text col-md-auto">
                   <div className="wow fadeIn" data-wow-duration="1.50s" data-wow-delay="0.25s">
-                  <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>56%</p>
-                  <p className="dark-blue-header-text">Of full time first<br />degree students are women.</p>
-                </div>
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>56%</p>
+                    <p className="dark-blue-header-text">Of full time first<br />degree students are women.</p>
+                  </div>
                 </div>
                 <div className="dark-blue-header-text col-md-auto">
                   <div className="wow fadeIn" data-wow-duration="2.50s" data-wow-delay="0.25s">
-                  <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>11.3%</p>
-                  <p className="dark-blue-header-text">Mature students<br />leave after year one.</p>
-                </div>
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>11.3%</p>
+                    <p className="dark-blue-header-text">Mature students<br />leave after year one.</p>
+                  </div>
                 </div>
                 <div className="dark-blue-header-text col-md-auto">
                   <div className="wow fadeIn" data-wow-duration="3.50s" data-wow-delay="0.25s">
-                  <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>220%</p>
-                  <p className="dark-blue-header-text">More students<br />with a known mental<br />health condition since 2010-11.</p>
-                </div>
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>220%</p>
+                    <p className="dark-blue-header-text">More students<br />with a known mental<br />health condition since 2010-11.</p>
+                  </div>
                 </div>
                 <div className="dark-blue-header-text col-md-auto">
                   <div className="wow fadeIn" data-wow-duration="4.50s" data-wow-delay="0.25s">
-                  <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>4.6%</p>
-                  <p className="dark-blue-header-text">Increase in students<br />from POLAR quintile 1.</p>
-                </div>
+                    <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>4.6%</p>
+                    <p className="dark-blue-header-text">Increase in students<br />from POLAR quintile 1.</p>
+                  </div>
                 </div>
               </div>
               <div className="row justify-content-center">
@@ -314,16 +314,16 @@ class Benefits extends React.Component {
               </div>
               <div className="row justify-content-center mx-3 p-md-5 p-md-2">
                 <div className="cycle-text">
-                <div className="wow fadeInUp" data-wow-duration="0.50s" data-wow-delay="0.5s">
-                  <p className="dark-blue-main-text" style={{ color: '#9cdbff' }}>Based on user feedback, being able to show career paths and salaries based on real payslips meant that our users were more confident about negotiating salaries each year, thereby increasing their career lifetime earnings.</p>
-                </div>
+                  <div className="wow fadeInUp" data-wow-duration="0.50s" data-wow-delay="0.5s">
+                    <p className="dark-blue-main-text" style={{ color: '#9cdbff' }}>Based on user feedback, being able to show career paths and salaries based on real payslips meant that our users were more confident about negotiating salaries each year, thereby increasing their career lifetime earnings.</p>
+                  </div>
                   <div className="wow fadeInUp" data-wow-duration="1.00s" data-wow-delay="0.5s">
-                  <p className="dark-blue-main-text" style={{ color: '#9cdbff' }}>What we also found was that people did not know that completing a certain degree still meant they could find ways into high earning industries with the right experience. </p>
-                </div>
+                    <p className="dark-blue-main-text" style={{ color: '#9cdbff' }}>What we also found was that people did not know that completing a certain degree still meant they could find ways into high earning industries with the right experience. </p>
+                  </div>
                   <div className="wow fadeInUp" data-wow-duration="1.50s" data-wow-delay="0.5s">
-                  <p className="dark-blue-main-text" style={{ color: '#9cdbff' }}>We believe delivering this information to students while they are still at university and in the crucial first few years of graduating can enable students to optimise around this more effectively.
-                  </p>
-                </div>
+                    <p className="dark-blue-main-text" style={{ color: '#9cdbff' }}>We believe delivering this information to students while they are still at university and in the crucial first few years of graduating can enable students to optimise around this more effectively.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="row justify-content-center">
@@ -371,18 +371,18 @@ class Benefits extends React.Component {
                   <div className="card">
                     <div className="cycle-text">
                       <ul className="list-group list-group-flush">
-                  <a className="wow fadeIn" data-wow-duration="1.00s" data-wow-delay="0.5s">
-                        <p className="list-group-item dark-blue-main-text">Average number of fundraising staff is 6</p>
-                    </a>
-                  <a className="wow fadeIn" data-wow-duration="1.50s" data-wow-delay="0.5s">
-                        <p className="list-group-item dark-blue-main-text">Oxford and Cambridge combined total is 366</p>
-                    </a>
-                  <a className="wow fadeIn" data-wow-duration="2.00s" data-wow-delay="0.5s">
-                        <p className="list-group-item dark-blue-main-text">More than half of lower performing departments were formed before 2004</p>
-                    </a>
-                  <a className="wow fadeIn" data-wow-duration="2.50s" data-wow-delay="0.5s">
-                        <p className="list-group-item dark-blue-main-text">Four / 16 best performing fundraisers not part of the Russel Group</p>
-                    </a>
+                        <div className="wow fadeIn" data-wow-duration="1.00s" data-wow-delay="0.5s">
+                          <p className="list-group-item dark-blue-main-text">Average number of fundraising staff is 6</p>
+                        </div>
+                        <div className="wow fadeIn" data-wow-duration="1.50s" data-wow-delay="0.5s">
+                          <p className="list-group-item dark-blue-main-text">Oxford and Cambridge combined total is 366</p>
+                        </div>
+                        <div className="wow fadeIn" data-wow-duration="2.00s" data-wow-delay="0.5s">
+                          <p className="list-group-item dark-blue-main-text">More than half of lower performing departments were formed before 2004</p>
+                        </div>
+                        <div className="wow fadeIn" data-wow-duration="2.50s" data-wow-delay="0.5s">
+                          <p className="list-group-item dark-blue-main-text">Four / 16 best performing fundraisers not part of the Russel Group</p>
+                        </div>
                       </ul>
                     </div>
                   </div>

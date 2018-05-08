@@ -18,8 +18,6 @@ class Navbar extends React.Component {
   getLink(location, text) {
     const { pathname } = this.context.router.route.location;
 
-    console.log(pathname);
-
     const obj = (
       <li className={pathname === location ? 'nav-item active' : 'nav-item'}>
         <Link className="nav-link" to={location} href={location}>{text}</Link>
@@ -54,7 +52,7 @@ class Navbar extends React.Component {
             <ul className="navbar-nav mr-auto">
               {this.getLink('/about', 'About')}
               {this.getLink('/benefits', 'Benefits')}
-              {this.getLink('/data', 'Insights')}
+              {this.getLink('/insights', 'Insights')}
               {this.getLink('/legal', 'Legal & GDPR')}
             </ul>
 

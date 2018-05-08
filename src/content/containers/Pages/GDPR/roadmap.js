@@ -1,8 +1,7 @@
 import React from 'react';
 import Table from './table';
 
-class Roadmap extends React.Component {
-  render() {
+const Roadmap = () => {
     return (
       <div className="roadmap" id="roadmap">
         <div className="roadmap-landing">
@@ -33,7 +32,6 @@ class Roadmap extends React.Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Roadmap;

@@ -4,8 +4,7 @@ import React from 'react';
 import Navbar from '../../../../content/components/NewNavbar';
 import Footer from '../../../../content/components/Footer';
 
-class Data extends React.Component {
-  render() {
+  const Data = () => {
     return (
       <div>
         <Navbar
@@ -50,6 +49,5 @@ class Data extends React.Component {
       </div>
     );
   }
-}
 
 export default Data;

@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Table extends React.Component {
-  render() {
+const Table = () => {
     return (
       <div className="table">
         <div className="row justify-content-center">
@@ -156,8 +155,7 @@ class Table extends React.Component {
                       the right language, based on<br />
                       Ana’s location
                     </p>
-                    <p><strong>In Progress - Available early<br />
-                    May</strong>
+                    <p><strong>In Progress - Available early<br />May</strong>
                     </p>
                   </td>
                 </tr>
@@ -293,6 +291,5 @@ and anonymization.
       </div>
     );
   }
-}
 
 export default Table;

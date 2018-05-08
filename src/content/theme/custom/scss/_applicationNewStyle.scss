@@ -161,6 +161,16 @@ $color2: #f6f9fc;
   .main-text {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 992px) {
+    .main-text {
+      text-align: center;
+    }
+
+    .content-top-icons {
+      text-align: center;
+    }
+  }
 }
 
 .benefits-content-top {

@@ -3,8 +3,7 @@ import React from 'react';
 import Navbar from '../../../../content/components/NewNavbar';
 import Footer from '../../../../content/components/Footer';
 
-class About extends React.Component {
-  render() {
+const About = () => {
     return (
       <div>
         <Navbar />
@@ -28,14 +27,14 @@ class About extends React.Component {
 
             <div className="row pt-5 mt-5 mb-5 pb-5 justify-content-center align-content-center">
               <div className="col-lg-6 align-self-center">
-                  <div className="wow fadeInUp" data-wow-duration="0.50s" data-wow-delay="0.5s">
+                <div className="wow fadeInUp" data-wow-duration="0.50s" data-wow-delay="0.5s">
 
-                <div className="text-one text-center cycle-text">
-                  <h5 className="dark-blue-header-text">Who We Are</h5>
-                  <hr />
-                  <p className="dark-blue-main-text">AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a className="text-info" href="www.sliips.com">www.sliips.com</a>.</p>
-                  <p className="dark-blue-main-text">While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.</p>
-                </div>
+                  <div className="text-one text-center cycle-text">
+                    <h5 className="dark-blue-header-text">Who We Are</h5>
+                    <hr />
+                    <p className="dark-blue-main-text">AlumniBase was born out of what we learned from our time creating a salary transparency platform for graduates at <a className="text-info" href="www.sliips.com">www.sliips.com</a>.</p>
+                    <p className="dark-blue-main-text">While we have helped many users understand if their pay was fair and to negotiate higher pay when it wasn’t, we also found many felt their options were limited as their education was completed and they were embedded in an industry.</p>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-6 text-center mt-5 pt-5 mt-lg-0 pt-lg-0">
@@ -115,7 +114,6 @@ class About extends React.Component {
         <Footer />
       </div>
     );
-  }
 }
 
 export default About;

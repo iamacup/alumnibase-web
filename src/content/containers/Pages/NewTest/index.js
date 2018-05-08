@@ -73,14 +73,14 @@ class NewTest extends React.Component {
 
           <div className="content-top">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center justify-content-center">
                 <div className="col-lg-6">
                   <div className="main-text">
                     <h1>Alumni Outcomes Data</h1>
                     <h3>Easy to collect and use for:</h3>
                   </div>
 
-                  <div className="pl-5 pt-3">
+                  <div className="content-top-icons pl-md-5 pt-3">
                     <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.5s"><i className="fas fa-bullseye" /> TEF Submissions</h6>
                     <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="1.0s"><i className="fas fa-bullseye" /> Student Recruitment</h6>
                     <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="1.5s"><i className="fas fa-bullseye" /> Widening Participation</h6>
