@@ -92,12 +92,12 @@ class Overview extends React.Component {
                   <div className="row text-center pb-5 mb-5" id="circle" />
                   <i className="fas fa-database fa-3x purple-text-two" style={{ marginBottom: '16px', paddingTop: '70px' }} />
                   <p className="dark-blue-main-text">2. Analyse the Data.</p>
-                  <p className="dark-blue-main-text">AlumniBase returns anonymised, aggregated information that is not personally identifiable, and outside GDPR scope.</p>
+                  <p className="dark-blue-main-text">Alumni complete the survey and in return get access to information relevant for their career.</p>
                 </div>
                 <div className="col-md-4">
                   <i className="fas fa-chart-line fa-3x purple-text-two" style={{ marginBottom: '16px' }} />
                   <p className="dark-blue-main-text">3. Use in TEF, Careers Advice and Recruitment.</p>
-                  <p className="dark-blue-main-text">Alumni complete the survey and in return get access to information relevant for their career.</p>
+                  <p className="dark-blue-main-text">AlumniBase returns anonymised, aggregated information that is not personally identifiable, and outside GDPR scope.</p>
                 </div>
               </div>
 
