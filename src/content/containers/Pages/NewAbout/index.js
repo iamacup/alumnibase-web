@@ -40,9 +40,9 @@ const About = () => (
             <div className="text-two cycle-text">
               <h5 className="header-text" style={{ color: '#e6ebf1' }}>Our Mission</h5>
               <hr style={{ backgroundColor: '#e6ebf1' }} />
-              <p className="dark-blue-main-text" style={{ color: '#c6cbd1 ' }}>To achieve our mission to help people make better career choices and to facilitate social mobility, we realise the type of insights we provide need to be accessed as early as possible, by people who can use them to plan their education and career.</p>
+              <p className="dark-blue-main-text" style={{ color: '#c6cbd1 ' }}>To achieve our mission to help people make better career choices we realised career insights need to be accessed as early as possible, so people can use them to plan their education and career.</p>
               <p className="dark-blue-main-text" style={{ color: '#c6cbd1 ' }}>It needs to be seen by students</p>
-              <p className="dark-blue-main-text" style={{ color: '#c6cbd1 ' }}>We thought hard about it and have created AlumniBase, a mechanism through which alumni can feedback to their university on their outcomes, and can deliver this information to students to help them plan their careers.</p>
+              <p className="dark-blue-main-text" style={{ color: '#c6cbd1 ' }}>That's why we've created AlumniBase, a surveying tool where alumni can feedback to their university on their outcomes, and the career insights can be delivered to students to help them plan their careers.</p>
             </div>
           </div>
         </div>
