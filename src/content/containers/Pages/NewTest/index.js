@@ -370,7 +370,7 @@ class NewTest extends React.Component {
  fontSize: '24px', lineHeight: '36px', fontWeight: '400', paddingTop: '30px',
 }}
                     >
-                  With our tools you are affoarded unparalleled access to data that is further reaching than LEO & DLHE that not only benefit your administration, but also curent and past students.
+                  With our tools you are afforded unparalleled access to data that is further reaching than LEO & DLHE that helps you improve core services and benefits your alumni and current students.
                     </p>
                   </div>
                 </div>
