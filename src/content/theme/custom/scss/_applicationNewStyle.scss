@@ -161,6 +161,16 @@ $color2: #f6f9fc;
   .main-text {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   }
+
+  @media (max-width: 992px) {
+    .main-text {
+      text-align: center;
+    }
+
+    .content-top-icons {
+      text-align: center;
+    }
+  }
 }
 
 .benefits-content-top {
@@ -463,7 +473,8 @@ $color2: #f6f9fc;
 }
 
 .outreach-container {
-  padding-top: 100px;
+  padding-top: 200px;
+  margin-bottom: 200px;
 }
 
 .box-1 {
@@ -700,14 +711,20 @@ $color2: #f6f9fc;
 
 .legal-header {
   position: relative;
-  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 50%, hsla(0, 0%, 100%, 0.15) 0, hsla(0, 0%, 100%, 0.15)), linear-gradient(to top left, #49c3c9, #249bd6 50%, #0c5b9c);
-  background-blend-mode: soft-light;
-  padding-top: 70px;
-  margin-left: -10px;
-  margin-top: 70px;
-  margin-right: -10px;
+  background: linear-gradient(to top left, #49c3c9, #249bd6 50%, #0c5b9c);
   color: #b5deff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  padding-top: 20px;
+
+  @media (min-width: 992px) {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 50%, hsla(0, 0%, 100%, 0.15) 0, hsla(0, 0%, 100%, 0.15)), linear-gradient(to top left, #49c3c9, #249bd6 50%, #0c5b9c);
+    background-blend-mode: soft-light;
+    padding-top: 70px;
+    margin-top: 70px;
+    color: #b5deff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
 }
 
 .text-one {
@@ -773,41 +790,37 @@ $color2: #f6f9fc;
 }
 
 .overview-background .s5 {
-  height: 750px;
+  height: 900px;
   bottom: -1990px;
   background: linear-gradient(90deg, #006efd, #0050bd);
   opacity: 0.1;
 
   @media (min-width: 405px) {
-    height: 700px;
+    height: 950px;
   }
 
-  @media (min-width: 495px) {
-    height: 850px;
+  @media (min-width: 483px) {
+    height: 1000px;
   }
 
   @media (min-width: 537px) {
-    height: 900px;
+    height: 1050px;
   }
 }
 
 @media (min-width: 768px) {
   .overview-background .s5 {
-    height: 600px;
+    height: 950px;
     bottom: -1650px;
 
     @media (min-width: 992px) {
-      height: 500px;
+      height: 800px;
       bottom: -1450px;
     }
 
     @media (min-width: 1200px) {
-      height: 500px;
+      height: 750px;
       bottom: -1350px;
-    }
-
-    @media (min-width: 1545px) {
-      height: 500px;
     }
   }
 

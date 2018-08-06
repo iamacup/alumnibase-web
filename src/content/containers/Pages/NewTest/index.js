@@ -73,18 +73,18 @@ class NewTest extends React.Component {
 
           <div className="content-top">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center justify-content-center">
                 <div className="col-lg-6">
                   <div className="main-text">
                     <h1>Alumni Outcomes Data</h1>
                     <h3>Easy to collect and use for:</h3>
                   </div>
 
-                  <div className="pl-5 pt-3">
+                  <div className="content-top-icons pl-md-5 pt-3">
                     <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.5s"><i className="fas fa-bullseye" /> TEF Submissions</h6>
                     <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="1.0s"><i className="fas fa-bullseye" /> Student Recruitment</h6>
                     <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="1.5s"><i className="fas fa-bullseye" /> Widening Participation</h6>
-                    <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="2.0s"><i className="fas fa-bullseye" /> And much more....</h6>
+                    <h6 className="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="2.0s"><i className="fas fa-bullseye" /> and much more....</h6>
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -119,7 +119,7 @@ class NewTest extends React.Component {
                               <img className="img-responsive" src={require('../../../../content/theme/custom/images/survey-placeholder.png')} alt="survey" />
                               <br />
                               <br />
-                              <h6>Surveys that give alumni immediate feedback resulting in better response rates, and high graduate participation</h6>
+                              <h6>Surveys that give alumni immediate feedback resulting in better response rates and high graduate participation</h6>
                             </div>
 
                           </div>
@@ -196,7 +196,7 @@ class NewTest extends React.Component {
                         <div className="card-title">
                           <h5>Understanding Alumni</h5>
                         </div>
-                        <p className="dark-blue-main-text pb-lg-4">Build life-long relationships with alumni by giving them something of value they can use.</p>
+                        <p className="dark-blue-main-text pb-lg-4">Build lifelong relationships with alumni by giving them something of value they can use.</p>
                       </div>
                     </div>
                   </div>
@@ -276,7 +276,7 @@ class NewTest extends React.Component {
                   <div className="col-sm-2" />
                   <div className="col-sm-8">
                     <p style={{ fontSize: '24px', lineHeight: '36px', fontWeight: '400' }}>
-                  Understand Alumni Outcomes and deliver data back to the university, and everyone across the whole student life cycle
+                  Understand Alumni Outcomes and deliver data back to the university and everyone across the whole student life cycle
                     </p>
                   </div>
                 </div>
@@ -289,19 +289,19 @@ class NewTest extends React.Component {
                     <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
                       <div className="p-2 cycle-text">
                         <h5 className="dark-blue-header-text">Better Student Recruitment</h5>
-                        <p className="dark-blue-main-text">Tailored marketing messages that resonate with individuals improves student recruitment.</p>
+                        <p className="dark-blue-main-text">Tailored marketing messages that resonate with individuals improve student recruitment.</p>
                       </div>
                     </div>
                     <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.75s">
                       <div className="p-2 cycle-text">
                         <h5 className="dark-blue-header-text">Better Careers Service</h5>
-                        <p className="dark-blue-main-text">Show students the full range of career options and how they can fit in to improve employment outcomes.</p>
+                        <p className="dark-blue-main-text">Showing students the full range of career options and how they can fit in improves employment outcomes.</p>
                       </div>
                     </div>
                     <div className="wow fadeIn" data-wow-duration="0.5s" data-wow-delay="1.0s">
                       <div className="p-2 cycle-text">
                         <h5 className="dark-blue-header-text">Better Alumni Outcomes</h5>
-                        <p className="dark-blue-main-text">More students, better equipped for employment will improve graduate outcomes and improve your next survey.</p>
+                        <p className="dark-blue-main-text">More students being better equipped for employment will improve graduate outcomes and thus improve your next survey.</p>
                       </div>
                     </div>
 
@@ -344,8 +344,8 @@ class NewTest extends React.Component {
                     <div className="how-it-works-icons">
                       <i className="fas fa-database fa-3x purple-text-two" style={{ marginBottom: '16px' }} />
                       <div className="p-2 cycle-text">
-                        <h5 className="dark-blue-header-text">2. Analyse The Data</h5>
-                        <p className="dark-blue-main-text">Analyse the data in a fully GDPR compliant way either in our tool or in Tableau or other analytics engine.</p>
+                        <h5 className="dark-blue-header-text">2. Analyse the Data</h5>
+                        <p className="dark-blue-main-text">Analyse the data in a fully GDPR compliant way either in our tool or in Tableau or another analytics engine.</p>
                       </div>
                     </div>
                   </div>
@@ -354,7 +354,7 @@ class NewTest extends React.Component {
                       <i className="fas fa-chart-line fa-3x purple-text-two" style={{ marginBottom: '16px' }} />
                       <div className="p-2 cycle-text">
                         <h5 className="dark-blue-header-text">3. Use in TEF, Careers Advice and Recruitment</h5>
-                        <p className="dark-blue-main-text">Our specific tools and dashboards enable you to quickly deploy insights to immediately improve your institution in multiple ways.</p>
+                        <p className="dark-blue-main-text">Our specific tools and dashboards enable you to deploy insights quickly, immediately improving your institution in multiple ways.</p>
                       </div>
                     </div>
                   </div>
@@ -370,7 +370,7 @@ class NewTest extends React.Component {
  fontSize: '24px', lineHeight: '36px', fontWeight: '400', paddingTop: '30px',
 }}
                     >
-                  With our tools you are affoarded unparalleled access to data that is further reaching than LEO & DLHE that not only benefit your administration, but also curent and past students.
+                  With our tools you are afforded unparalleled access to data which is more far-reaching than LEO & DLHE that benefits not only your administration but also current and past students.
                     </p>
                   </div>
                 </div>
@@ -409,7 +409,7 @@ class NewTest extends React.Component {
                       <div className="col-sm-8 text-center text-sm-left">
                         <div className="p-2 cycle-text">
                           <h5 className="dark-blue-header-text" style={{ color: '#2296bc' }}>21st Century Surveying</h5>
-                          <p className="dark-blue-main-text">Means surveys that look great and return results immediately to the people who take it.</p>
+                          <p className="dark-blue-main-text">Means surveys that look great and return results immediately to the user.</p>
                         </div>
                       </div>
                     </div>
@@ -427,7 +427,7 @@ class NewTest extends React.Component {
                       <div className="col-sm-8 text-center text-sm-left">
                         <div className="p-2 cycle-text">
                           <h5 className="dark-blue-header-text" style={{ color: '#1673b4' }}>Seed Survey with HEI Data</h5>
-                          <p className="dark-blue-main-text">Sharing some data with us can help optimise the survey or allow us to conduct survey for you.</p>
+                          <p className="dark-blue-main-text">Sharing some data with us can help optimise the survey or even allow us to conduct the survey for you.</p>
                         </div>
                       </div>
                     </div>
